@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mcd_javaedition:blocks/cobblestone_mossy",
+    "up": "mcd_javaedition:blocks/cobblestone_mossy",
+    "north": "mcd_javaedition:blocks/cobblestone_mossy",
+    "east": "mcd_javaedition:blocks/cobblestone_mossy",
+    "south": "mcd_javaedition:blocks/cobblestone_mossy",
+    "west": "mcd_javaedition:blocks/cobblestone_mossy",
+    "particle": "mcd_javaedition:blocks/cobblestone_mossy"
+  }
+}

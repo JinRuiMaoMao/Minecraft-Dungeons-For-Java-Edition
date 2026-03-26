@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mcd_javaedition:blocks/cw_cracked_andestine",
+    "up": "mcd_javaedition:blocks/cw_cracked_andestine",
+    "north": "mcd_javaedition:blocks/cw_cracked_andestine",
+    "east": "mcd_javaedition:blocks/cw_cracked_andestine",
+    "south": "mcd_javaedition:blocks/cw_cracked_andestine",
+    "west": "mcd_javaedition:blocks/cw_cracked_andestine",
+    "particle": "mcd_javaedition:blocks/cw_cracked_andestine"
+  }
+}

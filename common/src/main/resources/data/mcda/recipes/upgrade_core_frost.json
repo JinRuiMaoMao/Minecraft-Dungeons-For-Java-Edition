@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "mcda:upgrade_core"
+  },
+  "addition": {
+    "item": "mcda:frost_crystal"
+  },
+  "result": {
+    "item": "mcda:upgrade_core_frost"
+    },
+    "template": {
+      "item": "minecraft:blaze_powder"
+    }
+}

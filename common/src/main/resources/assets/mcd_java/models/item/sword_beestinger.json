@@ -1,0 +1,17 @@
+{
+  "parent": "mcd_java:item/model_rapier",
+  "textures": {
+	  "layer0": "mcd_java:item/swords/sword_beestinger"
+  },  
+  "display": {
+    "head": {
+      "rotation": [ 0, 0, 0 ],
+      "translation": [ 0, 2, 0],
+      "scale":[ 1, 1, 0.5 ]
+	},
+    "ground": {
+      "translation": [ 0, 2, 0 ],
+      "scale": [ 0.75, 0.75, 0.5 ]
+    }
+  }
+}

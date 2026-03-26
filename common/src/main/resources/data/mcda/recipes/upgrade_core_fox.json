@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "mcda:upgrade_core"
+  },
+  "addition": {
+    "item": "mcda:fox_pelt"
+  },
+  "result": {
+    "item": "mcda:upgrade_core_fox"
+    },
+    "template": {
+      "item": "minecraft:blaze_powder"
+    }
+}

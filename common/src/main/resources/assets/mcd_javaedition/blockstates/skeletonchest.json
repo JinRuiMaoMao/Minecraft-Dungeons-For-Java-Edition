@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "mcd_javaedition:skeletonchest"
+    },
+    "facing=north": {
+      "model": "mcd_javaedition:skeletonchest"
+    },
+    "facing=east": {
+      "model": "mcd_javaedition:skeletonchest",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "mcd_javaedition:skeletonchest",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mcd_javaedition:skeletonchest",
+      "y": 270
+    }
+  }
+}

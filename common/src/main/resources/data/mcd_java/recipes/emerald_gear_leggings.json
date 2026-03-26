@@ -1,0 +1,31 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcd_java:item_enabled",
+      "values": [
+        "mcd_java:emerald_gear_leggings"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "ECE",
+    "I I"
+  ],
+  "key": {
+    "E": {
+      "item": "minecraft:emerald"
+    },
+    "C": {
+      "item": "minecraft:iron_leggings"
+    },
+    "I": {
+      "item": "iron_ingot"
+    }
+  },
+  "result": {
+    "item": "mcd_java:emerald_gear_leggings",
+    "count": 1
+  }
+}

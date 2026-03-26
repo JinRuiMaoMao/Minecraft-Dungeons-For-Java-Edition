@@ -1,0 +1,40 @@
+{
+  "fabric:load_conditions":[
+    {
+      "condition":"mcd_java:item_enabled",
+      "values":[
+        "mcd_java:bow_wind_bow"
+      ]
+    },
+    {
+      "condition":"mcd_java:item_enabled",
+      "values":[
+        "mcd_java:bow_echo_of_the_valley"
+      ]
+    }
+  ],
+  "type":"minecraft:crafting_shaped",
+  "pattern":[
+    "GIS",
+    " TS",
+    "GIS"
+  ],
+  "key":{
+    "S":{
+      "item":"minecraft:string"
+    },
+    "I":{
+      "item":"minecraft:iron_ingot"
+    },
+    "G":{
+      "item":"minecraft:gold_ingot"
+    },
+    "T":{
+      "item":"mcd_java:bow_wind_bow"
+    }
+  },
+  "result":{
+    "item":"mcd_java:bow_echo_of_the_valley",
+    "count":1
+  }
+}

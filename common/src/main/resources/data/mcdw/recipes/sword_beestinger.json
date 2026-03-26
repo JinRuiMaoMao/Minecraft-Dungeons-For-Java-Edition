@@ -1,0 +1,39 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcd_java:item_enabled",
+      "values": [
+        "mcd_java:sword_beestinger",
+        "mcd_java:sword_rapier",
+        "mcd_java:item_bee_stinger"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " NI",
+        "GRN",
+        "/G "
+    ],
+    "key": {
+        "I": {
+            "item": "mcd_java:item_bee_stinger"
+        },
+        "N": {
+            "item": "minecraft:iron_nugget"
+        },
+        "R": {
+            "item": "mcd_java:sword_rapier"
+        },
+        "G": {
+            "item": "minecraft:gold_ingot"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "mcd_java:sword_beestinger",
+        "count": 1
+    }
+}

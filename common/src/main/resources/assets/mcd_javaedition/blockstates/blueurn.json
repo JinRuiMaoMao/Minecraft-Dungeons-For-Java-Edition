@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "mcd_javaedition:blueurn"
+    },
+    "facing=north": {
+      "model": "mcd_javaedition:blueurn"
+    },
+    "facing=east": {
+      "model": "mcd_javaedition:blueurn",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "mcd_javaedition:blueurn",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mcd_javaedition:blueurn",
+      "y": 270
+    }
+  }
+}

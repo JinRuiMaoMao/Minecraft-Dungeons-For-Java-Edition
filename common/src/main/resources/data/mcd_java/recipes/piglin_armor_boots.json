@@ -1,0 +1,28 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcd_java:item_enabled",
+      "values": [
+        "mcd_java:piglin_armor_boots"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B B",
+    "b b",
+    "   "
+  ],
+  "key": {
+    "B": {
+      "item": "mcd_java:fabric_bolt_brown"
+    },
+    "b": {
+      "item": "minecraft:bone"
+    }
+  },
+  "result": {
+    "item": "mcd_java:piglin_armor_boots",
+    "count": 1
+  }
+}

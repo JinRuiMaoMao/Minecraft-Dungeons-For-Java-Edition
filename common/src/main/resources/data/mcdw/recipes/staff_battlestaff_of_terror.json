@@ -1,0 +1,32 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcd_java:item_enabled",
+      "values": [
+        "mcd_java:staff_battlestaff",
+        "mcd_java:staff_battlestaff_of_terror"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " NI",
+    "NSN",
+    "IN "
+  ],
+  "key": {
+    "S": {
+      "item": "mcd_java:staff_battlestaff"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "N": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "item": "mcd_java:staff_battlestaff_of_terror",
+    "count": 1
+  }
+}

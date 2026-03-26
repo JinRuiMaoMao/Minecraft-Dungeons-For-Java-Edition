@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcda:item_enabled",
+      "values": [
+        "mcda:squid_armor_helmet",
+        "mcda:glow_squid_armor_helmet"
+      ]
+    }
+  ],
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "mcda:squid_armor_helmet"
+  },
+  "addition": {
+    "item": "mcda:upgrade_core_oceanic"
+  },
+  "result": {
+    "item": "mcda:glow_squid_armor_helmet"
+    },
+    "template": {
+      "item": "minecraft:blaze_powder"
+    }
+}

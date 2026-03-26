@@ -1,0 +1,29 @@
+{
+  "fabric:load_conditions":[
+    {
+      "condition":"mcd_java:item_enabled",
+      "values":[
+        "mcd_java:staff_battlestaff"
+      ]
+    }
+  ],
+  "parent":"minecraft:recipes/root",
+  "criteria":{
+    "has_the_recipe":{
+      "conditions":{
+        "recipe":"mcd_java:staff_battlestaff"
+      },
+      "trigger":"minecraft:recipe_unlocked"
+    }
+  },
+  "requirements":[
+    [
+      "has_the_recipe"
+    ]
+  ],
+  "rewards":{
+    "recipes":[
+      "mcd_java:staff_battlestaff"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "mcd_java:item/crossbow_shadow_crossbow",
+  "textures": {
+    "layer0": "mcd_java:item/crossbows/shadow_crossbow_pulling_2"
+  }
+}

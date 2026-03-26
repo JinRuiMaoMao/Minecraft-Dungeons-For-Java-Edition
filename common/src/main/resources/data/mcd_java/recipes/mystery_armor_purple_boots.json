@@ -1,0 +1,28 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcd_java:item_enabled",
+      "values": [
+        "mcd_java:purple_mystery_armor_boots"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IGI",
+    "I I",
+    "   "
+  ],
+  "key": {
+    "G": {
+      "item": "mcd_java:gemstone_purple"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "mcd_java:purple_mystery_armor_boots",
+    "count": 1
+  }
+}

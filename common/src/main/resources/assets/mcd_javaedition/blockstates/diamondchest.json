@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "mcd_javaedition:diamondchest"
+    },
+    "facing=north": {
+      "model": "mcd_javaedition:diamondchest"
+    },
+    "facing=east": {
+      "model": "mcd_javaedition:diamondchest",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "mcd_javaedition:diamondchest",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mcd_javaedition:diamondchest",
+      "y": 270
+    }
+  }
+}

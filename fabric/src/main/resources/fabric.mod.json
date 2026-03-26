@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "mcd_java",
+  "version": "${version}",
+  "name": "MC Java Edition Dungeons",
+  "description": "Combined Armors, Weapons, Artifacts, MCDE and Creeper Woods",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "mc_javaedition.fabric.McJavaEditionFabric",
+      "net.backupcup.mcde.MCDEnchantments"
+    ],
+    "client": [
+      "mc_javaedition.fabric.McJavaEditionFabricClient"
+    ]
+  },
+  "mixins": [
+    "mcde.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "${minecraft_version_range_fabric}"
+  }
+}

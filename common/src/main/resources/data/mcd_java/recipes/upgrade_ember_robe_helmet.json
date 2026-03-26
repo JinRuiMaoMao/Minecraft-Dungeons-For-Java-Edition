@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcd_java:item_enabled",
+      "values": [
+        "mcd_java:evocation_robe_helmet",
+        "mcd_java:ember_robe_helmet"
+      ]
+    }
+  ],
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "mcd_java:evocation_robe_helmet"
+  },
+  "addition": {
+    "item": "mcd_java:upgrade_core_ember"
+  },
+  "result": {
+    "item": "mcd_java:ember_robe_helmet"
+    },
+    "template": {
+      "item": "minecraft:blaze_powder"
+    }
+}

@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcda:item_enabled",
+      "values": [
+        "mcda:soul_robe_boots",
+        "mcda:souldancer_robe_boots"
+      ]
+    }
+  ],
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "mcda:soul_robe_boots"
+  },
+  "addition": {
+    "item": "mcda:upgrade_core_soul"
+  },
+  "result": {
+    "item": "mcda:souldancer_robe_boots"
+    },
+    "template": {
+      "item": "minecraft:blaze_powder"
+    }
+}

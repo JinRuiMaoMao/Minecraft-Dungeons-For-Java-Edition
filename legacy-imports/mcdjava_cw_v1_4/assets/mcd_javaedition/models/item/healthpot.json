@@ -1,0 +1,6 @@
+{
+  "parent": "mcd_javaedition:custom/healthpotion",
+  "textures": {
+    "0": "mcd_javaedition:blocks/potionhealth"
+  }
+}

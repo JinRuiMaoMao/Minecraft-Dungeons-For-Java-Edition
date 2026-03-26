@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcda:item_enabled",
+      "values": [
+        "mcda:beenest_armor_helmet",
+        "mcda:beehive_armor_helmet"
+      ]
+    }
+  ],
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "mcda:beenest_armor_helmet"
+  },
+  "addition": {
+    "item": "mcda:upgrade_core_hive"
+  },
+  "result": {
+    "item": "mcda:beehive_armor_helmet"
+    },
+    "template": {
+      "item": "minecraft:blaze_powder"
+    }
+}

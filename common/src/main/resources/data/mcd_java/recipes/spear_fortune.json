@@ -1,0 +1,32 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcd_java:item_enabled",
+      "values": [
+        "mcd_java:spear_spear",
+        "mcd_java:spear_fortune"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " GR",
+        " SG",
+        "G  "
+    ],
+    "key": {
+        "R": {
+            "item": "minecraft:rabbit_foot"
+        },
+        "S": {
+            "item": "mcd_java:spear_spear"
+        },
+        "G": {
+            "item": "minecraft:gold_ingot"
+        }
+    },
+    "result": {
+        "item": "mcd_java:spear_fortune",
+        "count": 1
+    }
+}

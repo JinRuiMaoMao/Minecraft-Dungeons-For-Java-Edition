@@ -1,0 +1,40 @@
+/*
+Timefall Development License 1.2
+Copyright (c) 2020-2024. Chronosacaria, Kluzzio, Timefall Development. All Rights Reserved.
+
+This software's content is licensed under the Timefall Development License 1.2. You can find this license information here: https://github.com/Timefall-Development/Timefall-Development-Licence/blob/main/TimefallDevelopmentLicense1.2.txt
+*/
+package mcd_java.mcdw.configs;
+
+import mcd_java.mcdw.Mcdw;
+import me.shedaniel.autoconfig.AutoConfig;
+import me.shedaniel.autoconfig.annotation.Config;
+import me.shedaniel.autoconfig.annotation.ConfigEntry;
+import me.shedaniel.autoconfig.serializer.JanksonConfigSerializer;
+import me.shedaniel.autoconfig.serializer.PartitioningSerializer;
+
+@SuppressWarnings("CanBeFinal")
+@Config(name = Mcdw.MOD_ID)
+public class McdwConfig extends PartitioningSerializer.GlobalData {
+
+    @ConfigEntry.Category("mcdw_items_registry")
+    public McdwEnableItemsConfig mcdwEnableItemsConfig = new McdwEnableItemsConfig();
+
+    @ConfigEntry.Category("mcdw_enchantment_settings_config")
+    public McdwEnchantmentSettingsConfig mcdwEnchantmentSettingsConfig = new McdwEnchantmentSettingsConfig();
+
+    @ConfigEntry.Category("mcdw_enchantments_config")
+    public McdwEnchantmentsConfig mcdwEnchantmentsConfig = new McdwEnchantmentsConfig();
+
+    @ConfigEntry.Category("mcdw_stats_config")
+    public McdwNewStatsConfig mcdwNewStatsConfig = new McdwNewStatsConfig();
+
+    @ConfigEntry.Category("mcdw_loot_config")
+    public McdwNewLootConfig mcdwNewlootConfig = new McdwNewLootConfig();
+
+    public static void register() {
+        AutoConfig.register(McdwConfig.class,
+                PartitioningSerializer.wrap(JanksonConfigSerializer::new)
+        );
+    }
+}

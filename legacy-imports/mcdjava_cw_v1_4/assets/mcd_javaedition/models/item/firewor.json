@@ -1,0 +1,6 @@
+{
+  "parent": "mcd_javaedition:custom/firework",
+  "textures": {
+    "0": "mcd_javaedition:blocks/firework"
+  }
+}

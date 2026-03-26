@@ -1,0 +1,83 @@
+{
+  "eat": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "mcd_javaedition:eatgeneric-001",
+        "stream": false
+      }
+    ]
+  },
+  "potion_drink": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "mcd_javaedition:potion_drink",
+        "stream": false
+      }
+    ]
+  },
+  "potion_speed": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "mcd_javaedition:potion_speed",
+        "stream": false
+      }
+    ]
+  },
+  "firework_blast": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "mcd_javaedition:firework_blast",
+        "stream": false
+      }
+    ]
+  },
+  "firework_particle": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "mcd_javaedition:firework_particle",
+        "stream": false
+      }
+    ]
+  },
+  "explode": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "mcd_javaedition:explode",
+        "stream": false
+      }
+    ]
+  },
+  "victory": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "mcd_javaedition:victory",
+        "stream": false
+      }
+    ]
+  },
+  "missionstart": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "mcd_javaedition:missionstart",
+        "stream": false
+      }
+    ]
+  },
+  "map": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "mcd_javaedition:map",
+        "stream": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcda:item_enabled",
+      "values": [
+        "mcda:entertainer_garb_helmet",
+        "mcda:troubadour_armor_helmet"
+      ]
+    }
+  ],
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "mcda:entertainer_garb_helmet"
+  },
+  "addition": {
+    "item": "mcda:upgrade_core_void"
+  },
+  "result": {
+    "item": "mcda:troubadour_armor_helmet"
+    },
+    "template": {
+      "item": "minecraft:blaze_powder"
+    }
+}

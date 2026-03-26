@@ -1,0 +1,38 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcd_java:item_enabled",
+      "values": [
+        "mcd_java:sword_claymore",
+        "mcd_java:sword_frost_slayer"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " D#",
+        "R/D",
+        "rR "
+    ],
+    "key": {
+        "r": {
+            "item": "minecraft:snowball"
+        },
+        "R": {
+            "item": "minecraft:packed_ice"
+        },
+        "#": {
+            "item": "minecraft:iron_ingot"
+        },
+        "/": {
+            "item": "mcd_java:sword_claymore"
+        },
+        "D": {
+            "item": "minecraft:diamond"
+        }
+    },
+    "result": {
+        "item": "mcd_java:sword_frost_slayer",
+        "count": 1
+    }
+}

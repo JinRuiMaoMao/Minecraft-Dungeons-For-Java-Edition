@@ -1,0 +1,6 @@
+{
+  "parent": "mcd_java:item/crossbow_firebolt_thrower",
+  "textures": {
+    "layer0": "mcd_java:item/crossbows/firebolt_thrower_pulling_0"
+  }
+}

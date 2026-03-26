@@ -1,0 +1,6 @@
+{
+  "parent": "mcd_java:item/crossbow_slayer_crossbow",
+  "textures": {
+    "layer0": "mcd_java:item/crossbows/slayer_crossbow_firework"
+  }
+}

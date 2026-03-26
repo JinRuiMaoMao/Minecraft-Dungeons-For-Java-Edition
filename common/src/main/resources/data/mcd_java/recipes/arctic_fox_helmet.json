@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcd_java:item_enabled",
+      "values": [
+        "mcd_java:fox_armor_helmet",
+        "mcd_java:arctic_fox_armor_helmet"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mcd_java:fox_armor_helmet"
+    },
+    {
+      "item": "mcd_java:fox_pelt_arctic"
+    }
+  ],
+  "result": {
+    "item": "mcd_java:arctic_fox_armor_helmet",
+    "count": 1
+  }
+}

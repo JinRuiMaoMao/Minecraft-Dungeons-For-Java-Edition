@@ -1,0 +1,6 @@
+{
+  "parent": "mcd_java:item/crossbow_doom_crossbow",
+  "textures": {
+    "layer0": "mcd_java:item/crossbows/doom_crossbow_arrow"
+  }
+}

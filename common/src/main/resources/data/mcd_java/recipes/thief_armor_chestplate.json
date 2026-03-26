@@ -1,0 +1,28 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcd_java:item_enabled",
+      "values": [
+        "mcd_java:thief_armor_chestplate"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B B",
+    "BIB",
+    "BIB"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "B": {
+      "item": "mcd_java:fabric_bolt_black"
+    }
+  },
+  "result": {
+    "item": "mcd_java:thief_armor_chestplate",
+    "count": 1
+  }
+}

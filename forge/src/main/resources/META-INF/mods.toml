@@ -1,0 +1,25 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+license = "All Rights Reserved"
+
+[[mods]]
+modId = "mcd_java"
+version = "${version}"
+displayName = "MC Java Edition Dungeons"
+description = '''
+Combined Armors, Weapons, Artifacts, MCDE and Creeper Woods
+'''
+
+[[dependencies.mcd_java]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.mcd_java]]
+modId = "minecraft"
+mandatory = true
+versionRange = "${minecraft_version_range_forge}"
+ordering = "NONE"
+side = "BOTH"

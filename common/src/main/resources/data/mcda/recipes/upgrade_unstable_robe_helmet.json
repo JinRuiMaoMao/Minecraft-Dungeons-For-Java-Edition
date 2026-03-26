@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcda:item_enabled",
+      "values": [
+        "mcda:teleportation_robe_helmet",
+        "mcda:unstable_robe_helmet"
+      ]
+    }
+  ],
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "mcda:teleportation_robe_helmet"
+  },
+  "addition": {
+    "item": "mcda:upgrade_core_void"
+  },
+  "result": {
+    "item": "mcda:unstable_robe_helmet"
+    },
+    "template": {
+      "item": "minecraft:blaze_powder"
+    }
+}

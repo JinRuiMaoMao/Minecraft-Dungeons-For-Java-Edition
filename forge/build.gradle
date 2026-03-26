@@ -1,0 +1,74 @@
+plugins {
+    id "architectury-plugin"
+    id "java"
+    id "dev.architectury.loom" version "1.5-SNAPSHOT"
+}
+
+loom {
+    silentMojangMappingsLicense()
+}
+
+architectury {
+    platformSetupLoomIde()
+    forge()
+}
+
+// Match Architectury template so common is visible to Forge dev ClassLoader / transformer.
+configurations {
+    common {
+        canBeResolved = true
+        canBeConsumed = false
+    }
+    compileClasspath.extendsFrom common
+    runtimeClasspath.extendsFrom common
+    developmentForge.extendsFrom common
+}
+
+loom {
+    forge {
+        // Disable merged Fabric-side mixin configs on Forge dev runtime for now.
+        // They rely on common-side class loading shape that differs on Forge dev launch.
+    }
+}
+
+dependencies {
+    minecraft "com.mojang:minecraft:${rootProject.minecraft_version}"
+    mappings loom.officialMojangMappings()
+    forge "net.minecraftforge:forge:${rootProject.forge_version}"
+    common(project(path: ":common", configuration: "namedElements")) { transitive false }
+}
+
+processResources {
+    inputs.property "version", rootProject.version
+    inputs.property "minecraft_version_range_forge", rootProject.minecraft_version_range_forge
+    filesMatching("META-INF/mods.toml") {
+        expand(
+                "version": rootProject.version,
+                "minecraft_version_range_forge": rootProject.minecraft_version_range_forge
+        )
+    }
+}
+
+// Ensure the generated placeholder list is included in this mod jar.
+// Forge runtime loads it via getResourceAsStream("/placeholder_items.txt").
+def commonPlaceholderDir = "${project(":common").buildDir}/generated/resources/placeholder"
+tasks.named("processResources").configure {
+    dependsOn ":common:generatePlaceholderItemsList"
+    from(commonPlaceholderDir) {
+        include "placeholder_items.txt"
+    }
+}
+
+jar {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    // Some Loom/Architectury configurations may skip plain root resources;
+    // ensure our generated placeholder list is packaged.
+    from("$buildDir/resources/main") {
+        include "placeholder_items.txt"
+    }
+    from(project(":common").sourceSets.main.output) {
+        exclude "**/fabric.mod.json"
+        exclude "**/mcmod.info"
+    }
+}
+

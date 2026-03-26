@@ -1,0 +1,34 @@
+{
+  "fabric:load_conditions":[
+    {
+      "condition":"mcd_java:item_enabled",
+      "values":[
+        "mcd_java:bow_snow_bow"
+      ]
+    }
+  ],
+  "type":"minecraft:crafting_shaped",
+  "pattern":[
+    "sBS",
+    "sbS",
+    "sBS"
+  ],
+  "key":{
+    "S":{
+      "item":"minecraft:string"
+    },
+    "s":{
+      "item":"minecraft:snow_block"
+    },
+    "B":{
+      "item":"minecraft:blue_dye"
+    },
+    "b":{
+      "item":"minecraft:bow"
+    }
+  },
+  "result":{
+    "item":"mcd_java:bow_snow_bow",
+    "count":1
+  }
+}

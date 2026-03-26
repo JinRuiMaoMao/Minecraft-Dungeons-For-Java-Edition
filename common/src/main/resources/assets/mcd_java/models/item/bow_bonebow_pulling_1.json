@@ -1,0 +1,6 @@
+{
+    "parent": "item/bow",
+    "textures": {
+        "layer0": "mcd_java:item/bows/bonebow_pulling_1"
+    }
+}

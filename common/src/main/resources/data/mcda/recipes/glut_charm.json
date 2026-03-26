@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SPC",
+    "R E",
+    "MFH"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:beef"
+    },
+    "P": {
+      "item": "minecraft:porkchop"
+    },
+    "C": {
+      "item": "minecraft:chicken"
+    },
+    "R": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "E": {
+      "item": "minecraft:spider_eye"
+    },
+    "M": {
+      "item": "minecraft:mutton"
+    },
+    "F": {
+      "item": "minecraft:pufferfish"
+    },
+    "H": {
+      "item": "minecraft:chorus_fruit"
+    }
+  },
+  "result": {
+    "item": "mcda:glut_charm",
+    "count": 1
+  }
+}

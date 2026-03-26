@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcda:item_enabled",
+      "values": [
+        "mcda:thief_armor_chestplate",
+        "mcda:spider_armor_chestplate"
+      ]
+    }
+  ],
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "mcda:thief_armor_chestplate"
+  },
+  "addition": {
+    "item": "mcda:upgrade_core_spider"
+  },
+  "result": {
+    "item": "mcda:spider_armor_chestplate"
+    },
+    "template": {
+      "item": "minecraft:blaze_powder"
+    }
+}

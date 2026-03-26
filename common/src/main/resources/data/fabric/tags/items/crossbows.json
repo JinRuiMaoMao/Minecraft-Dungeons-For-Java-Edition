@@ -1,0 +1,121 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id":"mcd_java:crossbow_the_slicer",
+      "required": false
+    },
+    {
+      "id":"mcd_java:crossbow_azure_seeker",
+      "required": false
+    },
+    {
+      "id":"mcd_java:crossbow_exploding_crossbow",
+      "required": false
+    },
+    {
+      "id":"mcd_java:crossbow_imploding_crossbow",
+      "required": false
+    },
+    {
+      "id":"mcd_java:crossbow_firebolt_thrower",
+      "required": false
+    },
+    {
+      "id":"mcd_java:crossbow_heavy_crossbow",
+      "required": false
+    },
+    {
+      "id":"mcd_java:crossbow_doom_crossbow",
+      "required": false
+    },
+    {
+      "id":"mcd_java:crossbow_slayer_crossbow",
+      "required": false
+    },
+    {
+      "id":"mcd_java:crossbow_rapid_crossbow",
+      "required": false
+    },
+    {
+      "id":"mcd_java:crossbow_butterfly_crossbow",
+      "required": false
+    },
+    {
+      "id":"mcd_java:crossbow_auto_crossbow",
+      "required": false
+    },
+    {
+      "id":"mcd_java:crossbow_scatter_crossbow",
+      "required": false
+    },
+    {
+      "id":"mcd_java:crossbow_harp_crossbow",
+      "required": false
+    },
+    {
+      "id":"mcd_java:crossbow_lightning_harp_crossbow",
+      "required": false
+    },
+    {
+      "id":"mcd_java:crossbow_soul_crossbow",
+      "required": false
+    },
+    {
+      "id":"mcd_java:crossbow_feral_soul_crossbow",
+      "required": false
+    },
+    {
+      "id":"mcd_java:crossbow_voidcaller_crossbow",
+      "required": false
+    },
+    {
+      "id":"mcd_java:crossbow_dual_crossbow",
+      "required": false
+    },
+    {
+      "id":"mcd_java:crossbow_spellbound_crossbow",
+      "required": false
+    },
+    {
+      "id":"mcd_java:crossbow_baby_crossbow",
+      "required": false
+    },
+    {
+      "id":"mcd_java:crossbow_burst_crossbow",
+      "required": false
+    },
+    {
+      "id":"mcd_java:crossbow_soul_hunter_crossbow",
+      "required": false
+    },
+    {
+      "id":"mcd_java:crossbow_corrupted_crossbow",
+      "required": false
+    },
+    {
+      "id":"mcd_java:crossbow_cog_crossbow",
+      "required": false
+    },
+    {
+      "id":"mcd_java:crossbow_pride_of_the_piglins",
+      "required": false
+    },
+    {
+      "id":"mcd_java:crossbow_harpoon_crossbow",
+      "required": false
+    },
+    {
+      "id":"mcd_java:crossbow_nautical_crossbow",
+      "required": false
+    },
+    {
+      "id":"mcd_java:crossbow_veiled_crossbow",
+      "required": false
+    },
+    {
+      "id":"mcd_java:crossbow_voidcaller_crossbow",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcd_java:item_enabled",
+      "values": [
+        "mcd_java:champions_armor_helmet",
+        "mcd_java:heros_armor_helmet"
+      ]
+    }
+  ],
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "mcd_java:champions_armor_helmet"
+  },
+  "addition": {
+    "item": "mcd_java:upgrade_core_metal"
+  },
+  "result": {
+    "item": "mcd_java:heros_armor_helmet"
+    },
+    "template": {
+      "item": "minecraft:blaze_powder"
+    }
+}

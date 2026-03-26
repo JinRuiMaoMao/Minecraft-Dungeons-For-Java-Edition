@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "mcd_java:upgrade_core"
+  },
+  "addition": {
+    "tag": "minecraft:saplings"
+  },
+  "result": {
+    "item": "mcd_java:upgrade_core_verdant"
+    },
+    "template": {
+      "item": "minecraft:blaze_powder"
+    }
+}

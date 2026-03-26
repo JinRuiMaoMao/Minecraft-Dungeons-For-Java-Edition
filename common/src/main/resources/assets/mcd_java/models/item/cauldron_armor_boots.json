@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "mcd_java:item/cauldron_armor_boots"
+  }
+}

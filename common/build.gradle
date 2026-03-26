@@ -1,0 +1,159 @@
+plugins {
+    id "architectury-plugin"
+    id "java-library"
+    id "dev.architectury.loom" version "1.5-SNAPSHOT"
+}
+
+architectury {
+    common("fabric", "forge")
+}
+
+dependencies {
+    minecraft "com.mojang:minecraft:${rootProject.minecraft_version}"
+    mappings "net.fabricmc:yarn:${rootProject.yarn_mappings}:v2"
+    modImplementation "net.fabricmc:fabric-loader:${rootProject.loader_version}"
+
+    modApi "net.fabricmc.fabric-api:fabric-api:${rootProject.fabric_version}"
+    modApi("me.shedaniel.cloth:cloth-config-fabric:${rootProject.cloth_config_version}") {
+        exclude group: "net.fabricmc.fabric-api"
+    }
+    modImplementation "com.blamejared.clumps:Clumps-fabric-${rootProject.minecraft_version}:${rootProject.clumps_version}"
+    modImplementation "maven.modrinth:ranged-weapon-api:${rootProject.ranged_weapon_api_version}"
+    modImplementation "com.jamieswhiteshirt:reach-entity-attributes:${rootProject.reach_entity_attributes_version}"
+    annotationProcessor("com.github.llamalad7.mixinextras:mixinextras-fabric:${rootProject.mixin_extras_version}")
+    implementation("com.github.llamalad7.mixinextras:mixinextras-fabric:${rootProject.mixin_extras_version}")
+    implementation("blue.endless:jankson:1.2.3")
+    implementation("com.hrakaroo:glob:0.9.0")
+}
+
+sourceSets {
+    main {
+        java {
+            exclude "mcd_java/mcdw/mixin/mcdw/client/**"
+            exclude "mcd_java/mcdw/mixin/reach/client/**"
+            // Temporarily exclude legacy source trees still mid-migration.
+            exclude "mcd_java/**"
+            exclude "jinrui/**"
+            exclude "net/backupcup/**"
+            exclude "mc_javaedition/McJavaEditionCommon.java"
+            // Client-only renderers: common classpath has no Blaze3D / full client APIs in this Loom setup.
+            exclude "chronosacaria/mcdar/entities/renderers/**"
+            exclude "chronosacaria/mcdar/client/**"
+            // Temporarily disable incomplete migrated sources in common.
+            exclude "chronosacaria/mcdar/api/**"
+            exclude "chronosacaria/mcdar/artifacts/**"
+            exclude "chronosacaria/mcdar/config/**"
+            exclude "chronosacaria/mcdar/enchants/**"
+            exclude "chronosacaria/mcdar/effects/**"
+            exclude "chronosacaria/mcdar/enums/**"
+            exclude "chronosacaria/mcdar/entities/**"
+            exclude "chronosacaria/mcdar/goals/**"
+            exclude "chronosacaria/mcdar/mixin/**"
+            exclude "chronosacaria/mcdar/registries/**"
+            exclude "chronosacaria/mcdar/statuseffect/**"
+            exclude "chronosacaria/mcdar/Mcdar.java"
+            exclude "chronosacaria/mcdar/mixin/PersistentProjectileEntityMixin.java"
+            exclude "chronosacaria/mcdar/artifacts/beacon/**"
+            exclude "CorruptedBeaconItem.java"
+            exclude "mcd_java/mcda/entities/SummonedBeeRenderer.java"
+            exclude "mcd_java/mcda/mixin/ArmorFeatureRendererMixin.java"
+            exclude "mcd_java/mcda/mixin/InGameOverlayRendererMixin.java"
+            exclude "mcd_java/mcda/client/**"
+            exclude "mcd_java/mcdw/enchants/summons/render/**"
+            exclude "mcd_java/mcdw/client/**"
+            exclude "net/backupcup/mcde/screen/RunicTableScreen.java"
+            exclude "net/backupcup/mcde/screen/RollBenchScreen.java"
+            exclude "net/backupcup/mcde/screen/GildingFoundryScreen.java"
+            exclude "net/backupcup/mcde/screen/util/EnchantmentSlotsRenderer.java"
+            exclude "net/backupcup/mcde/MCDEClient.java"
+        }
+    }
+}
+
+processResources {
+    exclude "**/fabric.mod.json"
+    exclude "**/mcmod.info"
+    exclude "**/legacy_mcmod_info_1_12.info"
+}
+
+def placeholderItemsOutDir = "${buildDir}/generated/resources/placeholder"
+def placeholderItemsFile = "${placeholderItemsOutDir}/placeholder_items.txt"
+def mcdjavaAliasOutDir = "${buildDir}/generated/resources/mcdjava_alias"
+
+tasks.register("generatePlaceholderItemsList") {
+    outputs.file(placeholderItemsFile)
+    doLast {
+        def assetsDir = file("src/main/resources/assets")
+        def allowedNamespaces = ["mcd_java", "mcd_javaedition", "mcda", "mcdw", "mcdar", "mcde"] as Set
+
+        def lines = []
+        fileTree(dir: assetsDir, include: ["**/models/item/*.json"]).visit { details ->
+            if (!details.directory) {
+                def rel = details.file.toPath().toString().replace(assetsDir.toPath().toString(), "")
+                rel = rel.replace("\\", "/").replaceFirst("^/", "")
+                def parts = rel.split("/")
+                if (parts.length >= 4) {
+                    def ns = parts[0]
+                    if (allowedNamespaces.contains(ns)) {
+                        def fileName = parts[parts.length - 1] // <id>.json
+                        if (fileName.endsWith(".json")) {
+                            def id = fileName.substring(0, fileName.length() - ".json".length())
+                            if (id.contains("model")) {
+                                return // User request: drop all *model* placeholder entries.
+                            }
+                            lines.add("${ns}:${id}")
+                        }
+                    }
+                }
+            }
+        }
+
+        lines = lines.unique().sort()
+        def outFile = file(placeholderItemsFile)
+        outFile.parentFile.mkdirs()
+        outFile.text = lines.join("\n") + "\n"
+    }
+}
+
+tasks.register("generateMcdjavaAliasModels") {
+    outputs.dir(mcdjavaAliasOutDir)
+    doLast {
+        def assetsDir = file("src/main/resources/assets")
+        def outBase = file("${mcdjavaAliasOutDir}/assets/mcdjava/models/item")
+        outBase.mkdirs()
+
+        def sourcePriority = ["mcdar", "mcdw", "mcda", "mcde", "mcd_java", "mcd_javaedition"]
+        def chosen = [:] // idPath -> source file
+
+        sourcePriority.each { ns ->
+            fileTree(dir: "${assetsDir}/${ns}/models/item", include: ["*.json"]).visit { details ->
+                if (!details.directory) {
+                    def id = details.file.name.substring(0, details.file.name.length() - ".json".length())
+                    if (id.contains("model")) {
+                        return // Keep mcdjava alias models aligned with placeholder filtering.
+                    }
+                    if (!chosen.containsKey(id)) {
+                        chosen[id] = details.file
+                    }
+                }
+            }
+        }
+
+        chosen.each { id, src ->
+            copy {
+                from(src)
+                into(outBase)
+                rename { "${id}.json" }
+            }
+        }
+    }
+}
+
+processResources {
+    dependsOn tasks.named("generatePlaceholderItemsList")
+    dependsOn tasks.named("generateMcdjavaAliasModels")
+    from(placeholderItemsOutDir) {
+        include "placeholder_items.txt"
+    }
+    from(mcdjavaAliasOutDir)
+}

@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcda:item_enabled",
+      "values": [
+        "mcda:spelunker_armor_chestplate",
+        "mcda:cave_crawler_chestplate"
+      ]
+    }
+  ],
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "mcda:spelunker_armor_chestplate"
+  },
+  "addition": {
+    "item": "mcda:upgrade_core_depth"
+  },
+  "result": {
+    "item": "mcda:cave_crawler_chestplate"
+  },
+  "template": {
+    "item": "minecraft:blaze_powder"
+  }
+}

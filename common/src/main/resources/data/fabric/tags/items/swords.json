@@ -1,0 +1,253 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id":"mcd_java:sword_claymore",
+      "required": false
+    },
+    {
+      "id":"mcd_java:sword_broadsword",
+      "required": false
+    },
+    {
+      "id":"mcd_java:sword_frost_slayer",
+      "required": false
+    },
+    {
+      "id":"mcd_java:sword_heartstealer",
+      "required": false
+    },
+    {
+      "id":"mcd_java:sword_great_axeblade",
+      "required": false
+    },
+    {
+      "id":"mcd_java:sword_rapier",
+      "required": false
+    },
+    {
+      "id":"mcd_java:sword_beestinger",
+      "required": false
+    },
+    {
+      "id":"mcd_java:sword_freezing_foil",
+      "required": false
+    },
+    {
+      "id":"mcd_java:sword_cutlass",
+      "required": false
+    },
+    {
+      "id":"mcd_java:sword_nameless_blade",
+      "required": false
+    },
+    {
+      "id":"mcd_java:sword_dancers_sword",
+      "required": false
+    },
+    {
+      "id":"mcd_java:sword_katana",
+      "required": false
+    },
+    {
+      "id":"mcd_java:sword_masters_katana",
+      "required": false
+    },
+    {
+      "id":"mcd_java:sword_dark_katana",
+      "required": false
+    },
+    {
+      "id":"mcd_java:sword_iron_sword_var",
+      "required": false
+    },
+    {
+      "id":"mcd_java:sword_diamond_sword_var",
+      "required": false
+    },
+    {
+      "id":"mcd_java:sword_hawkbrand",
+      "required": false
+    },
+    {
+      "id":"mcd_java:sword_sinister",
+      "required": false
+    },
+    {
+      "id":"mcd_java:sword_broken_sawblade",
+      "required": false
+    },
+    {
+      "id":"mcd_java:sword_mechanized_sawblade",
+      "required": false
+    },
+    {
+      "id":"mcd_java:sword_coral_blade",
+      "required": false
+    },
+    {
+      "id":"mcd_java:sword_sponge_striker",
+      "required": false
+    },
+    {
+      "id":"mcd_java:sword_obsidian_claymore",
+      "required": false
+    },
+    {
+      "id":"mcd_java:sword_the_starless_night",
+      "required": false
+    },
+    {
+      "id":"mcd_java:dagger_dagger",
+      "required": false
+    },
+    {
+      "id":"mcd_java:dagger_fangs_of_frost",
+      "required": false
+    },
+    {
+      "id":"mcd_java:dagger_moon",
+      "required": false
+    },
+    {
+      "id":"mcd_java:dagger_shear_dagger",
+      "required": false
+    },
+    {
+      "id":"mcd_java:dagger_tempest_knife",
+      "required": false
+    },
+    {
+      "id":"mcd_java:dagger_resolute_tempest_knife",
+      "required": false
+    },
+    {
+      "id":"mcd_java:dagger_chill_gale_knife",
+      "required": false
+    },
+    {
+      "id":"mcd_java:dagger_backstabber",
+      "required": false
+    },
+    {
+      "id":"mcd_java:dagger_swift_striker",
+      "required": false
+    },
+    {
+      "id":"mcd_java:dagger_void_touched_blade",
+      "required": false
+    },
+    {
+      "id":"mcd_java:dagger_the_beginning",
+      "required": false
+    },
+    {
+      "id":"mcd_java:dagger_the_end",
+      "required": false
+    },
+    {
+      "id":"mcd_java:dagger_soul_knife",
+      "required": false
+    },
+    {
+      "id":"mcd_java:dagger_eternal_knife",
+      "required": false
+    },
+    {
+      "id":"mcd_java:sword_truthseeker",
+      "required": false
+    },
+    {
+      "id":"mcd_java:hammer_mace",
+      "required": false
+    },
+    {
+      "id":"mcd_java:hammer_great_hammer",
+      "required": false
+    },
+    {
+      "id":"mcd_java:hammer_stormlander",
+      "required": false
+    },
+    {
+      "id":"mcd_java:hammer_gravity",
+      "required": false
+    },
+    {
+      "id":"mcd_java:hammer_flail",
+      "required": false
+    },
+    {
+      "id":"mcd_java:hammer_suns_grace",
+      "required": false
+    },
+    {
+      "id":"mcd_java:hammer_boneclub",
+      "required": false
+    },
+    {
+      "id":"mcd_java:hammer_bone_cudgel",
+      "required": false
+    },
+    {
+      "id":"mcd_java:gauntlet_gauntlet",
+      "required": false
+    },
+    {
+      "id":"mcd_java:gauntlet_maulers",
+      "required": false
+    },
+    {
+      "id":"mcd_java:gauntlet_soul_fists",
+      "required": false
+    },
+    {
+      "id":"mcd_java:sickle_sickle",
+      "required": false
+    },
+    {
+      "id":"mcd_java:sickle_nightmares_bite",
+      "required": false
+    },
+    {
+      "id":"mcd_java:sickle_last_laugh_gold",
+      "required": false
+    },
+    {
+      "id":"mcd_java:sickle_last_laugh_silver",
+      "required": false
+    },
+    {
+      "id":"mcd_java:sickle_jailors_scythe",
+      "required": false
+    },
+    {
+      "id":"mcd_java:sickle_soul_scythe",
+      "required": false
+    },
+    {
+      "id":"mcd_java:sickle_frost_scythe",
+      "required": false
+    },
+    {
+      "id":"mcd_java:sickle_skull_scythe",
+      "required": false
+    },
+    {
+      "id":"mcd_java:spear_glaive",
+      "required": false
+    },
+    {
+      "id":"mcd_java:spear_grave_bane",
+      "required": false
+    },
+    {
+      "id":"mcd_java:spear_venom_glaive",
+      "required": false
+    },
+    {
+      "id":"mcd_java:spear_cackling_broom",
+      "required": false
+    }
+  ]
+}

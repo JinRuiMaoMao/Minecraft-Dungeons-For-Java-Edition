@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcda:item_enabled",
+      "values": [
+        "mcda:snow_armor_chestplate",
+        "mcda:frost_armor_chestplate"
+      ]
+    }
+  ],
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "mcda:snow_armor_chestplate"
+  },
+  "addition": {
+    "item": "mcda:upgrade_core_frost"
+  },
+  "result": {
+    "item": "mcda:frost_armor_chestplate"
+    },
+    "template": {
+      "item": "minecraft:blaze_powder"
+    }
+}

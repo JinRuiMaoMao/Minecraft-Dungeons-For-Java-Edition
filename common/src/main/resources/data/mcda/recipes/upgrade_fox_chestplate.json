@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcda:item_enabled",
+      "values": [
+        "mcda:wolf_armor_chestplate",
+        "mcda:fox_armor_chestplate"
+      ]
+    }
+  ],
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "mcda:wolf_armor_chestplate"
+  },
+  "addition": {
+    "item": "mcda:upgrade_core_fox"
+  },
+  "result": {
+    "item": "mcda:fox_armor_chestplate"
+    },
+    "template": {
+      "item": "minecraft:blaze_powder"
+    }
+}

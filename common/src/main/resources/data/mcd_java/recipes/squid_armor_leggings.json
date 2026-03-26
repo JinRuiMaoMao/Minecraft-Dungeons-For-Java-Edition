@@ -1,0 +1,28 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcd_java:item_enabled",
+      "values": [
+        "mcd_java:squid_armor_leggings"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "HHH",
+    "HBH",
+    "HBH"
+  ],
+  "key": {
+    "H": {
+      "item": "minecraft:leather"
+    },
+    "B": {
+      "item": "minecraft:ink_sac"
+    }
+  },
+  "result": {
+    "item": "mcd_java:squid_armor_leggings",
+    "count": 1
+  }
+}

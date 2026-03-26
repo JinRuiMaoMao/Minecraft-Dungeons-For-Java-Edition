@@ -1,0 +1,25 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcd_java:item_enabled",
+      "values": [
+        "mcd_java:ocelot_armor_boots"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "O O",
+    "O O"
+  ],
+  "key": {
+    "O": {
+      "item": "mcd_java:ocelot_pelt"
+    }
+  },
+  "result": {
+    "item": "mcd_java:ocelot_armor_boots",
+    "count": 1
+  }
+}

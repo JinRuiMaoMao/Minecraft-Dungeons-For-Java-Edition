@@ -1,0 +1,32 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcd_java:item_enabled",
+      "values": [
+        "mcd_java:pick_mountaineer_pick",
+        "mcd_java:pick_howling_pick"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " B ",
+        "YPY",
+        " B "
+    ],
+    "key": {
+        "P": {
+            "item": "mcd_java:pick_mountaineer_pick"
+        },
+        "Y": {
+            "item": "minecraft:yellow_dye"
+        },
+        "B": {
+            "item": "minecraft:black_dye"
+        }
+    },
+    "result": {
+        "item": "mcd_java:pick_howling_pick",
+        "count": 1
+    }
+}

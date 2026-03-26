@@ -1,0 +1,8 @@
+{
+  "parent": "mcd_javaedition:custom/skeletonchest",
+  "textures": {
+    "all": "mcd_javaedition:blocks/t_missionlootchest",
+    "particle": "mcd_javaedition:blocks/t_missionlootchest",
+    "0": "mcd_javaedition:blocks/t_missionlootchest"
+  }
+}

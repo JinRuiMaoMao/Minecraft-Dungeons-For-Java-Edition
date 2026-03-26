@@ -1,0 +1,1786 @@
+{
+    "items":  {
+                  "entertainer_garb_helmet":  {
+                                                  "toughness":  0,
+                                                  "protection":  2,
+                                                  "knockback":  0,
+                                                  "durability":  50
+                                              },
+                  "entertainer_garb_chestplate":  {
+                                                      "toughness":  0,
+                                                      "protection":  4,
+                                                      "knockback":  0,
+                                                      "durability":  75
+                                                  },
+                  "entertainer_garb_leggings":  {
+                                                    "toughness":  0,
+                                                    "protection":  3,
+                                                    "knockback":  0,
+                                                    "durability":  70
+                                                },
+                  "entertainer_garb_boots":  {
+                                                 "toughness":  0,
+                                                 "protection":  2,
+                                                 "knockback":  0,
+                                                 "durability":  60
+                                             },
+                  "verdant_robe_helmet":  {
+                                              "toughness":  0,
+                                              "protection":  1,
+                                              "knockback":  0,
+                                              "durability":  50
+                                          },
+                  "verdant_robe_chestplate":  {
+                                                  "toughness":  0,
+                                                  "protection":  3,
+                                                  "knockback":  0,
+                                                  "durability":  75
+                                              },
+                  "verdant_robe_leggings":  {
+                                                "toughness":  0,
+                                                "protection":  3,
+                                                "knockback":  0,
+                                                "durability":  70
+                                            },
+                  "verdant_robe_boots":  {
+                                             "toughness":  0,
+                                             "protection":  1,
+                                             "knockback":  0,
+                                             "durability":  60
+                                         },
+                  "battle_robe_helmet":  {
+                                             "toughness":  0,
+                                             "protection":  1,
+                                             "knockback":  0,
+                                             "durability":  50
+                                         },
+                  "battle_robe_chestplate":  {
+                                                 "toughness":  0,
+                                                 "protection":  3,
+                                                 "knockback":  0,
+                                                 "durability":  75
+                                             },
+                  "battle_robe_leggings":  {
+                                               "toughness":  0,
+                                               "protection":  2,
+                                               "knockback":  0,
+                                               "durability":  70
+                                           },
+                  "battle_robe_boots":  {
+                                            "toughness":  0,
+                                            "protection":  1,
+                                            "knockback":  0,
+                                            "durability":  60
+                                        },
+                  "shulker_armor_helmet":  {
+                                               "toughness":  1,
+                                               "protection":  3,
+                                               "knockback":  0,
+                                               "durability":  360
+                                           },
+                  "shulker_armor_chestplate":  {
+                                                   "toughness":  1,
+                                                   "protection":  7,
+                                                   "knockback":  0,
+                                                   "durability":  540
+                                               },
+                  "shulker_armor_leggings":  {
+                                                 "toughness":  1,
+                                                 "protection":  5,
+                                                 "knockback":  0,
+                                                 "durability":  504
+                                             },
+                  "shulker_armor_boots":  {
+                                              "toughness":  1,
+                                              "protection":  3,
+                                              "knockback":  0,
+                                              "durability":  432
+                                          },
+                  "piglin_armor_helmet":  {
+                                              "toughness":  0,
+                                              "protection":  2,
+                                              "knockback":  0,
+                                              "durability":  50
+                                          },
+                  "piglin_armor_chestplate":  {
+                                                  "toughness":  0,
+                                                  "protection":  4,
+                                                  "knockback":  0,
+                                                  "durability":  75
+                                              },
+                  "piglin_armor_leggings":  {
+                                                "toughness":  0,
+                                                "protection":  2,
+                                                "knockback":  0,
+                                                "durability":  70
+                                            },
+                  "piglin_armor_boots":  {
+                                             "toughness":  0,
+                                             "protection":  2,
+                                             "knockback":  0,
+                                             "durability":  60
+                                         },
+                  "cauldron_armor_helmet":  {
+                                                "toughness":  2,
+                                                "protection":  4,
+                                                "knockback":  0,
+                                                "durability":  360
+                                            },
+                  "cauldron_armor_chestplate":  {
+                                                    "toughness":  2,
+                                                    "protection":  9,
+                                                    "knockback":  0,
+                                                    "durability":  540
+                                                },
+                  "cauldron_armor_leggings":  {
+                                                  "toughness":  2,
+                                                  "protection":  7,
+                                                  "knockback":  0,
+                                                  "durability":  504
+                                              },
+                  "cauldron_armor_boots":  {
+                                               "toughness":  2,
+                                               "protection":  4,
+                                               "knockback":  0,
+                                               "durability":  432
+                                           },
+                  "black_wolf_armor_helmet":  {
+                                                  "toughness":  0,
+                                                  "protection":  2,
+                                                  "knockback":  0,
+                                                  "durability":  150
+                                              },
+                  "black_wolf_armor_chestplate":  {
+                                                      "toughness":  0,
+                                                      "protection":  6,
+                                                      "knockback":  0,
+                                                      "durability":  225
+                                                  },
+                  "black_wolf_armor_leggings":  {
+                                                    "toughness":  0,
+                                                    "protection":  5,
+                                                    "knockback":  0,
+                                                    "durability":  210
+                                                },
+                  "black_wolf_armor_boots":  {
+                                                 "toughness":  0,
+                                                 "protection":  2,
+                                                 "knockback":  0,
+                                                 "durability":  180
+                                             },
+                  "frost_armor_helmet":  {
+                                             "toughness":  2,
+                                             "protection":  3,
+                                             "knockback":  0,
+                                             "durability":  300
+                                         },
+                  "frost_armor_chestplate":  {
+                                                 "toughness":  2,
+                                                 "protection":  7,
+                                                 "knockback":  0,
+                                                 "durability":  450
+                                             },
+                  "frost_armor_leggings":  {
+                                               "toughness":  2,
+                                               "protection":  5,
+                                               "knockback":  0,
+                                               "durability":  420
+                                           },
+                  "frost_armor_boots":  {
+                                            "toughness":  2,
+                                            "protection":  3,
+                                            "knockback":  0,
+                                            "durability":  360
+                                        },
+                  "wolf_armor_helmet":  {
+                                            "toughness":  0,
+                                            "protection":  2,
+                                            "knockback":  0,
+                                            "durability":  150
+                                        },
+                  "wolf_armor_chestplate":  {
+                                                "toughness":  0,
+                                                "protection":  5,
+                                                "knockback":  0,
+                                                "durability":  225
+                                            },
+                  "wolf_armor_leggings":  {
+                                              "toughness":  0,
+                                              "protection":  4,
+                                              "knockback":  0,
+                                              "durability":  210
+                                          },
+                  "wolf_armor_boots":  {
+                                           "toughness":  0,
+                                           "protection":  2,
+                                           "knockback":  0,
+                                           "durability":  180
+                                       },
+                  "full_metal_armor_helmet":  {
+                                                  "toughness":  3,
+                                                  "protection":  4,
+                                                  "knockback":  0,
+                                                  "durability":  360
+                                              },
+                  "full_metal_armor_chestplate":  {
+                                                      "toughness":  3,
+                                                      "protection":  9,
+                                                      "knockback":  0,
+                                                      "durability":  540
+                                                  },
+                  "full_metal_armor_leggings":  {
+                                                    "toughness":  3,
+                                                    "protection":  7,
+                                                    "knockback":  0,
+                                                    "durability":  504
+                                                },
+                  "full_metal_armor_boots":  {
+                                                 "toughness":  3,
+                                                 "protection":  4,
+                                                 "knockback":  0,
+                                                 "durability":  432
+                                             },
+                  "plate_armor_helmet":  {
+                                             "toughness":  1.5,
+                                             "protection":  3,
+                                             "knockback":  0,
+                                             "durability":  360
+                                         },
+                  "plate_armor_chestplate":  {
+                                                 "toughness":  1.5,
+                                                 "protection":  8,
+                                                 "knockback":  0,
+                                                 "durability":  540
+                                             },
+                  "plate_armor_leggings":  {
+                                               "toughness":  1.5,
+                                               "protection":  6,
+                                               "knockback":  0,
+                                               "durability":  504
+                                           },
+                  "plate_armor_boots":  {
+                                            "toughness":  1.5,
+                                            "protection":  3,
+                                            "knockback":  0,
+                                            "durability":  432
+                                        },
+                  "highland_armor_helmet":  {
+                                                "toughness":  0,
+                                                "protection":  2,
+                                                "knockback":  0,
+                                                "durability":  140
+                                            },
+                  "highland_armor_chestplate":  {
+                                                    "toughness":  0,
+                                                    "protection":  6,
+                                                    "knockback":  0,
+                                                    "durability":  210
+                                                },
+                  "highland_armor_leggings":  {
+                                                  "toughness":  0,
+                                                  "protection":  5,
+                                                  "knockback":  0,
+                                                  "durability":  196
+                                              },
+                  "highland_armor_boots":  {
+                                               "toughness":  0,
+                                               "protection":  2,
+                                               "knockback":  0,
+                                               "durability":  168
+                                           },
+                  "green_mystery_armor_helmet":  {
+                                                     "toughness":  1.5,
+                                                     "protection":  3,
+                                                     "knockback":  0,
+                                                     "durability":  360
+                                                 },
+                  "green_mystery_armor_chestplate":  {
+                                                         "toughness":  1.5,
+                                                         "protection":  8,
+                                                         "knockback":  0,
+                                                         "durability":  540
+                                                     },
+                  "green_mystery_armor_leggings":  {
+                                                       "toughness":  1.5,
+                                                       "protection":  6,
+                                                       "knockback":  0,
+                                                       "durability":  504
+                                                   },
+                  "green_mystery_armor_boots":  {
+                                                    "toughness":  1.5,
+                                                    "protection":  3,
+                                                    "knockback":  0,
+                                                    "durability":  432
+                                                },
+                  "beenest_armor_helmet":  {
+                                               "toughness":  0,
+                                               "protection":  2,
+                                               "knockback":  0,
+                                               "durability":  140
+                                           },
+                  "beenest_armor_chestplate":  {
+                                                   "toughness":  0,
+                                                   "protection":  5,
+                                                   "knockback":  0,
+                                                   "durability":  210
+                                               },
+                  "beenest_armor_leggings":  {
+                                                 "toughness":  0,
+                                                 "protection":  4,
+                                                 "knockback":  0,
+                                                 "durability":  196
+                                             },
+                  "beenest_armor_boots":  {
+                                              "toughness":  0,
+                                              "protection":  2,
+                                              "knockback":  0,
+                                              "durability":  168
+                                          },
+                  "splendid_robe_helmet":  {
+                                               "toughness":  0,
+                                               "protection":  2,
+                                               "knockback":  0,
+                                               "durability":  50
+                                           },
+                  "splendid_robe_chestplate":  {
+                                                   "toughness":  0,
+                                                   "protection":  3,
+                                                   "knockback":  0,
+                                                   "durability":  75
+                                               },
+                  "splendid_robe_leggings":  {
+                                                 "toughness":  0,
+                                                 "protection":  2,
+                                                 "knockback":  0,
+                                                 "durability":  70
+                                             },
+                  "splendid_robe_boots":  {
+                                              "toughness":  0,
+                                              "protection":  2,
+                                              "knockback":  0,
+                                              "durability":  60
+                                          },
+                  "scale_mail_helmet":  {
+                                            "toughness":  0,
+                                            "protection":  2,
+                                            "knockback":  0,
+                                            "durability":  140
+                                        },
+                  "scale_mail_chestplate":  {
+                                                "toughness":  0,
+                                                "protection":  5,
+                                                "knockback":  0,
+                                                "durability":  210
+                                            },
+                  "scale_mail_leggings":  {
+                                              "toughness":  0,
+                                              "protection":  4,
+                                              "knockback":  0,
+                                              "durability":  196
+                                          },
+                  "scale_mail_boots":  {
+                                           "toughness":  0,
+                                           "protection":  2,
+                                           "knockback":  0,
+                                           "durability":  168
+                                       },
+                  "wither_armor_helmet":  {
+                                              "toughness":  0,
+                                              "protection":  3,
+                                              "knockback":  0,
+                                              "durability":  250
+                                          },
+                  "wither_armor_chestplate":  {
+                                                  "toughness":  0,
+                                                  "protection":  7,
+                                                  "knockback":  0,
+                                                  "durability":  375
+                                              },
+                  "wither_armor_leggings":  {
+                                                "toughness":  0,
+                                                "protection":  5,
+                                                "knockback":  0,
+                                                "durability":  350
+                                            },
+                  "wither_armor_boots":  {
+                                             "toughness":  0,
+                                             "protection":  3,
+                                             "knockback":  0,
+                                             "durability":  300
+                                         },
+                  "titans_shroud_helmet":  {
+                                               "toughness":  2,
+                                               "protection":  3,
+                                               "knockback":  0,
+                                               "durability":  360
+                                           },
+                  "titans_shroud_chestplate":  {
+                                                   "toughness":  2,
+                                                   "protection":  8,
+                                                   "knockback":  0,
+                                                   "durability":  540
+                                               },
+                  "titans_shroud_leggings":  {
+                                                 "toughness":  2,
+                                                 "protection":  6,
+                                                 "knockback":  0,
+                                                 "durability":  504
+                                             },
+                  "titans_shroud_boots":  {
+                                              "toughness":  2,
+                                              "protection":  3,
+                                              "knockback":  0,
+                                              "durability":  432
+                                          },
+                  "snow_armor_helmet":  {
+                                            "toughness":  2,
+                                            "protection":  3,
+                                            "knockback":  0,
+                                            "durability":  300
+                                        },
+                  "snow_armor_chestplate":  {
+                                                "toughness":  2,
+                                                "protection":  7,
+                                                "knockback":  0,
+                                                "durability":  450
+                                            },
+                  "snow_armor_leggings":  {
+                                              "toughness":  2,
+                                              "protection":  5,
+                                              "knockback":  0,
+                                              "durability":  420
+                                          },
+                  "snow_armor_boots":  {
+                                           "toughness":  2,
+                                           "protection":  3,
+                                           "knockback":  0,
+                                           "durability":  360
+                                       },
+                  "spelunker_armor_helmet":  {
+                                                 "toughness":  0,
+                                                 "protection":  2,
+                                                 "knockback":  0,
+                                                 "durability":  150
+                                             },
+                  "spelunker_armor_chestplate":  {
+                                                     "toughness":  0,
+                                                     "protection":  6,
+                                                     "knockback":  0,
+                                                     "durability":  225
+                                                 },
+                  "spelunker_armor_leggings":  {
+                                                   "toughness":  0,
+                                                   "protection":  4,
+                                                   "knockback":  0,
+                                                   "durability":  210
+                                               },
+                  "spelunker_armor_boots":  {
+                                                "toughness":  0,
+                                                "protection":  2,
+                                                "knockback":  0,
+                                                "durability":  180
+                                            },
+                  "beehive_armor_helmet":  {
+                                               "toughness":  0,
+                                               "protection":  2,
+                                               "knockback":  0,
+                                               "durability":  140
+                                           },
+                  "beehive_armor_chestplate":  {
+                                                   "toughness":  0,
+                                                   "protection":  6,
+                                                   "knockback":  0,
+                                                   "durability":  210
+                                               },
+                  "beehive_armor_leggings":  {
+                                                 "toughness":  0,
+                                                 "protection":  5,
+                                                 "knockback":  0,
+                                                 "durability":  196
+                                             },
+                  "beehive_armor_boots":  {
+                                              "toughness":  0,
+                                              "protection":  2,
+                                              "knockback":  0,
+                                              "durability":  168
+                                          },
+                  "nimble_turtle_armor_helmet":  {
+                                                     "toughness":  0,
+                                                     "protection":  3,
+                                                     "knockback":  0,
+                                                     "durability":  250
+                                                 },
+                  "nimble_turtle_armor_chestplate":  {
+                                                         "toughness":  0,
+                                                         "protection":  7,
+                                                         "knockback":  0,
+                                                         "durability":  375
+                                                     },
+                  "nimble_turtle_armor_leggings":  {
+                                                       "toughness":  0,
+                                                       "protection":  5,
+                                                       "knockback":  0,
+                                                       "durability":  350
+                                                   },
+                  "nimble_turtle_armor_boots":  {
+                                                    "toughness":  0,
+                                                    "protection":  3,
+                                                    "knockback":  0,
+                                                    "durability":  300
+                                                },
+                  "glow_squid_armor_helmet":  {
+                                                  "toughness":  0,
+                                                  "protection":  2,
+                                                  "knockback":  0,
+                                                  "durability":  150
+                                              },
+                  "glow_squid_armor_chestplate":  {
+                                                      "toughness":  0,
+                                                      "protection":  6,
+                                                      "knockback":  0,
+                                                      "durability":  225
+                                                  },
+                  "glow_squid_armor_leggings":  {
+                                                    "toughness":  0,
+                                                    "protection":  4,
+                                                    "knockback":  0,
+                                                    "durability":  210
+                                                },
+                  "glow_squid_armor_boots":  {
+                                                 "toughness":  0,
+                                                 "protection":  2,
+                                                 "knockback":  0,
+                                                 "durability":  180
+                                             },
+                  "royal_guard_armor_helmet":  {
+                                                   "toughness":  1.5,
+                                                   "protection":  3,
+                                                   "knockback":  0,
+                                                   "durability":  360
+                                               },
+                  "royal_guard_armor_chestplate":  {
+                                                       "toughness":  1.5,
+                                                       "protection":  8,
+                                                       "knockback":  0,
+                                                       "durability":  540
+                                                   },
+                  "royal_guard_armor_leggings":  {
+                                                     "toughness":  1.5,
+                                                     "protection":  6,
+                                                     "knockback":  0,
+                                                     "durability":  504
+                                                 },
+                  "royal_guard_armor_boots":  {
+                                                  "toughness":  1.5,
+                                                  "protection":  3,
+                                                  "knockback":  0,
+                                                  "durability":  432
+                                              },
+                  "goat_gear_helmet":  {
+                                           "toughness":  0,
+                                           "protection":  2,
+                                           "knockback":  0.2,
+                                           "durability":  150
+                                       },
+                  "goat_gear_chestplate":  {
+                                               "toughness":  0,
+                                               "protection":  6,
+                                               "knockback":  0.2,
+                                               "durability":  225
+                                           },
+                  "goat_gear_leggings":  {
+                                             "toughness":  0,
+                                             "protection":  5,
+                                             "knockback":  0.2,
+                                             "durability":  210
+                                         },
+                  "goat_gear_boots":  {
+                                          "toughness":  0,
+                                          "protection":  2,
+                                          "knockback":  0.2,
+                                          "durability":  180
+                                      },
+                  "troubadour_armor_helmet":  {
+                                                  "toughness":  0,
+                                                  "protection":  3,
+                                                  "knockback":  0,
+                                                  "durability":  50
+                                              },
+                  "troubadour_armor_chestplate":  {
+                                                      "toughness":  0,
+                                                      "protection":  5,
+                                                      "knockback":  0,
+                                                      "durability":  75
+                                                  },
+                  "troubadour_armor_leggings":  {
+                                                    "toughness":  0,
+                                                    "protection":  4,
+                                                    "knockback":  0,
+                                                    "durability":  70
+                                                },
+                  "troubadour_armor_boots":  {
+                                                 "toughness":  0,
+                                                 "protection":  3,
+                                                 "knockback":  0,
+                                                 "durability":  60
+                                             },
+                  "reinforced_mail_helmet":  {
+                                                 "toughness":  1,
+                                                 "protection":  3,
+                                                 "knockback":  0,
+                                                 "durability":  300
+                                             },
+                  "reinforced_mail_chestplate":  {
+                                                     "toughness":  1,
+                                                     "protection":  6,
+                                                     "knockback":  0,
+                                                     "durability":  450
+                                                 },
+                  "reinforced_mail_leggings":  {
+                                                   "toughness":  1,
+                                                   "protection":  5,
+                                                   "knockback":  0,
+                                                   "durability":  420
+                                               },
+                  "reinforced_mail_boots":  {
+                                                "toughness":  1,
+                                                "protection":  3,
+                                                "knockback":  0,
+                                                "durability":  360
+                                            },
+                  "opulent_armor_helmet":  {
+                                               "toughness":  2,
+                                               "protection":  4,
+                                               "knockback":  0,
+                                               "durability":  300
+                                           },
+                  "opulent_armor_chestplate":  {
+                                                   "toughness":  2,
+                                                   "protection":  7,
+                                                   "knockback":  0,
+                                                   "durability":  450
+                                               },
+                  "opulent_armor_leggings":  {
+                                                 "toughness":  2,
+                                                 "protection":  5,
+                                                 "knockback":  0,
+                                                 "durability":  420
+                                             },
+                  "opulent_armor_boots":  {
+                                              "toughness":  2,
+                                              "protection":  4,
+                                              "knockback":  0,
+                                              "durability":  360
+                                          },
+                  "mercenary_armor_helmet":  {
+                                                 "toughness":  1.5,
+                                                 "protection":  3,
+                                                 "knockback":  0,
+                                                 "durability":  300
+                                             },
+                  "mercenary_armor_chestplate":  {
+                                                     "toughness":  1.5,
+                                                     "protection":  6,
+                                                     "knockback":  0,
+                                                     "durability":  450
+                                                 },
+                  "mercenary_armor_leggings":  {
+                                                   "toughness":  1.5,
+                                                   "protection":  5,
+                                                   "knockback":  0,
+                                                   "durability":  420
+                                               },
+                  "mercenary_armor_boots":  {
+                                                "toughness":  1.5,
+                                                "protection":  3,
+                                                "knockback":  0,
+                                                "durability":  360
+                                            },
+                  "grim_armor_helmet":  {
+                                            "toughness":  0,
+                                            "protection":  2,
+                                            "knockback":  0,
+                                            "durability":  250
+                                        },
+                  "grim_armor_chestplate":  {
+                                                "toughness":  0,
+                                                "protection":  6,
+                                                "knockback":  0,
+                                                "durability":  375
+                                            },
+                  "grim_armor_leggings":  {
+                                              "toughness":  0,
+                                              "protection":  4,
+                                              "knockback":  0,
+                                              "durability":  350
+                                          },
+                  "grim_armor_boots":  {
+                                           "toughness":  0,
+                                           "protection":  2,
+                                           "knockback":  0,
+                                           "durability":  300
+                                       },
+                  "squid_armor_helmet":  {
+                                             "toughness":  0,
+                                             "protection":  1,
+                                             "knockback":  0,
+                                             "durability":  150
+                                         },
+                  "squid_armor_chestplate":  {
+                                                 "toughness":  0,
+                                                 "protection":  5,
+                                                 "knockback":  0,
+                                                 "durability":  225
+                                             },
+                  "squid_armor_leggings":  {
+                                               "toughness":  0,
+                                               "protection":  3,
+                                               "knockback":  0,
+                                               "durability":  210
+                                           },
+                  "squid_armor_boots":  {
+                                            "toughness":  0,
+                                            "protection":  1,
+                                            "knockback":  0,
+                                            "durability":  180
+                                        },
+                  "heros_armor_helmet":  {
+                                             "toughness":  2,
+                                             "protection":  4,
+                                             "knockback":  0,
+                                             "durability":  360
+                                         },
+                  "heros_armor_chestplate":  {
+                                                 "toughness":  2,
+                                                 "protection":  9,
+                                                 "knockback":  0,
+                                                 "durability":  540
+                                             },
+                  "heros_armor_leggings":  {
+                                               "toughness":  2,
+                                               "protection":  7,
+                                               "knockback":  0,
+                                               "durability":  504
+                                           },
+                  "heros_armor_boots":  {
+                                            "toughness":  2,
+                                            "protection":  4,
+                                            "knockback":  0,
+                                            "durability":  432
+                                        },
+                  "champions_armor_helmet":  {
+                                                 "toughness":  1,
+                                                 "protection":  3,
+                                                 "knockback":  0,
+                                                 "durability":  360
+                                             },
+                  "champions_armor_chestplate":  {
+                                                     "toughness":  1,
+                                                     "protection":  8,
+                                                     "knockback":  0,
+                                                     "durability":  540
+                                                 },
+                  "champions_armor_leggings":  {
+                                                   "toughness":  1,
+                                                   "protection":  6,
+                                                   "knockback":  0,
+                                                   "durability":  504
+                                               },
+                  "champions_armor_boots":  {
+                                                "toughness":  1,
+                                                "protection":  3,
+                                                "knockback":  0,
+                                                "durability":  432
+                                            },
+                  "evocation_robe_helmet":  {
+                                                "toughness":  0,
+                                                "protection":  1,
+                                                "knockback":  0,
+                                                "durability":  50
+                                            },
+                  "evocation_robe_chestplate":  {
+                                                    "toughness":  0,
+                                                    "protection":  3,
+                                                    "knockback":  0,
+                                                    "durability":  75
+                                                },
+                  "evocation_robe_leggings":  {
+                                                  "toughness":  0,
+                                                  "protection":  3,
+                                                  "knockback":  0,
+                                                  "durability":  70
+                                              },
+                  "evocation_robe_boots":  {
+                                               "toughness":  0,
+                                               "protection":  1,
+                                               "knockback":  0,
+                                               "durability":  60
+                                           },
+                  "rugged_climbing_gear_helmet":  {
+                                                      "toughness":  0,
+                                                      "protection":  2,
+                                                      "knockback":  0,
+                                                      "durability":  150
+                                                  },
+                  "rugged_climbing_gear_chestplate":  {
+                                                          "toughness":  0,
+                                                          "protection":  6,
+                                                          "knockback":  0,
+                                                          "durability":  225
+                                                      },
+                  "rugged_climbing_gear_leggings":  {
+                                                        "toughness":  0,
+                                                        "protection":  5,
+                                                        "knockback":  0,
+                                                        "durability":  210
+                                                    },
+                  "rugged_climbing_gear_boots":  {
+                                                     "toughness":  0,
+                                                     "protection":  2,
+                                                     "knockback":  0,
+                                                     "durability":  180
+                                                 },
+                  "ocelot_armor_helmet":  {
+                                              "toughness":  0,
+                                              "protection":  1,
+                                              "knockback":  0,
+                                              "durability":  150
+                                          },
+                  "ocelot_armor_chestplate":  {
+                                                  "toughness":  0,
+                                                  "protection":  5,
+                                                  "knockback":  0,
+                                                  "durability":  225
+                                              },
+                  "ocelot_armor_leggings":  {
+                                                "toughness":  0,
+                                                "protection":  3,
+                                                "knockback":  0,
+                                                "durability":  210
+                                            },
+                  "ocelot_armor_boots":  {
+                                             "toughness":  0,
+                                             "protection":  1,
+                                             "knockback":  0,
+                                             "durability":  180
+                                         },
+                  "ember_robe_helmet":  {
+                                            "toughness":  0,
+                                            "protection":  1,
+                                            "knockback":  0,
+                                            "durability":  50
+                                        },
+                  "ember_robe_chestplate":  {
+                                                "toughness":  0,
+                                                "protection":  3,
+                                                "knockback":  0,
+                                                "durability":  75
+                                            },
+                  "ember_robe_leggings":  {
+                                              "toughness":  0,
+                                              "protection":  3,
+                                              "knockback":  0,
+                                              "durability":  70
+                                          },
+                  "ember_robe_boots":  {
+                                           "toughness":  0,
+                                           "protection":  1,
+                                           "knockback":  0,
+                                           "durability":  60
+                                       },
+                  "teleportation_robe_helmet":  {
+                                                    "toughness":  0,
+                                                    "protection":  2,
+                                                    "knockback":  0,
+                                                    "durability":  50
+                                                },
+                  "teleportation_robe_chestplate":  {
+                                                        "toughness":  0,
+                                                        "protection":  4,
+                                                        "knockback":  0,
+                                                        "durability":  75
+                                                    },
+                  "teleportation_robe_leggings":  {
+                                                      "toughness":  0,
+                                                      "protection":  3,
+                                                      "knockback":  0,
+                                                      "durability":  70
+                                                  },
+                  "teleportation_robe_boots":  {
+                                                   "toughness":  0,
+                                                   "protection":  2,
+                                                   "knockback":  0,
+                                                   "durability":  60
+                                               },
+                  "blue_mystery_armor_helmet":  {
+                                                    "toughness":  1.5,
+                                                    "protection":  3,
+                                                    "knockback":  0,
+                                                    "durability":  360
+                                                },
+                  "blue_mystery_armor_chestplate":  {
+                                                        "toughness":  1.5,
+                                                        "protection":  8,
+                                                        "knockback":  0,
+                                                        "durability":  540
+                                                    },
+                  "blue_mystery_armor_leggings":  {
+                                                      "toughness":  1.5,
+                                                      "protection":  6,
+                                                      "knockback":  0,
+                                                      "durability":  504
+                                                  },
+                  "blue_mystery_armor_boots":  {
+                                                   "toughness":  1.5,
+                                                   "protection":  3,
+                                                   "knockback":  0,
+                                                   "durability":  432
+                                               },
+                  "sweet_tooth_helmet":  {
+                                             "toughness":  0,
+                                             "protection":  2,
+                                             "knockback":  0,
+                                             "durability":  140
+                                         },
+                  "sweet_tooth_chestplate":  {
+                                                 "toughness":  0,
+                                                 "protection":  6,
+                                                 "knockback":  0,
+                                                 "durability":  210
+                                             },
+                  "sweet_tooth_leggings":  {
+                                               "toughness":  0,
+                                               "protection":  5,
+                                               "knockback":  0,
+                                               "durability":  196
+                                           },
+                  "sweet_tooth_boots":  {
+                                            "toughness":  0,
+                                            "protection":  2,
+                                            "knockback":  0,
+                                            "durability":  168
+                                        },
+                  "ghost_kindler_helmet":  {
+                                               "toughness":  0,
+                                               "protection":  2,
+                                               "knockback":  0,
+                                               "durability":  140
+                                           },
+                  "ghost_kindler_chestplate":  {
+                                                   "toughness":  0,
+                                                   "protection":  6,
+                                                   "knockback":  0,
+                                                   "durability":  210
+                                               },
+                  "ghost_kindler_leggings":  {
+                                                 "toughness":  0,
+                                                 "protection":  5,
+                                                 "knockback":  0,
+                                                 "durability":  196
+                                             },
+                  "ghost_kindler_boots":  {
+                                              "toughness":  0,
+                                              "protection":  2,
+                                              "knockback":  0,
+                                              "durability":  168
+                                          },
+                  "vanguard_armor_helmet":  {
+                                                "toughness":  0,
+                                                "protection":  2,
+                                                "knockback":  0,
+                                                "durability":  140
+                                            },
+                  "vanguard_armor_chestplate":  {
+                                                    "toughness":  0,
+                                                    "protection":  5,
+                                                    "knockback":  0,
+                                                    "durability":  210
+                                                },
+                  "vanguard_armor_leggings":  {
+                                                  "toughness":  0,
+                                                  "protection":  4,
+                                                  "knockback":  0,
+                                                  "durability":  196
+                                              },
+                  "vanguard_armor_boots":  {
+                                               "toughness":  0,
+                                               "protection":  2,
+                                               "knockback":  0,
+                                               "durability":  168
+                                           },
+                  "cave_crawler_helmet":  {
+                                              "toughness":  0,
+                                              "protection":  2,
+                                              "knockback":  0,
+                                              "durability":  150
+                                          },
+                  "cave_crawler_chestplate":  {
+                                                  "toughness":  0,
+                                                  "protection":  6,
+                                                  "knockback":  0,
+                                                  "durability":  225
+                                              },
+                  "cave_crawler_leggings":  {
+                                                "toughness":  0,
+                                                "protection":  5,
+                                                "knockback":  0,
+                                                "durability":  210
+                                            },
+                  "cave_crawler_boots":  {
+                                             "toughness":  0,
+                                             "protection":  2,
+                                             "knockback":  0,
+                                             "durability":  180
+                                         },
+                  "souldancer_robe_helmet":  {
+                                                 "toughness":  2,
+                                                 "protection":  2,
+                                                 "knockback":  0,
+                                                 "durability":  50
+                                             },
+                  "souldancer_robe_chestplate":  {
+                                                     "toughness":  2,
+                                                     "protection":  6,
+                                                     "knockback":  0,
+                                                     "durability":  75
+                                                 },
+                  "souldancer_robe_leggings":  {
+                                                   "toughness":  2,
+                                                   "protection":  5,
+                                                   "knockback":  0,
+                                                   "durability":  70
+                                               },
+                  "souldancer_robe_boots":  {
+                                                "toughness":  2,
+                                                "protection":  2,
+                                                "knockback":  0,
+                                                "durability":  60
+                                            },
+                  "soul_robe_helmet":  {
+                                           "toughness":  2,
+                                           "protection":  1,
+                                           "knockback":  0,
+                                           "durability":  50
+                                       },
+                  "soul_robe_chestplate":  {
+                                               "toughness":  2,
+                                               "protection":  6,
+                                               "knockback":  0,
+                                               "durability":  75
+                                           },
+                  "soul_robe_leggings":  {
+                                             "toughness":  2,
+                                             "protection":  5,
+                                             "knockback":  0,
+                                             "durability":  70
+                                         },
+                  "soul_robe_boots":  {
+                                          "toughness":  2,
+                                          "protection":  1,
+                                          "knockback":  0,
+                                          "durability":  60
+                                      },
+                  "archers_helmet":  {
+                                         "toughness":  0,
+                                         "protection":  2,
+                                         "knockback":  0,
+                                         "durability":  150
+                                     },
+                  "archers_chestplate":  {
+                                             "toughness":  0,
+                                             "protection":  6,
+                                             "knockback":  0,
+                                             "durability":  225
+                                         },
+                  "archers_leggings":  {
+                                           "toughness":  0,
+                                           "protection":  4,
+                                           "knockback":  0,
+                                           "durability":  210
+                                       },
+                  "archers_boots":  {
+                                        "toughness":  0,
+                                        "protection":  2,
+                                        "knockback":  0,
+                                        "durability":  180
+                                    },
+                  "sturdy_shulker_armor_helmet":  {
+                                                      "toughness":  3,
+                                                      "protection":  3,
+                                                      "knockback":  0.2,
+                                                      "durability":  360
+                                                  },
+                  "sturdy_shulker_armor_chestplate":  {
+                                                          "toughness":  3,
+                                                          "protection":  8,
+                                                          "knockback":  0.2,
+                                                          "durability":  540
+                                                      },
+                  "sturdy_shulker_armor_leggings":  {
+                                                        "toughness":  3,
+                                                        "protection":  6,
+                                                        "knockback":  0.2,
+                                                        "durability":  504
+                                                    },
+                  "sturdy_shulker_armor_boots":  {
+                                                     "toughness":  3,
+                                                     "protection":  3,
+                                                     "knockback":  0.2,
+                                                     "durability":  432
+                                                 },
+                  "golden_piglin_armor_helmet":  {
+                                                     "toughness":  0,
+                                                     "protection":  2,
+                                                     "knockback":  0,
+                                                     "durability":  140
+                                                 },
+                  "golden_piglin_armor_chestplate":  {
+                                                         "toughness":  0,
+                                                         "protection":  6,
+                                                         "knockback":  0,
+                                                         "durability":  210
+                                                     },
+                  "golden_piglin_armor_leggings":  {
+                                                       "toughness":  0,
+                                                       "protection":  5,
+                                                       "knockback":  0,
+                                                       "durability":  196
+                                                   },
+                  "golden_piglin_armor_boots":  {
+                                                    "toughness":  0,
+                                                    "protection":  2,
+                                                    "knockback":  0,
+                                                    "durability":  168
+                                                },
+                  "hunters_helmet":  {
+                                         "toughness":  0,
+                                         "protection":  1,
+                                         "knockback":  0,
+                                         "durability":  150
+                                     },
+                  "hunters_chestplate":  {
+                                             "toughness":  0,
+                                             "protection":  3,
+                                             "knockback":  0,
+                                             "durability":  225
+                                         },
+                  "hunters_leggings":  {
+                                           "toughness":  0,
+                                           "protection":  2,
+                                           "knockback":  0,
+                                           "durability":  210
+                                       },
+                  "hunters_boots":  {
+                                        "toughness":  0,
+                                        "protection":  1,
+                                        "knockback":  0,
+                                        "durability":  180
+                                    },
+                  "shadow_walker_armor_helmet":  {
+                                                     "toughness":  0,
+                                                     "protection":  2,
+                                                     "knockback":  0,
+                                                     "durability":  150
+                                                 },
+                  "shadow_walker_armor_chestplate":  {
+                                                         "toughness":  0,
+                                                         "protection":  6,
+                                                         "knockback":  0,
+                                                         "durability":  225
+                                                     },
+                  "shadow_walker_armor_leggings":  {
+                                                       "toughness":  0,
+                                                       "protection":  4,
+                                                       "knockback":  0,
+                                                       "durability":  210
+                                                   },
+                  "shadow_walker_armor_boots":  {
+                                                    "toughness":  0,
+                                                    "protection":  2,
+                                                    "knockback":  0,
+                                                    "durability":  180
+                                                },
+                  "purple_mystery_armor_helmet":  {
+                                                      "toughness":  1.5,
+                                                      "protection":  3,
+                                                      "knockback":  0,
+                                                      "durability":  360
+                                                  },
+                  "purple_mystery_armor_chestplate":  {
+                                                          "toughness":  1.5,
+                                                          "protection":  8,
+                                                          "knockback":  0,
+                                                          "durability":  540
+                                                      },
+                  "purple_mystery_armor_leggings":  {
+                                                        "toughness":  1.5,
+                                                        "protection":  6,
+                                                        "knockback":  0,
+                                                        "durability":  504
+                                                    },
+                  "purple_mystery_armor_boots":  {
+                                                     "toughness":  1.5,
+                                                     "protection":  3,
+                                                     "knockback":  0,
+                                                     "durability":  432
+                                                 },
+                  "emerald_gear_helmet":  {
+                                              "toughness":  2,
+                                              "protection":  3,
+                                              "knockback":  0,
+                                              "durability":  300
+                                          },
+                  "emerald_gear_chestplate":  {
+                                                  "toughness":  2,
+                                                  "protection":  7,
+                                                  "knockback":  0,
+                                                  "durability":  450
+                                              },
+                  "emerald_gear_leggings":  {
+                                                "toughness":  2,
+                                                "protection":  5,
+                                                "knockback":  0,
+                                                "durability":  420
+                                            },
+                  "emerald_gear_boots":  {
+                                             "toughness":  2,
+                                             "protection":  3,
+                                             "knockback":  0,
+                                             "durability":  360
+                                         },
+                  "turtle_armor_helmet":  {
+                                              "toughness":  0,
+                                              "protection":  2,
+                                              "knockback":  0,
+                                              "durability":  250
+                                          },
+                  "turtle_armor_chestplate":  {
+                                                  "toughness":  0,
+                                                  "protection":  6,
+                                                  "knockback":  0,
+                                                  "durability":  375
+                                              },
+                  "turtle_armor_leggings":  {
+                                                "toughness":  0,
+                                                "protection":  4,
+                                                "knockback":  0,
+                                                "durability":  350
+                                            },
+                  "turtle_armor_boots":  {
+                                             "toughness":  0,
+                                             "protection":  2,
+                                             "knockback":  0,
+                                             "durability":  300
+                                         },
+                  "dark_armor_helmet":  {
+                                            "toughness":  1,
+                                            "protection":  3,
+                                            "knockback":  0,
+                                            "durability":  360
+                                        },
+                  "dark_armor_chestplate":  {
+                                                "toughness":  1,
+                                                "protection":  8,
+                                                "knockback":  0,
+                                                "durability":  540
+                                            },
+                  "dark_armor_leggings":  {
+                                              "toughness":  1,
+                                              "protection":  6,
+                                              "knockback":  0,
+                                              "durability":  504
+                                          },
+                  "dark_armor_boots":  {
+                                           "toughness":  1,
+                                           "protection":  3,
+                                           "knockback":  0,
+                                           "durability":  432
+                                       },
+                  "gourdian_armor_helmet":  {
+                                                "toughness":  0,
+                                                "protection":  3,
+                                                "knockback":  0,
+                                                "durability":  250
+                                            },
+                  "gourdian_armor_chestplate":  {
+                                                    "toughness":  0,
+                                                    "protection":  7,
+                                                    "knockback":  0,
+                                                    "durability":  375
+                                                },
+                  "gourdian_armor_leggings":  {
+                                                  "toughness":  0,
+                                                  "protection":  5,
+                                                  "knockback":  0,
+                                                  "durability":  350
+                                              },
+                  "gourdian_armor_boots":  {
+                                               "toughness":  0,
+                                               "protection":  3,
+                                               "knockback":  0,
+                                               "durability":  300
+                                           },
+                  "spider_armor_helmet":  {
+                                              "toughness":  0,
+                                              "protection":  2,
+                                              "knockback":  0,
+                                              "durability":  50
+                                          },
+                  "spider_armor_chestplate":  {
+                                                  "toughness":  0,
+                                                  "protection":  5,
+                                                  "knockback":  0,
+                                                  "durability":  75
+                                              },
+                  "spider_armor_leggings":  {
+                                                "toughness":  0,
+                                                "protection":  4,
+                                                "knockback":  0,
+                                                "durability":  70
+                                            },
+                  "spider_armor_boots":  {
+                                             "toughness":  0,
+                                             "protection":  2,
+                                             "knockback":  0,
+                                             "durability":  60
+                                         },
+                  "hungry_horror_helmet":  {
+                                               "toughness":  2,
+                                               "protection":  3,
+                                               "knockback":  0,
+                                               "durability":  300
+                                           },
+                  "hungry_horror_chestplate":  {
+                                                   "toughness":  2,
+                                                   "protection":  7,
+                                                   "knockback":  0,
+                                                   "durability":  450
+                                               },
+                  "hungry_horror_leggings":  {
+                                                 "toughness":  2,
+                                                 "protection":  5,
+                                                 "knockback":  0,
+                                                 "durability":  420
+                                             },
+                  "hungry_horror_boots":  {
+                                              "toughness":  2,
+                                              "protection":  3,
+                                              "knockback":  0,
+                                              "durability":  360
+                                          },
+                  "living_vines_armor_helmet":  {
+                                                    "toughness":  0,
+                                                    "protection":  2,
+                                                    "knockback":  0,
+                                                    "durability":  50
+                                                },
+                  "living_vines_armor_chestplate":  {
+                                                        "toughness":  0,
+                                                        "protection":  3,
+                                                        "knockback":  0,
+                                                        "durability":  75
+                                                    },
+                  "living_vines_armor_leggings":  {
+                                                      "toughness":  0,
+                                                      "protection":  2,
+                                                      "knockback":  0,
+                                                      "durability":  70
+                                                  },
+                  "living_vines_armor_boots":  {
+                                                   "toughness":  0,
+                                                   "protection":  2,
+                                                   "knockback":  0,
+                                                   "durability":  60
+                                               },
+                  "thief_armor_helmet":  {
+                                             "toughness":  0,
+                                             "protection":  2,
+                                             "knockback":  0,
+                                             "durability":  50
+                                         },
+                  "thief_armor_chestplate":  {
+                                                 "toughness":  0,
+                                                 "protection":  5,
+                                                 "knockback":  0,
+                                                 "durability":  75
+                                             },
+                  "thief_armor_leggings":  {
+                                               "toughness":  0,
+                                               "protection":  4,
+                                               "knockback":  0,
+                                               "durability":  70
+                                           },
+                  "thief_armor_boots":  {
+                                            "toughness":  0,
+                                            "protection":  2,
+                                            "knockback":  0,
+                                            "durability":  60
+                                        },
+                  "phantom_armor_helmet":  {
+                                               "toughness":  0,
+                                               "protection":  2,
+                                               "knockback":  0,
+                                               "durability":  250
+                                           },
+                  "phantom_armor_chestplate":  {
+                                                   "toughness":  0,
+                                                   "protection":  6,
+                                                   "knockback":  0,
+                                                   "durability":  375
+                                               },
+                  "phantom_armor_leggings":  {
+                                                 "toughness":  0,
+                                                 "protection":  4,
+                                                 "knockback":  0,
+                                                 "durability":  350
+                                             },
+                  "phantom_armor_boots":  {
+                                              "toughness":  0,
+                                              "protection":  2,
+                                              "knockback":  0,
+                                              "durability":  300
+                                          },
+                  "red_mystery_armor_helmet":  {
+                                                   "toughness":  1.5,
+                                                   "protection":  3,
+                                                   "knockback":  0,
+                                                   "durability":  360
+                                               },
+                  "red_mystery_armor_chestplate":  {
+                                                       "toughness":  1.5,
+                                                       "protection":  8,
+                                                       "knockback":  0,
+                                                       "durability":  540
+                                                   },
+                  "red_mystery_armor_leggings":  {
+                                                     "toughness":  1.5,
+                                                     "protection":  6,
+                                                     "knockback":  0,
+                                                     "durability":  504
+                                                 },
+                  "red_mystery_armor_boots":  {
+                                                  "toughness":  1.5,
+                                                  "protection":  3,
+                                                  "knockback":  0,
+                                                  "durability":  432
+                                              },
+                  "climbing_gear_helmet":  {
+                                               "toughness":  0,
+                                               "protection":  1,
+                                               "knockback":  0,
+                                               "durability":  150
+                                           },
+                  "climbing_gear_chestplate":  {
+                                                   "toughness":  0,
+                                                   "protection":  6,
+                                                   "knockback":  0,
+                                                   "durability":  225
+                                               },
+                  "climbing_gear_leggings":  {
+                                                 "toughness":  0,
+                                                 "protection":  5,
+                                                 "knockback":  0,
+                                                 "durability":  210
+                                             },
+                  "climbing_gear_boots":  {
+                                              "toughness":  0,
+                                              "protection":  1,
+                                              "knockback":  0,
+                                              "durability":  180
+                                          },
+                  "frost_bite_armor_helmet":  {
+                                                  "toughness":  0,
+                                                  "protection":  3,
+                                                  "knockback":  0,
+                                                  "durability":  250
+                                              },
+                  "frost_bite_armor_chestplate":  {
+                                                      "toughness":  0,
+                                                      "protection":  7,
+                                                      "knockback":  0,
+                                                      "durability":  375
+                                                  },
+                  "frost_bite_armor_leggings":  {
+                                                    "toughness":  0,
+                                                    "protection":  5,
+                                                    "knockback":  0,
+                                                    "durability":  350
+                                                },
+                  "frost_bite_armor_boots":  {
+                                                 "toughness":  0,
+                                                 "protection":  3,
+                                                 "knockback":  0,
+                                                 "durability":  300
+                                             },
+                  "white_mystery_armor_helmet":  {
+                                                     "toughness":  1.5,
+                                                     "protection":  3,
+                                                     "knockback":  0,
+                                                     "durability":  360
+                                                 },
+                  "white_mystery_armor_chestplate":  {
+                                                         "toughness":  1.5,
+                                                         "protection":  8,
+                                                         "knockback":  0,
+                                                         "durability":  540
+                                                     },
+                  "white_mystery_armor_leggings":  {
+                                                       "toughness":  1.5,
+                                                       "protection":  6,
+                                                       "knockback":  0,
+                                                       "durability":  504
+                                                   },
+                  "white_mystery_armor_boots":  {
+                                                    "toughness":  1.5,
+                                                    "protection":  3,
+                                                    "knockback":  0,
+                                                    "durability":  432
+                                                },
+                  "guards_armor_helmet":  {
+                                              "toughness":  0,
+                                              "protection":  3,
+                                              "knockback":  0,
+                                              "durability":  300
+                                          },
+                  "guards_armor_chestplate":  {
+                                                  "toughness":  0,
+                                                  "protection":  7,
+                                                  "knockback":  0,
+                                                  "durability":  450
+                                              },
+                  "guards_armor_leggings":  {
+                                                "toughness":  0,
+                                                "protection":  5,
+                                                "knockback":  0,
+                                                "durability":  420
+                                            },
+                  "guards_armor_boots":  {
+                                             "toughness":  0,
+                                             "protection":  3,
+                                             "knockback":  0,
+                                             "durability":  360
+                                         },
+                  "unstable_robe_helmet":  {
+                                               "toughness":  0,
+                                               "protection":  3,
+                                               "knockback":  0,
+                                               "durability":  50
+                                           },
+                  "unstable_robe_chestplate":  {
+                                                   "toughness":  0,
+                                                   "protection":  5,
+                                                   "knockback":  0,
+                                                   "durability":  75
+                                               },
+                  "unstable_robe_leggings":  {
+                                                 "toughness":  0,
+                                                 "protection":  4,
+                                                 "knockback":  0,
+                                                 "durability":  70
+                                             },
+                  "unstable_robe_boots":  {
+                                              "toughness":  0,
+                                              "protection":  3,
+                                              "knockback":  0,
+                                              "durability":  60
+                                          },
+                  "renegade_armor_helmet":  {
+                                                "toughness":  1.75,
+                                                "protection":  3,
+                                                "knockback":  0,
+                                                "durability":  300
+                                            },
+                  "renegade_armor_chestplate":  {
+                                                    "toughness":  1.75,
+                                                    "protection":  6,
+                                                    "knockback":  0,
+                                                    "durability":  450
+                                                },
+                  "renegade_armor_leggings":  {
+                                                  "toughness":  1.75,
+                                                  "protection":  5,
+                                                  "knockback":  0,
+                                                  "durability":  420
+                                              },
+                  "renegade_armor_boots":  {
+                                               "toughness":  1.75,
+                                               "protection":  3,
+                                               "knockback":  0,
+                                               "durability":  360
+                                           },
+                  "curious_armor_helmet":  {
+                                               "toughness":  2,
+                                               "protection":  3,
+                                               "knockback":  0,
+                                               "durability":  300
+                                           },
+                  "curious_armor_chestplate":  {
+                                                   "toughness":  2,
+                                                   "protection":  7,
+                                                   "knockback":  0,
+                                                   "durability":  450
+                                               },
+                  "curious_armor_leggings":  {
+                                                 "toughness":  2,
+                                                 "protection":  5,
+                                                 "knockback":  0,
+                                                 "durability":  420
+                                             },
+                  "curious_armor_boots":  {
+                                              "toughness":  2,
+                                              "protection":  3,
+                                              "knockback":  0,
+                                              "durability":  360
+                                          },
+                  "stalwart_armor_helmet":  {
+                                                "toughness":  1,
+                                                "protection":  3,
+                                                "knockback":  0,
+                                                "durability":  300
+                                            },
+                  "stalwart_armor_chestplate":  {
+                                                    "toughness":  1,
+                                                    "protection":  7,
+                                                    "knockback":  0,
+                                                    "durability":  450
+                                                },
+                  "stalwart_armor_leggings":  {
+                                                  "toughness":  1,
+                                                  "protection":  5,
+                                                  "knockback":  0,
+                                                  "durability":  420
+                                              },
+                  "stalwart_armor_boots":  {
+                                               "toughness":  1,
+                                               "protection":  3,
+                                               "knockback":  0,
+                                               "durability":  360
+                                           },
+                  "gilded_glory_helmet":  {
+                                              "toughness":  2,
+                                              "protection":  3,
+                                              "knockback":  0,
+                                              "durability":  360
+                                          },
+                  "gilded_glory_chestplate":  {
+                                                  "toughness":  2,
+                                                  "protection":  8,
+                                                  "knockback":  0,
+                                                  "durability":  540
+                                              },
+                  "gilded_glory_leggings":  {
+                                                "toughness":  2,
+                                                "protection":  6,
+                                                "knockback":  0,
+                                                "durability":  504
+                                            },
+                  "gilded_glory_boots":  {
+                                             "toughness":  2,
+                                             "protection":  3,
+                                             "knockback":  0,
+                                             "durability":  432
+                                         },
+                  "arctic_fox_armor_helmet":  {
+                                                  "toughness":  0,
+                                                  "protection":  2,
+                                                  "knockback":  0,
+                                                  "durability":  150
+                                              },
+                  "arctic_fox_armor_chestplate":  {
+                                                      "toughness":  0,
+                                                      "protection":  6,
+                                                      "knockback":  0,
+                                                      "durability":  225
+                                                  },
+                  "arctic_fox_armor_leggings":  {
+                                                    "toughness":  0,
+                                                    "protection":  4,
+                                                    "knockback":  0,
+                                                    "durability":  210
+                                                },
+                  "arctic_fox_armor_boots":  {
+                                                 "toughness":  0,
+                                                 "protection":  2,
+                                                 "knockback":  0,
+                                                 "durability":  180
+                                             },
+                  "ghostly_armor_helmet":  {
+                                               "toughness":  0,
+                                               "protection":  2,
+                                               "knockback":  0,
+                                               "durability":  140
+                                           },
+                  "ghostly_armor_chestplate":  {
+                                                   "toughness":  0,
+                                                   "protection":  5,
+                                                   "knockback":  0,
+                                                   "durability":  210
+                                               },
+                  "ghostly_armor_leggings":  {
+                                                 "toughness":  0,
+                                                 "protection":  4,
+                                                 "knockback":  0,
+                                                 "durability":  196
+                                             },
+                  "ghostly_armor_boots":  {
+                                              "toughness":  0,
+                                              "protection":  2,
+                                              "knockback":  0,
+                                              "durability":  168
+                                          },
+                  "sprout_armor_helmet":  {
+                                              "toughness":  0,
+                                              "protection":  2,
+                                              "knockback":  0,
+                                              "durability":  50
+                                          },
+                  "sprout_armor_chestplate":  {
+                                                  "toughness":  0,
+                                                  "protection":  3,
+                                                  "knockback":  0,
+                                                  "durability":  75
+                                              },
+                  "sprout_armor_leggings":  {
+                                                "toughness":  0,
+                                                "protection":  2,
+                                                "knockback":  0,
+                                                "durability":  70
+                                            },
+                  "sprout_armor_boots":  {
+                                             "toughness":  0,
+                                             "protection":  2,
+                                             "knockback":  0,
+                                             "durability":  60
+                                         },
+                  "fox_armor_helmet":  {
+                                           "toughness":  0,
+                                           "protection":  2,
+                                           "knockback":  0,
+                                           "durability":  150
+                                       },
+                  "fox_armor_chestplate":  {
+                                               "toughness":  0,
+                                               "protection":  6,
+                                               "knockback":  0,
+                                               "durability":  225
+                                           },
+                  "fox_armor_leggings":  {
+                                             "toughness":  0,
+                                             "protection":  4,
+                                             "knockback":  0,
+                                             "durability":  210
+                                         },
+                  "fox_armor_boots":  {
+                                          "toughness":  0,
+                                          "protection":  2,
+                                          "knockback":  0,
+                                          "durability":  180
+                                      }
+              },
+    "defaults":  {
+                     "toughness":  0,
+                     "protection":  0,
+                     "knockback":  0,
+                     "durability":  165
+                 }
+}

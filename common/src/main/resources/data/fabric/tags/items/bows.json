@@ -1,0 +1,133 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id":"mcd_java:bow_ancient_bow",
+      "required": false
+    },
+    {
+      "id":"mcd_java:bow_bonebow",
+      "required": false
+    },
+    {
+      "id":"mcd_java:bow_burst_gale_bow",
+      "required": false
+    },
+    {
+      "id":"mcd_java:bow_echo_of_the_valley",
+      "required": false
+    },
+    {
+      "id":"mcd_java:bow_elite_power_bow",
+      "required": false
+    },
+    {
+      "id":"mcd_java:bow_green_menace",
+      "required": false
+    },
+    {
+      "id":"mcd_java:bow_guardian_bow",
+      "required": false
+    },
+    {
+      "id":"mcd_java:bow_haunted_bow",
+      "required": false
+    },
+    {
+      "id":"mcd_java:bow_hunters_promise",
+      "required": false
+    },
+    {
+      "id":"mcd_java:bow_hunting_bow",
+      "required": false
+    },
+    {
+      "id":"mcd_java:bow_longbow",
+      "required": false
+    },
+    {
+      "id":"mcd_java:bow_lost_souls",
+      "required": false
+    },
+    {
+      "id":"mcd_java:bow_masters_bow",
+      "required": false
+    },
+    {
+      "id":"mcd_java:bow_nocturnal_bow",
+      "required": false
+    },
+    {
+      "id":"mcd_java:bow_pink_scoundrel",
+      "required": false
+    },
+    {
+      "id":"mcd_java:bow_power_bow",
+      "required": false
+    },
+    {
+      "id":"mcd_java:bow_sabrewing",
+      "required": false
+    },
+    {
+      "id":"mcd_java:bow_shivering_bow",
+      "required": false
+    },
+    {
+      "id":"mcd_java:bow_soul_bow",
+      "required": false
+    },
+    {
+      "id":"mcd_java:bow_trickbow",
+      "required": false
+    },
+    {
+      "id":"mcd_java:bow_wind_bow",
+      "required": false
+    },
+    {
+      "id":"mcd_java:bow_snow_bow",
+      "required": false
+    },
+    {
+      "id":"mcd_java:bow_winters_touch",
+      "required": false
+    },
+    {
+      "id":"mcd_java:bow_love_spell_bow",
+      "required": false
+    },
+    {
+      "id":"mcd_java:bow_shortbow",
+      "required": false
+    },
+    {
+      "id":"mcd_java:bow_mechanical_shortbow",
+      "required": false
+    },
+    {
+      "id":"mcd_java:bow_purple_storm",
+      "required": false
+    },
+    {
+      "id":"mcd_java:bow_red_snake",
+      "required": false
+    },
+    {
+      "id":"mcd_java:bow_void_bow",
+      "required": false
+    },
+    {
+      "id":"mcd_java:bow_call_of_the_void",
+      "required": false
+    },
+    {
+      "id":"mcd_java:bow_phantom_bow",
+      "required": false
+    },
+    {
+      "id":"mcd_java:bow_web_bow",
+      "required": false
+    }
+  ]
+}

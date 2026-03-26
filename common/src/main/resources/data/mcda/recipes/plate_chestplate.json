@@ -1,0 +1,25 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcda:item_enabled",
+      "values": [
+        "mcda:plate_armor_chestplate"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "P P",
+    "PPP",
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "item": "mcda:iron_plate"
+    }
+  },
+  "result": {
+    "item": "mcda:plate_armor_chestplate",
+    "count": 1
+  }
+}

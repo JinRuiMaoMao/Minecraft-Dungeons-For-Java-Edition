@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "mcd_javaedition:blocks/grass",
+    "particle": "mcd_javaedition:blocks/grass"
+  }
+}

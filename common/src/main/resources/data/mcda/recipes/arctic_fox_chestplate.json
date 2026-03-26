@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcda:item_enabled",
+      "values": [
+        "mcda:fox_armor_chestplate",
+        "mcda:arctic_fox_armor_chestplate"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mcda:fox_armor_chestplate"
+    },
+    {
+      "item": "mcda:fox_pelt_arctic"
+    }
+  ],
+  "result": {
+    "item": "mcda:arctic_fox_armor_chestplate",
+    "count": 1
+  }
+}

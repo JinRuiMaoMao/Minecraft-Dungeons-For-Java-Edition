@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcda:item_enabled",
+      "values": [
+        "mcda:reinforced_mail_helmet",
+        "mcda:stalwart_armor_helmet"
+      ]
+    }
+  ],
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "mcda:reinforced_mail_helmet"
+  },
+  "addition": {
+    "item": "mcda:upgrade_core_metal"
+  },
+  "result": {
+    "item": "mcda:stalwart_armor_helmet"
+    },
+    "template": {
+      "item": "minecraft:blaze_powder"
+    }
+}

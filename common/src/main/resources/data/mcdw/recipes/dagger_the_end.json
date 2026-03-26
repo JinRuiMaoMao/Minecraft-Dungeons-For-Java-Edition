@@ -1,0 +1,34 @@
+{
+  "fabric:load_conditions":[
+    {
+      "condition":"mcd_java:item_enabled",
+      "values":[
+        "mcd_java:dagger_the_end"
+      ]
+    }
+  ],
+  "type":"minecraft:crafting_shaped",
+  "pattern":[
+    "PG ",
+    "GEG",
+    " GO"
+  ],
+  "key":{
+    "P":{
+      "item":"minecraft:purpur_block"
+    },
+    "G":{
+      "item":"minecraft:gold_ingot"
+    },
+    "E":{
+      "item":"minecraft:ender_eye"
+    },
+    "O":{
+      "item":"minecraft:obsidian"
+    }
+  },
+  "result":{
+    "item":"mcd_java:dagger_the_end",
+    "count":1
+  }
+}

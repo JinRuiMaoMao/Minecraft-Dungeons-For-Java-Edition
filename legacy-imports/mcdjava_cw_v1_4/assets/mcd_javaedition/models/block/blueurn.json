@@ -1,0 +1,8 @@
+{
+  "parent": "mcd_javaedition:custom/blue_urn",
+  "textures": {
+    "all": "mcd_javaedition:blocks/urn_loot_big_blue",
+    "particle": "mcd_javaedition:blocks/urn_loot_big_blue",
+    "0": "mcd_javaedition:blocks/urn_loot_big_blue"
+  }
+}

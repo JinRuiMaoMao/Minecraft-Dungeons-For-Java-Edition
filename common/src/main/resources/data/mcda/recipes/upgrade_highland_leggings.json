@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcda:item_enabled",
+      "values": [
+        "mcda:scale_mail_leggings",
+        "mcda:highland_armor_leggings"
+      ]
+    }
+  ],
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "mcda:scale_mail_leggings"
+  },
+  "addition": {
+    "item": "mcda:upgrade_core_highland"
+  },
+  "result": {
+    "item": "mcda:highland_armor_leggings"
+    },
+    "template": {
+      "item": "minecraft:blaze_powder"
+    }
+}

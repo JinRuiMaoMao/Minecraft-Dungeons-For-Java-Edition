@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcd_java:item_enabled",
+      "values": [
+        "mcd_java:entertainer_garb_boots",
+        "mcd_java:troubadour_armor_boots"
+      ]
+    }
+  ],
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "mcd_java:entertainer_garb_boots"
+  },
+  "addition": {
+    "item": "mcd_java:upgrade_core_void"
+  },
+  "result": {
+    "item": "mcd_java:troubadour_armor_boots"
+    },
+    "template": {
+      "item": "minecraft:blaze_powder"
+    }
+}

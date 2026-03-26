@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "mcd_java:block/fading_obsidian_3"
+  }
+}

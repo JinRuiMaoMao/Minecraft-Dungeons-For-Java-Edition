@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcda:item_enabled",
+      "values": [
+        "mcda:emerald_gear_boots",
+        "mcda:opulent_armor_boots"
+      ]
+    }
+  ],
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "mcda:emerald_gear_boots"
+  },
+  "addition": {
+    "item": "mcda:upgrade_core_highland"
+  },
+  "result": {
+    "item": "mcda:opulent_armor_boots"
+    },
+    "template": {
+      "item": "minecraft:blaze_powder"
+    }
+}

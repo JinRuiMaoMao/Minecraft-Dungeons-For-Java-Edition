@@ -1,0 +1,28 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcda:item_enabled",
+      "values": [
+        "mcda:beenest_armor_helmet"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "HHH",
+    "HCH",
+    "   "
+  ],
+  "key": {
+    "H": {
+      "item": "minecraft:honey_block"
+    },
+    "C": {
+      "item": "minecraft:bee_nest"
+    }
+  },
+  "result": {
+    "item": "mcda:beenest_armor_helmet",
+    "count": 1
+  }
+}

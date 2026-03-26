@@ -1,0 +1,8 @@
+{
+  "parent": "mcd_javaedition:custom/mcd_tent",
+  "textures": {
+    "all": "mcd_javaedition:blocks/t_tent",
+    "particle": "mcd_javaedition:blocks/t_tent",
+    "0": "mcd_javaedition:blocks/t_tent"
+  }
+}

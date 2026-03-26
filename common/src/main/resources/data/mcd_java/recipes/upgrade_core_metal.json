@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "mcd_java:upgrade_core"
+  },
+  "addition": {
+    "item": "mcd_java:iron_plate"
+  },
+  "result": {
+    "item": "mcd_java:upgrade_core_metal"
+    },
+    "template": {
+      "item": "minecraft:blaze_powder"
+    }
+}

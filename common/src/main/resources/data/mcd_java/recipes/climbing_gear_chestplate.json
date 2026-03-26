@@ -1,0 +1,37 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcd_java:item_enabled",
+      "values": [
+        "mcd_java:climbing_gear_boots"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "BLB",
+    "gbg"
+  ],
+  "key": {
+    "G": {
+      "item": "mcd_java:fabric_bolt_green"
+    },
+    "L": {
+      "item": "minecraft:leather_chestplate"
+    },
+    "B": {
+      "item": "mcd_java:fabric_bolt_brown"
+    },
+    "b": {
+      "item": "mcd_java:fabric_bolt_blue"
+    },
+    "g": {
+      "item": "mcd_java:fabric_bolt_gray"
+    }
+  },
+  "result": {
+    "item": "mcd_java:climbing_gear_chestplate",
+    "count": 1
+  }
+}

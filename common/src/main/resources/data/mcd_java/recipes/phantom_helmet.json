@@ -1,0 +1,28 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcd_java:item_enabled",
+      "values": [
+        "mcd_java:phantom_armor_helmet"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "P P",
+    "PLP",
+    "   "
+  ],
+  "key": {
+    "P": {
+      "item": "mcd_java:phantom_bones"
+    },
+    "L": {
+      "item": "mcd_java:phantom_skin"
+    }
+  },
+  "result": {
+    "item": "mcd_java:phantom_armor_helmet",
+    "count": 1
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "mcda:snow_armor_helmet",
+      "required": false
+    },
+    {
+      "id": "mcda:snow_armor_chestplate",
+      "required": false
+    },
+    {
+      "id": "mcda:snow_armor_leggings",
+      "required": false
+    },
+    {
+      "id": "mcda:snow_armor_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:frost_armor_helmet",
+      "required": false
+    },
+    {
+      "id": "mcda:frost_armor_chestplate",
+      "required": false
+    },
+    {
+      "id": "mcda:frost_armor_leggings",
+      "required": false
+    },
+    {
+      "id": "mcda:frost_armor_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:frost_bite_armor_helmet",
+      "required": false
+    },
+    {
+      "id": "mcda:frost_bite_armor_chestplate",
+      "required": false
+    },
+    {
+      "id": "mcda:frost_bite_armor_leggings",
+      "required": false
+    },
+    {
+      "id": "mcda:frost_bite_armor_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:fox_armor_helmet",
+      "required": false
+    },
+    {
+      "id": "mcda:fox_armor_chestplate",
+      "required": false
+    },
+    {
+      "id": "mcda:fox_armor_leggings",
+      "required": false
+    },
+    {
+      "id": "mcda:fox_armor_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:arctic_fox_armor_helmet",
+      "required": false
+    },
+    {
+      "id": "mcda:arctic_fox_armor_chestplate",
+      "required": false
+    },
+    {
+      "id": "mcda:arctic_fox_armor_leggings",
+      "required": false
+    },
+    {
+      "id": "mcda:arctic_fox_armor_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:wolf_armor_helmet",
+      "required": false
+    },
+    {
+      "id": "mcda:wolf_armor_chestplate",
+      "required": false
+    },
+    {
+      "id": "mcda:wolf_armor_leggings",
+      "required": false
+    },
+    {
+      "id": "mcda:wolf_armor_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:black_wolf_armor_helmet",
+      "required": false
+    },
+    {
+      "id": "mcda:black_wolf_armor_chestplate",
+      "required": false
+    },
+    {
+      "id": "mcda:black_wolf_armor_leggings",
+      "required": false
+    },
+    {
+      "id": "mcda:black_wolf_armor_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:goat_gear_helmet",
+      "required": false
+    },
+    {
+      "id": "mcda:goat_gear_chestplate",
+      "required": false
+    },
+    {
+      "id": "mcda:goat_gear_leggings",
+      "required": false
+    },
+    {
+      "id": "mcda:goat_gear_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:climbing_gear_helmet",
+      "required": false
+    },
+    {
+      "id": "mcda:climbing_gear_chestplate",
+      "required": false
+    },
+    {
+      "id": "mcda:climbing_gear_leggings",
+      "required": false
+    },
+    {
+      "id": "mcda:climbing_gear_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:rugged_climbing_gear_helmet",
+      "required": false
+    },
+    {
+      "id": "mcda:rugged_climbing_gear_chestplate",
+      "required": false
+    },
+    {
+      "id": "mcda:rugged_climbing_gear_leggings",
+      "required": false
+    },
+    {
+      "id": "mcda:rugged_climbing_gear_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:ghost_kindler_helmet",
+      "required": false
+    },
+    {
+      "id": "mcda:ghost_kindler_chestplate",
+      "required": false
+    },
+    {
+      "id": "mcda:ghost_kindler_leggings",
+      "required": false
+    },
+    {
+      "id": "mcda:ghost_kindler_boots",
+      "required": false
+    }
+  ]
+}

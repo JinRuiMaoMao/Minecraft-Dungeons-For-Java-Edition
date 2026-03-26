@@ -1,0 +1,6 @@
+{
+  "parent": "mcd_java:item/crossbow_azure_seeker",
+  "textures": {
+    "layer0": "mcd_java:item/crossbows/azure_seeker_arrow"
+  }
+}

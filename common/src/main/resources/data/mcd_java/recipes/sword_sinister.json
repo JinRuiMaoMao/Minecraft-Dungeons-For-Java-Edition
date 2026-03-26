@@ -1,0 +1,35 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcd_java:item_enabled",
+      "values": [
+        "mcd_java:sword_hawkbrand",
+        "mcd_java:sword_sinister"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " N ",
+        " O ",
+        "WHW"
+    ],
+    "key": {
+        "N": {
+            "item": "minecraft:nether_brick"
+        },
+        "O": {
+            "item": "minecraft:obsidian"
+        },
+        "W": {
+            "item": "minecraft:nether_wart"
+        },
+        "H": {
+            "item": "mcd_java:sword_hawkbrand"
+        }
+    },
+    "result": {
+        "item": "mcd_java:sword_sinister",
+        "count": 1
+    }
+}

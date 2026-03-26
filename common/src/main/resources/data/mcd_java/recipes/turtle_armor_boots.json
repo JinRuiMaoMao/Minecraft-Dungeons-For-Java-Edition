@@ -1,0 +1,25 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcd_java:item_enabled",
+      "values": [
+        "mcd_java:turtle_armor_boots"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "H H",
+    "H H",
+    "   "
+  ],
+  "key": {
+    "H": {
+      "item": "minecraft:scute"
+    }
+  },
+  "result": {
+    "item": "mcd_java:turtle_armor_boots",
+    "count": 1
+  }
+}

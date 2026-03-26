@@ -1,0 +1,278 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "mcda:archers_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:ocelot_armor_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:shadow_walker_armor_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:spelunker_armor_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:cave_crawler_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:wolf_armor_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:black_wolf_armor_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:fox_armor_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:arctic_fox_armor_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:climbing_gear_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:rugged_climbing_gear_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:squid_armor_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:glow_squid_armor_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:goat_gear_boots",
+      "required": false
+    },
+
+    {
+      "id": "mcda:thief_armor_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:spider_armor_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:soul_robe_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:souldancer_robe_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:sprout_armor_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:living_vines_armor_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:piglin_armor_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:entertainer_garb_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:troubadour_armor_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:teleportation_robe_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:unstable_robe_boots",
+      "required": false
+    },
+
+    {
+      "id": "mcda:phantom_armor_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:frost_bite_armor_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:grim_armor_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:wither_armor_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:turtle_armor_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:nimble_turtle_armor_boots",
+      "required": false
+    },
+
+    {
+      "id": "mcda:highland_armor_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:beehive_armor_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:beenest_armor_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:ghostly_armor_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:ghost_kindler_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:golden_piglin_armor_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:guards_armor_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:scale_mail_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:sweet_tooth_boots",
+      "required": false
+    },
+
+    {
+      "id": "mcda:reinforced_mail_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:stalwart_armor_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:curious_armor_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:snow_armor_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:frost_armor_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:mercenary_armor_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:renegade_armor_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:hungry_horror_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:emerald_gear_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:opulent_armor_boots",
+      "required": false
+    },
+
+    {
+      "id": "mcda:dark_armor_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:titans_shroud_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:royal_guard_armor_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:plate_armor_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:full_metal_armor_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:white_mystery_armor_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:blue_mystery_armor_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:green_mystery_armor_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:purple_mystery_armor_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:red_mystery_armor_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:champions_armor_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:heros_armor_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:gilded_glory_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:shulker_armor_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:sturdy_shulker_armor_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:gourdian_armor_boots",
+      "required": false
+    },
+    {
+      "id": "mcda:cauldron_armor_boots",
+      "required": false
+    }
+  ]
+}

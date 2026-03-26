@@ -1,0 +1,8 @@
+{
+  "parent": "mcd_javaedition:custom/emeraldchest",
+  "textures": {
+    "all": "mcd_javaedition:blocks/t_lobbychest",
+    "particle": "mcd_javaedition:blocks/t_lobbychest",
+    "0": "mcd_javaedition:blocks/t_lobbychest"
+  }
+}

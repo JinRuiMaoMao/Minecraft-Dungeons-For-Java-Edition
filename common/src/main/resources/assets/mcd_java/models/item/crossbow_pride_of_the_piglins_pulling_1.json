@@ -1,0 +1,6 @@
+{
+  "parent": "mcd_java:item/crossbow_pride_of_the_piglins",
+  "textures": {
+    "layer0": "mcd_java:item/crossbows/pride_of_the_piglins_pulling_1"
+  }
+}

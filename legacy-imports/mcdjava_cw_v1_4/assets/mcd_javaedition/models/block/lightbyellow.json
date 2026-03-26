@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mcd_javaedition:blocks/light_b_yellow",
+    "up": "mcd_javaedition:blocks/light_b_yellow",
+    "north": "mcd_javaedition:blocks/light_b_yellow",
+    "east": "mcd_javaedition:blocks/light_b_yellow",
+    "south": "mcd_javaedition:blocks/light_b_yellow",
+    "west": "mcd_javaedition:blocks/light_b_yellow",
+    "particle": "mcd_javaedition:blocks/light_b_yellow"
+  }
+}

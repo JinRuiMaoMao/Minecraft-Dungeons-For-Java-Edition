@@ -1,0 +1,406 @@
+{
+    "defaults":  {
+                     "projectileDamage":  0,
+                     "drawSpeed":  20,
+                     "range":  16,
+                     "tier":  "IRON"
+                 },
+    "weapons":  {
+                    "bow_ancient_bow":  {
+                                            "projectileDamage":  7,
+                                            "drawSpeed":  14,
+                                            "range":  18,
+                                            "tier":  "NETHERITE"
+                                        },
+                    "bow_bonebow":  {
+                                        "projectileDamage":  5,
+                                        "drawSpeed":  16,
+                                        "range":  12,
+                                        "tier":  "STONE"
+                                    },
+                    "bow_bubble_bow":  {
+                                           "projectileDamage":  5,
+                                           "drawSpeed":  15,
+                                           "range":  12,
+                                           "tier":  "IRON"
+                                       },
+                    "bow_bubble_burster":  {
+                                               "projectileDamage":  5,
+                                               "drawSpeed":  15,
+                                               "range":  13,
+                                               "tier":  "DIAMOND"
+                                           },
+                    "bow_burst_gale_bow":  {
+                                               "projectileDamage":  6,
+                                               "drawSpeed":  12,
+                                               "range":  16,
+                                               "tier":  "DIAMOND"
+                                           },
+                    "bow_call_of_the_void":  {
+                                                 "projectileDamage":  6,
+                                                 "drawSpeed":  15,
+                                                 "range":  16,
+                                                 "tier":  "NETHERITE"
+                                             },
+                    "bow_echo_of_the_valley":  {
+                                                   "projectileDamage":  6,
+                                                   "drawSpeed":  11,
+                                                   "range":  16,
+                                                   "tier":  "DIAMOND"
+                                               },
+                    "bow_elite_power_bow":  {
+                                                "projectileDamage":  6,
+                                                "drawSpeed":  20,
+                                                "range":  15,
+                                                "tier":  "IRON"
+                                            },
+                    "bow_green_menace":  {
+                                             "projectileDamage":  5,
+                                             "drawSpeed":  17,
+                                             "range":  13,
+                                             "tier":  "DIAMOND"
+                                         },
+                    "bow_haunted_bow":  {
+                                            "projectileDamage":  6,
+                                            "drawSpeed":  18,
+                                            "range":  16,
+                                            "tier":  "NETHERITE"
+                                        },
+                    "bow_hunters_promise":  {
+                                                "projectileDamage":  6,
+                                                "drawSpeed":  15,
+                                                "range":  16,
+                                                "tier":  "IRON"
+                                            },
+                    "bow_hunting_bow":  {
+                                            "projectileDamage":  6,
+                                            "drawSpeed":  16,
+                                            "range":  15,
+                                            "tier":  "IRON"
+                                        },
+                    "bow_lost_souls":  {
+                                           "projectileDamage":  6,
+                                           "drawSpeed":  12,
+                                           "range":  17,
+                                           "tier":  "NETHERITE"
+                                       },
+                    "bow_masters_bow":  {
+                                            "projectileDamage":  6,
+                                            "drawSpeed":  17,
+                                            "range":  16,
+                                            "tier":  "IRON"
+                                        },
+                    "bow_nocturnal_bow":  {
+                                              "projectileDamage":  6,
+                                              "drawSpeed":  17,
+                                              "range":  14,
+                                              "tier":  "DIAMOND"
+                                          },
+                    "bow_phantom_bow":  {
+                                            "projectileDamage":  6,
+                                            "drawSpeed":  20,
+                                            "range":  14,
+                                            "tier":  "DIAMOND"
+                                        },
+                    "bow_pink_scoundrel":  {
+                                               "projectileDamage":  5,
+                                               "drawSpeed":  17,
+                                               "range":  13,
+                                               "tier":  "DIAMOND"
+                                           },
+                    "bow_power_bow":  {
+                                          "projectileDamage":  6,
+                                          "drawSpeed":  20,
+                                          "range":  14,
+                                          "tier":  "IRON"
+                                      },
+                    "bow_sabrewing":  {
+                                          "projectileDamage":  5,
+                                          "drawSpeed":  10,
+                                          "range":  13,
+                                          "tier":  "DIAMOND"
+                                      },
+                    "bow_shivering_bow":  {
+                                              "projectileDamage":  6,
+                                              "drawSpeed":  14,
+                                              "range":  15,
+                                              "tier":  "DIAMOND"
+                                          },
+                    "bow_snow_bow":  {
+                                         "projectileDamage":  5,
+                                         "drawSpeed":  16,
+                                         "range":  13,
+                                         "tier":  "IRON"
+                                     },
+                    "bow_soul_bow":  {
+                                         "projectileDamage":  6,
+                                         "drawSpeed":  14,
+                                         "range":  15,
+                                         "tier":  "IRON"
+                                     },
+                    "bow_trickbow":  {
+                                         "projectileDamage":  5,
+                                         "drawSpeed":  12,
+                                         "range":  12,
+                                         "tier":  "DIAMOND"
+                                     },
+                    "bow_twin_bow":  {
+                                         "projectileDamage":  5,
+                                         "drawSpeed":  12,
+                                         "range":  12,
+                                         "tier":  "DIAMOND"
+                                     },
+                    "bow_twisting_vine_bow":  {
+                                                  "projectileDamage":  5,
+                                                  "drawSpeed":  15,
+                                                  "range":  13,
+                                                  "tier":  "IRON"
+                                              },
+                    "bow_void_bow":  {
+                                         "projectileDamage":  6,
+                                         "drawSpeed":  15,
+                                         "range":  16,
+                                         "tier":  "DIAMOND"
+                                     },
+                    "bow_web_bow":  {
+                                        "projectileDamage":  5,
+                                        "drawSpeed":  15,
+                                        "range":  12,
+                                        "tier":  "DIAMOND"
+                                    },
+                    "bow_weeping_vine_bow":  {
+                                                 "projectileDamage":  5,
+                                                 "drawSpeed":  15,
+                                                 "range":  13,
+                                                 "tier":  "IRON"
+                                             },
+                    "bow_wind_bow":  {
+                                         "projectileDamage":  6,
+                                         "drawSpeed":  11,
+                                         "range":  15,
+                                         "tier":  "DIAMOND"
+                                     },
+                    "bow_winters_touch":  {
+                                              "projectileDamage":  6,
+                                              "drawSpeed":  15,
+                                              "range":  14,
+                                              "tier":  "DIAMOND"
+                                          },
+                    "bow_love_spell_bow":  {
+                                               "projectileDamage":  3,
+                                               "drawSpeed":  9,
+                                               "range":  8,
+                                               "tier":  "IRON"
+                                           },
+                    "bow_mechanical_shortbow":  {
+                                                    "projectileDamage":  4,
+                                                    "drawSpeed":  9,
+                                                    "range":  9,
+                                                    "tier":  "IRON"
+                                                },
+                    "bow_purple_storm":  {
+                                             "projectileDamage":  3,
+                                             "drawSpeed":  9,
+                                             "range":  8,
+                                             "tier":  "IRON"
+                                         },
+                    "bow_shortbow":  {
+                                         "projectileDamage":  3,
+                                         "drawSpeed":  9,
+                                         "range":  8,
+                                         "tier":  "IRON"
+                                     },
+                    "bow_guardian_bow":  {
+                                             "projectileDamage":  8,
+                                             "drawSpeed":  30,
+                                             "range":  19,
+                                             "tier":  "DIAMOND"
+                                         },
+                    "bow_longbow":  {
+                                        "projectileDamage":  7,
+                                        "drawSpeed":  25,
+                                        "range":  17,
+                                        "tier":  "IRON"
+                                    },
+                    "bow_red_snake":  {
+                                          "projectileDamage":  7,
+                                          "drawSpeed":  30,
+                                          "range":  18,
+                                          "tier":  "DIAMOND"
+                                      },
+                    "crossbow_auto_crossbow":  {
+                                                   "projectileDamage":  9,
+                                                   "drawSpeed":  28,
+                                                   "range":  8,
+                                                   "tier":  "IRON"
+                                               },
+                    "crossbow_azure_seeker":  {
+                                                  "projectileDamage":  10,
+                                                  "drawSpeed":  28,
+                                                  "range":  8.4,
+                                                  "tier":  "IRON"
+                                              },
+                    "crossbow_baby_crossbow":  {
+                                                   "projectileDamage":  8,
+                                                   "drawSpeed":  23,
+                                                   "range":  7.2,
+                                                   "tier":  "IRON"
+                                               },
+                    "crossbow_burst_crossbow":  {
+                                                    "projectileDamage":  9,
+                                                    "drawSpeed":  28,
+                                                    "range":  8,
+                                                    "tier":  "IRON"
+                                                },
+                    "crossbow_butterfly_crossbow":  {
+                                                        "projectileDamage":  10,
+                                                        "drawSpeed":  28,
+                                                        "range":  8.9,
+                                                        "tier":  "IRON"
+                                                    },
+                    "crossbow_cog_crossbow":  {
+                                                  "projectileDamage":  10,
+                                                  "drawSpeed":  28,
+                                                  "range":  8.4,
+                                                  "tier":  "IRON"
+                                              },
+                    "crossbow_corrupted_crossbow":  {
+                                                        "projectileDamage":  16,
+                                                        "drawSpeed":  22,
+                                                        "range":  14,
+                                                        "tier":  "NETHERITE"
+                                                    },
+                    "crossbow_doom_crossbow":  {
+                                                   "projectileDamage":  9,
+                                                   "drawSpeed":  26,
+                                                   "range":  8,
+                                                   "tier":  "NETHERITE"
+                                               },
+                    "crossbow_dual_crossbow":  {
+                                                   "projectileDamage":  8,
+                                                   "drawSpeed":  24,
+                                                   "range":  7,
+                                                   "tier":  "IRON"
+                                               },
+                    "crossbow_exploding_crossbow":  {
+                                                        "projectileDamage":  9,
+                                                        "drawSpeed":  28,
+                                                        "range":  8,
+                                                        "tier":  "IRON"
+                                                    },
+                    "crossbow_feral_soul_crossbow":  {
+                                                         "projectileDamage":  10,
+                                                         "drawSpeed":  28,
+                                                         "range":  9.2,
+                                                         "tier":  "IRON"
+                                                     },
+                    "crossbow_firebolt_thrower":  {
+                                                      "projectileDamage":  9,
+                                                      "drawSpeed":  28,
+                                                      "range":  7.9,
+                                                      "tier":  "IRON"
+                                                  },
+                    "crossbow_harpoon_crossbow":  {
+                                                      "projectileDamage":  12,
+                                                      "drawSpeed":  28,
+                                                      "range":  11,
+                                                      "tier":  "IRON"
+                                                  },
+                    "crossbow_harp_crossbow":  {
+                                                   "projectileDamage":  10,
+                                                   "drawSpeed":  28,
+                                                   "range":  8.6,
+                                                   "tier":  "IRON"
+                                               },
+                    "crossbow_heavy_crossbow":  {
+                                                    "projectileDamage":  9,
+                                                    "drawSpeed":  28,
+                                                    "range":  8,
+                                                    "tier":  "IRON"
+                                                },
+                    "crossbow_imploding_crossbow":  {
+                                                        "projectileDamage":  9,
+                                                        "drawSpeed":  28,
+                                                        "range":  8,
+                                                        "tier":  "IRON"
+                                                    },
+                    "crossbow_lightning_harp_crossbow":  {
+                                                             "projectileDamage":  16,
+                                                             "drawSpeed":  28,
+                                                             "range":  14.2,
+                                                             "tier":  "DIAMOND"
+                                                         },
+                    "crossbow_nautical_crossbow":  {
+                                                       "projectileDamage":  16,
+                                                       "drawSpeed":  24,
+                                                       "range":  14,
+                                                       "tier":  "DIAMOND"
+                                                   },
+                    "crossbow_pride_of_the_piglins":  {
+                                                          "projectileDamage":  15,
+                                                          "drawSpeed":  20,
+                                                          "range":  13,
+                                                          "tier":  "NETHERITE"
+                                                      },
+                    "crossbow_rapid_crossbow":  {
+                                                    "projectileDamage":  9,
+                                                    "drawSpeed":  20,
+                                                    "range":  8.2,
+                                                    "tier":  "IRON"
+                                                },
+                    "crossbow_scatter_crossbow":  {
+                                                      "projectileDamage":  9,
+                                                      "drawSpeed":  28,
+                                                      "range":  8,
+                                                      "tier":  "IRON"
+                                                  },
+                    "crossbow_shadow_crossbow":  {
+                                                     "projectileDamage":  14,
+                                                     "drawSpeed":  25,
+                                                     "range":  12,
+                                                     "tier":  "DIAMOND"
+                                                 },
+                    "crossbow_slayer_crossbow":  {
+                                                     "projectileDamage":  10,
+                                                     "drawSpeed":  26,
+                                                     "range":  8.8,
+                                                     "tier":  "DIAMOND"
+                                                 },
+                    "crossbow_soul_crossbow":  {
+                                                   "projectileDamage":  9,
+                                                   "drawSpeed":  28,
+                                                   "range":  8,
+                                                   "tier":  "IRON"
+                                               },
+                    "crossbow_soul_hunter_crossbow":  {
+                                                          "projectileDamage":  12,
+                                                          "drawSpeed":  28,
+                                                          "range":  11,
+                                                          "tier":  "DIAMOND"
+                                                      },
+                    "crossbow_spellbound_crossbow":  {
+                                                         "projectileDamage":  10,
+                                                         "drawSpeed":  28,
+                                                         "range":  8.9,
+                                                         "tier":  "IRON"
+                                                     },
+                    "crossbow_the_slicer":  {
+                                                "projectileDamage":  12,
+                                                "drawSpeed":  28,
+                                                "range":  10.2,
+                                                "tier":  "IRON"
+                                            },
+                    "crossbow_veiled_crossbow":  {
+                                                     "projectileDamage":  16,
+                                                     "drawSpeed":  22,
+                                                     "range":  14.5,
+                                                     "tier":  "DIAMOND"
+                                                 },
+                    "crossbow_voidcaller_crossbow":  {
+                                                         "projectileDamage":  14,
+                                                         "drawSpeed":  26,
+                                                         "range":  12.5,
+                                                         "tier":  "DIAMOND"
+                                                     }
+                }
+}

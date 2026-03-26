@@ -1,0 +1,32 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcd_java:item_enabled",
+      "values": [
+        "mcd_java:hammer_mace",
+        "mcd_java:hammer_flail"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "  #",
+        " C ",
+        "/  "
+    ],
+    "key": {
+        "#": {
+            "item": "mcd_java:hammer_mace"
+        },
+        "C": {
+            "item": "minecraft:chain"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "mcd_java:hammer_flail",
+        "count": 1
+    }
+}

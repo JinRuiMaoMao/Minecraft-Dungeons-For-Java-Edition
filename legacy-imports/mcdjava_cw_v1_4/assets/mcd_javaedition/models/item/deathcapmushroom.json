@@ -1,0 +1,6 @@
+{
+  "parent": "mcd_javaedition:custom/purplemushroom",
+  "textures": {
+    "1": "mcd_javaedition:blocks/purplemushroom"
+  }
+}

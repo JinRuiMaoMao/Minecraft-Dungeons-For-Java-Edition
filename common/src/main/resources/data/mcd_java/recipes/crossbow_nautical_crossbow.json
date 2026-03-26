@@ -1,0 +1,40 @@
+{
+  "fabric:load_conditions":[
+    {
+      "condition":"mcd_java:item_enabled",
+      "values":[
+        "mcd_java:crossbow_harpoon_crossbow"
+      ]
+    },
+    {
+      "condition":"mcd_java:item_enabled",
+      "values":[
+        "mcd_java:crossbow_nautical_crossbow"
+      ]
+    }
+  ],
+  "type":"minecraft:crafting_shaped",
+  "pattern":[
+    "gGP",
+    " CG",
+    "g g"
+  ],
+  "key":{
+    "C":{
+      "item":"mcd_java:crossbow_harpoon_crossbow"
+    },
+    "G":{
+      "item":"minecraft:gold_block"
+    },
+    "g":{
+      "item":"minecraft:gold_ingot"
+    },
+    "P":{
+      "item":"minecraft:prismarine_crystals"
+    }
+  },
+  "result":{
+    "item":"mcd_java:crossbow_nautical_crossbow",
+    "count":1
+  }
+}

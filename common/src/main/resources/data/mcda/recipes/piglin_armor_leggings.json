@@ -1,0 +1,28 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcda:item_enabled",
+      "values": [
+        "mcda:piglin_armor_leggings"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "bbb",
+    "B B",
+    "B B"
+  ],
+  "key": {
+    "B": {
+      "item": "mcda:fabric_bolt_brown"
+    },
+    "b": {
+      "item": "mcda:fabric_bolt_black"
+    }
+  },
+  "result": {
+    "item": "mcda:piglin_armor_leggings",
+    "count": 1
+  }
+}

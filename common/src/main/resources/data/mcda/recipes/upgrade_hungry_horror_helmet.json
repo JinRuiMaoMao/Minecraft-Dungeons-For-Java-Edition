@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcda:item_enabled",
+      "values": [
+        "mcda:mercenary_armor_helmet",
+        "mcda:hungry_horror_helmet"
+      ]
+    }
+  ],
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "mcda:mercenary_armor_helmet"
+  },
+  "addition": {
+    "item": "mcda:upgrade_core_glut"
+  },
+  "result": {
+    "item": "mcda:hungry_horror_helmet"
+  },
+  "template": {
+    "item": "minecraft:blaze_powder"
+  }
+}

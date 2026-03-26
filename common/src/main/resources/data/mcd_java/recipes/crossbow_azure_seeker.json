@@ -1,0 +1,31 @@
+{
+  "fabric:load_conditions":[
+    {
+      "condition":"mcd_java:item_enabled",
+      "values":[
+        "mcd_java:crossbow_azure_seeker"
+      ]
+    }
+  ],
+  "type":"minecraft:crafting_shaped",
+  "pattern":[
+    "DDD",
+    "SCS",
+    "DDD"
+  ],
+  "key":{
+    "C":{
+      "item":"minecraft:crossbow"
+    },
+    "S":{
+      "item":"minecraft:string"
+    },
+    "D":{
+      "item":"minecraft:blue_dye"
+    }
+  },
+  "result":{
+    "item":"mcd_java:crossbow_azure_seeker",
+    "count":1
+  }
+}

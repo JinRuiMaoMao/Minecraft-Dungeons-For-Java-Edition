@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcda:item_enabled",
+      "values": [
+        "mcda:beenest_armor_boots",
+        "mcda:beehive_armor_boots"
+      ]
+    }
+  ],
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "mcda:beenest_armor_boots"
+  },
+  "addition": {
+    "item": "mcda:upgrade_core_hive"
+  },
+  "result": {
+    "item": "mcda:beehive_armor_boots"
+    },
+    "template": {
+      "item": "minecraft:blaze_powder"
+    }
+}

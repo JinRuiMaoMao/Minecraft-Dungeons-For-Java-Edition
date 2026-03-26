@@ -1,0 +1,41 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id":"mcd_java:axe_axe",
+      "required": false
+    },
+    {
+      "id":"mcd_java:axe_firebrand",
+      "required": false
+    },
+    {
+      "id":"mcd_java:axe_highland",
+      "required": false
+    },
+    {
+      "id":"mcd_java:axe_cursed",
+      "required": false
+    },
+    {
+      "id":"mcd_java:axe_double",
+      "required": false
+    },
+    {
+      "id":"mcd_java:axe_whirlwind",
+      "required": false
+    },
+    {
+      "id":"mcd_java:axe_anchor",
+      "required": false
+    },
+    {
+      "id":"mcd_java:axe_encrusted_anchor",
+      "required": false
+    },
+    {
+      "id":"mcd_java:sword_mechanized_sawblade",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "jeed:effect_provider",
+  "effect": "mcd_java:soul_protection",
+  "providers": [
+    {
+      "item": "mcd_java:totem_of_soul_protection"
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "jeed"
+      ]
+    }
+  ]
+}

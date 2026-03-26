@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcda:item_enabled",
+      "values": [
+        "mcda:ocelot_armor_boots",
+        "mcda:shadow_walker_armor_boots"
+      ]
+    }
+  ],
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "mcda:ocelot_armor_boots"
+  },
+  "addition": {
+    "item": "mcda:upgrade_core_shadows"
+  },
+  "result": {
+    "item": "mcda:shadow_walker_armor_boots"
+    },
+    "template": {
+      "item": "minecraft:blaze_powder"
+    }
+}

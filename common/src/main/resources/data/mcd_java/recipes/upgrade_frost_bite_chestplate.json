@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcd_java:item_enabled",
+      "values": [
+        "mcd_java:phantom_armor_chestplate",
+        "mcd_java:frost_bite_armor_chestplate"
+      ]
+    }
+  ],
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "mcd_java:phantom_armor_chestplate"
+  },
+  "addition": {
+    "item": "mcd_java:upgrade_core_frost"
+  },
+  "result": {
+    "item": "mcd_java:frost_bite_armor_chestplate"
+  },
+  "template": {
+    "item": "minecraft:blaze_powder"
+  }
+}

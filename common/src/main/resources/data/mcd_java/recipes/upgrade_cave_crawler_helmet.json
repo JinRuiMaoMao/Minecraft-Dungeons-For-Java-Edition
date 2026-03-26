@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcd_java:item_enabled",
+      "values": [
+        "mcd_java:spelunker_armor_helmet",
+        "mcd_java:cave_crawler_helmet"
+      ]
+    }
+  ],
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "mcd_java:spelunker_armor_helmet"
+  },
+  "addition": {
+    "item": "mcd_java:upgrade_core_depth"
+  },
+  "result": {
+    "item": "mcd_java:cave_crawler_helmet"
+    },
+    "template": {
+      "item": "minecraft:blaze_powder"
+    }
+}

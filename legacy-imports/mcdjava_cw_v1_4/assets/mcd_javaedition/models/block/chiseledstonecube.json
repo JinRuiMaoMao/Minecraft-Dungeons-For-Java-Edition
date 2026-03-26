@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mcd_javaedition:blocks/chiseled_stone_cube",
+    "up": "mcd_javaedition:blocks/chiseled_stone_cube",
+    "north": "mcd_javaedition:blocks/chiseled_stone_cube",
+    "east": "mcd_javaedition:blocks/chiseled_stone_cube",
+    "south": "mcd_javaedition:blocks/chiseled_stone_cube",
+    "west": "mcd_javaedition:blocks/chiseled_stone_cube",
+    "particle": "mcd_javaedition:blocks/chiseled_stone_cube"
+  }
+}

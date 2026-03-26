@@ -1,0 +1,45 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "mcd_javaedition:well.obj",
+    "custom": {
+      "flip-v": true
+    },
+    "textures": {
+      "#MI_WellBig.001": "mcd_javaedition:blocks/t_wellbig"
+    }
+  },
+  "variants": {
+    "normal": {
+      "model": "mcd_javaedition:well.obj"
+    },
+    "facing=north": {
+      "model": "mcd_javaedition:well.obj"
+    },
+    "facing=east": {
+      "model": "mcd_javaedition:well.obj",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "mcd_javaedition:well.obj",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mcd_javaedition:well.obj",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "mcd_javaedition:well.obj",
+      "x": 90
+    },
+    "facing=down": {
+      "model": "mcd_javaedition:well.obj",
+      "x": 270
+    },
+    "inventory": [
+      {
+        "transform": "forge:default-item"
+      }
+    ]
+  }
+}

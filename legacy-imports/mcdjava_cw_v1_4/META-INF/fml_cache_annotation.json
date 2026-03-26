@@ -1,0 +1,2420 @@
+{
+  "net/mcreator/mcd_javaedition/ClientProxyMcdjavaedition": {
+    "name": "net/mcreator/mcd_javaedition/ClientProxyMcdjavaedition",
+    "interfaces": [
+      "net/mcreator/mcd_javaedition/IProxyMcdjavaedition"
+    ]
+  },
+  "net/mcreator/mcd_javaedition/ElementsMcdjavaedition": {
+    "name": "net/mcreator/mcd_javaedition/ElementsMcdjavaedition",
+    "interfaces": [
+      "net/minecraftforge/fml/common/IFuelHandler",
+      "net/minecraftforge/fml/common/IWorldGenerator"
+    ],
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onPlayerLoggedIn(Lnet/minecraftforge/fml/common/gameevent/PlayerEvent$PlayerLoggedInEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onPlayerChangedDimension(Lnet/minecraftforge/fml/common/gameevent/PlayerEvent$PlayerChangedDimensionEvent;)V"
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/ElementsMcdjavaedition$GuiHandler": {
+    "name": "net/mcreator/mcd_javaedition/ElementsMcdjavaedition$GuiHandler",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/IGuiHandler"
+    ]
+  },
+  "net/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement": {
+    "name": "net/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement",
+    "interfaces": [
+      "java/lang/Comparable"
+    ]
+  },
+  "net/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag": {
+    "name": "net/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "net/mcreator/mcd_javaedition/Mcdjavaedition": {
+    "name": "net/mcreator/mcd_javaedition/Mcdjavaedition",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/minecraftforge/fml/common/Mod;",
+        "target": "net/mcreator/mcd_javaedition/Mcdjavaedition",
+        "values": {
+          "acceptedMinecraftVersions": {
+            "value": "[1.12.2]"
+          },
+          "modid": {
+            "value": "mcd_javaedition"
+          },
+          "version": {
+            "value": "1.0.0"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/SidedProxy;",
+        "target": "proxy",
+        "values": {
+          "clientSide": {
+            "value": "net.mcreator.mcd_javaedition.ClientProxyMcdjavaedition"
+          },
+          "serverSide": {
+            "value": "net.mcreator.mcd_javaedition.ServerProxyMcdjavaedition"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$Instance;",
+        "target": "instance",
+        "value": {
+          "value": "mcd_javaedition"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "serverLoad(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "registerBlocks(Lnet/minecraftforge/event/RegistryEvent$Register;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "registerItems(Lnet/minecraftforge/event/RegistryEvent$Register;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "registerBiomes(Lnet/minecraftforge/event/RegistryEvent$Register;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "registerEntities(Lnet/minecraftforge/event/RegistryEvent$Register;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "registerPotions(Lnet/minecraftforge/event/RegistryEvent$Register;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "registerSounds(Lnet/minecraftforge/event/RegistryEvent$Register;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V"
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/McdjavaeditionVariables$WorldSavedDataSyncMessage": {
+    "name": "net/mcreator/mcd_javaedition/McdjavaeditionVariables$WorldSavedDataSyncMessage",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessage"
+    ]
+  },
+  "net/mcreator/mcd_javaedition/McdjavaeditionVariables$WorldSavedDataSyncMessageHandler": {
+    "name": "net/mcreator/mcd_javaedition/McdjavaeditionVariables$WorldSavedDataSyncMessageHandler",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessageHandler"
+    ]
+  },
+  "net/mcreator/mcd_javaedition/ServerProxyMcdjavaedition": {
+    "name": "net/mcreator/mcd_javaedition/ServerProxyMcdjavaedition",
+    "interfaces": [
+      "net/mcreator/mcd_javaedition/IProxyMcdjavaedition"
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockBigWell": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockBigWell",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockBigWell"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:bigwell"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockBlueUrn": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockBlueUrn",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockBlueUrn"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:blueurn"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockCWAndesite": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockCWAndesite",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockCWAndesite"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:cwandesite"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockCWChiseledStoneBrick": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockCWChiseledStoneBrick",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockCWChiseledStoneBrick"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:cwchiseledstonebrick"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockCWCobblestone": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockCWCobblestone",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockCWCobblestone"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:cwcobblestone"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockCWCrackedMossyStone": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockCWCrackedMossyStone",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockCWCrackedMossyStone"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:cwcrackedmossystone"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockCWCrackedStoneBrick": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockCWCrackedStoneBrick",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockCWCrackedStoneBrick"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:cwcrackedstonebrick"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockCWDarkerDirt": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockCWDarkerDirt",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockCWDarkerDirt"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:cwdarkerdirt"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockCWDirt": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockCWDirt",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockCWDirt"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:cwdirt"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockCWFlowers": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockCWFlowers",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockCWFlowers"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:cwflowers"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockCWGrass": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockCWGrass",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockCWGrass"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:cwgrass"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockCWGrassBlock": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockCWGrassBlock",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockCWGrassBlock"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:cwgrassblock"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockCWGrassDirt": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockCWGrassDirt",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockCWGrassDirt"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:cwgrassdirt"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockCWGrassPath": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockCWGrassPath",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockCWGrassPath"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:cwgrasspath"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockCWMossyAndesite": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockCWMossyAndesite",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockCWMossyAndesite"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:cwmossyandesite"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockCWMossyCobblestone": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockCWMossyCobblestone",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockCWMossyCobblestone"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:cwmossycobblestone"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockCWMossyCobblestone2": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockCWMossyCobblestone2",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockCWMossyCobblestone2"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:cwmossycobblestone2"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockCWMossyDirt": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockCWMossyDirt",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockCWMossyDirt"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:cwmossydirt"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockCWMossyStone": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockCWMossyStone",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockCWMossyStone"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:cwmossystone"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockCWMossyStoneBricks": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockCWMossyStoneBricks",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockCWMossyStoneBricks"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:cwmossystonebricks"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockCWMossyStonebricks2": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockCWMossyStonebricks2",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockCWMossyStonebricks2"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:cwmossystonebricks2"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockCWStone": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockCWStone",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockCWStone"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:cwstone"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockCWStoneBricks": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockCWStoneBricks",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockCWStoneBricks"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:cwstonebricks"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockCWTallGrassBottom": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockCWTallGrassBottom",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockCWTallGrassBottom"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:cwtallgrassbottom"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockCWTallGrassUp": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockCWTallGrassUp",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockCWTallGrassUp"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:cwtallgrassup"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockChiseledStoneCube": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockChiseledStoneCube",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockChiseledStoneCube"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:chiseledstonecube"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockChiseledStoneCubeMossy": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockChiseledStoneCubeMossy",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockChiseledStoneCubeMossy"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:chiseledstonecubemossy"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockChiseledStonePlus": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockChiseledStonePlus",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockChiseledStonePlus"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:chiseledstoneplus"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockChiseledStonePlusDirt": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockChiseledStonePlusDirt",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockChiseledStonePlusDirt"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:chiseledstoneplusdirt"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockChiseledStonePlusDirty": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockChiseledStonePlusDirty",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockChiseledStonePlusDirty"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:chiseledstoneplusdirty"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockCobblestoneMossy2": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockCobblestoneMossy2",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockCobblestoneMossy2"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:cobblestonemossy2"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockCobblestonefloordirty": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockCobblestonefloordirty",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockCobblestonefloordirty"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:cobblestonefloordirty"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockCobblestonefloordirty2": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockCobblestonefloordirty2",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockCobblestonefloordirty2"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:cobblestonefloordirty2"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockCobblestonefloordirty3": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockCobblestonefloordirty3",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockCobblestonefloordirty3"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:cobblestonefloordirty3"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockCobblestonemossy": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockCobblestonemossy",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockCobblestonemossy"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:cobblestonemossy"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockCrackedAndesite": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockCrackedAndesite",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockCrackedAndesite"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:crackedandesite"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockCwLeaves": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockCwLeaves",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockCwLeaves"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:cwleaves"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockCwglowmushroom": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockCwglowmushroom",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockCwglowmushroom"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:cwglowmushroom"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockDarkerStone": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockDarkerStone",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockDarkerStone"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:darkerstone"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockDiamondChest": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockDiamondChest",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockDiamondChest"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:diamondchest"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockDiamondChest$BlockCustom": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockDiamondChest$BlockCustom",
+    "interfaces": [
+      "net/minecraft/block/ITileEntityProvider"
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockDirt": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockDirt",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockDirt"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:dirt"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockDirtPath": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockDirtPath",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockDirtPath"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:dirtpath"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockDirtmossy": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockDirtmossy",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockDirtmossy"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:dirtmossy"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockDirtmossystone": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockDirtmossystone",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockDirtmossystone"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:dirtmossystone"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockDirtyGranite": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockDirtyGranite",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockDirtyGranite"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:dirtygranite"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockDirtyStoneBricksSkeleton": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockDirtyStoneBricksSkeleton",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockDirtyStoneBricksSkeleton"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:dirtystonebricksskeleton"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockEmeraldChest": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockEmeraldChest",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockEmeraldChest"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:emeraldchest"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockEmeraldChest$BlockCustom": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockEmeraldChest$BlockCustom",
+    "interfaces": [
+      "net/minecraft/block/ITileEntityProvider"
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockFancyTest": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockFancyTest",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockFancyTest"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:fancytest"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockFancyTest$BlockCustom": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockFancyTest$BlockCustom",
+    "interfaces": [
+      "net/minecraft/block/ITileEntityProvider"
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockFloorcobweb": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockFloorcobweb",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockFloorcobweb"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:floorcobweb"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockGlowingPlants": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockGlowingPlants",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockGlowingPlants"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:glowingplants"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockGlowingplantblock": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockGlowingplantblock",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockGlowingplantblock"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:glowingplantblock"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockGrass": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockGrass",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockGrass"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:grass"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockGrassdirt": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockGrassdirt",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockGrassdirt"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:grassdirt"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockGrave": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockGrave",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockGrave"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:grave"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockLightbblue": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockLightbblue",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockLightbblue"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:lightbblue"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockLightbwhite": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockLightbwhite",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockLightbwhite"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:lightbwhite"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockLightbyellow": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockLightbyellow",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockLightbyellow"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:lightbyellow"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockMcdtent": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockMcdtent",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockMcdtent"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:mcdtent"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockSkeletonChest": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockSkeletonChest",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockSkeletonChest"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:skeletonchest"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockSkeletonChest$BlockCustom": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockSkeletonChest$BlockCustom",
+    "interfaces": [
+      "net/minecraft/block/ITileEntityProvider"
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockStoneFloor": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockStoneFloor",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockStoneFloor"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:stonefloor"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockStoneFloorDirty": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockStoneFloorDirty",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockStoneFloorDirty"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:stonefloordirty"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockStoneFloorDirty2": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockStoneFloorDirty2",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockStoneFloorDirty2"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:stonefloordirty2"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockStoneFloorDirty3": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockStoneFloorDirty3",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockStoneFloorDirty3"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:stonefloordirty3"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockStoneFloorPath": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockStoneFloorPath",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockStoneFloorPath"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:stonefloorpath"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockStoneFloorPath2": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockStoneFloorPath2",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockStoneFloorPath2"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:stonefloorpath2"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockStoneFloorPath3": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockStoneFloorPath3",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockStoneFloorPath3"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:stonefloorpath3"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockStoneFloorPath4": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockStoneFloorPath4",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockStoneFloorPath4"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:stonefloorpath4"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockStoneFloorPathDirtStone": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockStoneFloorPathDirtStone",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockStoneFloorPathDirtStone"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:stonefloorpathdirtstone"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockStoneFloorPathStone": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockStoneFloorPathStone",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockStoneFloorPathStone"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:stonefloorpathstone"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockStoneGraniteSmooth": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockStoneGraniteSmooth",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockStoneGraniteSmooth"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:stonegranitesmooth"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockWoodenchest": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockWoodenchest",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/block/BlockWoodenchest"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:woodenchest"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/block/BlockWoodenchest$BlockCustom": {
+    "name": "net/mcreator/mcd_javaedition/block/BlockWoodenchest$BlockCustom",
+    "interfaces": [
+      "net/minecraft/block/ITileEntityProvider"
+    ]
+  },
+  "net/mcreator/mcd_javaedition/creativetab/TabMcDJavaEdition": {
+    "name": "net/mcreator/mcd_javaedition/creativetab/TabMcDJavaEdition",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/creativetab/TabMcDJavaEdition"
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/gui/GuiDiamondChestGUI": {
+    "name": "net/mcreator/mcd_javaedition/gui/GuiDiamondChestGUI",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/gui/GuiDiamondChestGUI"
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/gui/GuiDiamondChestGUI$GUIButtonPressedMessage": {
+    "name": "net/mcreator/mcd_javaedition/gui/GuiDiamondChestGUI$GUIButtonPressedMessage",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessage"
+    ]
+  },
+  "net/mcreator/mcd_javaedition/gui/GuiDiamondChestGUI$GUIButtonPressedMessageHandler": {
+    "name": "net/mcreator/mcd_javaedition/gui/GuiDiamondChestGUI$GUIButtonPressedMessageHandler",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessageHandler"
+    ]
+  },
+  "net/mcreator/mcd_javaedition/gui/GuiDiamondChestGUI$GUISlotChangedMessage": {
+    "name": "net/mcreator/mcd_javaedition/gui/GuiDiamondChestGUI$GUISlotChangedMessage",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessage"
+    ]
+  },
+  "net/mcreator/mcd_javaedition/gui/GuiDiamondChestGUI$GUISlotChangedMessageHandler": {
+    "name": "net/mcreator/mcd_javaedition/gui/GuiDiamondChestGUI$GUISlotChangedMessageHandler",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessageHandler"
+    ]
+  },
+  "net/mcreator/mcd_javaedition/gui/GuiDiamondChestGUI$GuiContainerMod": {
+    "name": "net/mcreator/mcd_javaedition/gui/GuiDiamondChestGUI$GuiContainerMod",
+    "interfaces": [
+      "java/util/function/Supplier"
+    ]
+  },
+  "net/mcreator/mcd_javaedition/gui/GuiEmeraldChestGUI": {
+    "name": "net/mcreator/mcd_javaedition/gui/GuiEmeraldChestGUI",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/gui/GuiEmeraldChestGUI"
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/gui/GuiEmeraldChestGUI$GUIButtonPressedMessage": {
+    "name": "net/mcreator/mcd_javaedition/gui/GuiEmeraldChestGUI$GUIButtonPressedMessage",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessage"
+    ]
+  },
+  "net/mcreator/mcd_javaedition/gui/GuiEmeraldChestGUI$GUIButtonPressedMessageHandler": {
+    "name": "net/mcreator/mcd_javaedition/gui/GuiEmeraldChestGUI$GUIButtonPressedMessageHandler",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessageHandler"
+    ]
+  },
+  "net/mcreator/mcd_javaedition/gui/GuiEmeraldChestGUI$GUISlotChangedMessage": {
+    "name": "net/mcreator/mcd_javaedition/gui/GuiEmeraldChestGUI$GUISlotChangedMessage",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessage"
+    ]
+  },
+  "net/mcreator/mcd_javaedition/gui/GuiEmeraldChestGUI$GUISlotChangedMessageHandler": {
+    "name": "net/mcreator/mcd_javaedition/gui/GuiEmeraldChestGUI$GUISlotChangedMessageHandler",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessageHandler"
+    ]
+  },
+  "net/mcreator/mcd_javaedition/gui/GuiEmeraldChestGUI$GuiContainerMod": {
+    "name": "net/mcreator/mcd_javaedition/gui/GuiEmeraldChestGUI$GuiContainerMod",
+    "interfaces": [
+      "java/util/function/Supplier"
+    ]
+  },
+  "net/mcreator/mcd_javaedition/gui/GuiFancychestgui": {
+    "name": "net/mcreator/mcd_javaedition/gui/GuiFancychestgui",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/gui/GuiFancychestgui"
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/gui/GuiFancychestgui$GUIButtonPressedMessage": {
+    "name": "net/mcreator/mcd_javaedition/gui/GuiFancychestgui$GUIButtonPressedMessage",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessage"
+    ]
+  },
+  "net/mcreator/mcd_javaedition/gui/GuiFancychestgui$GUIButtonPressedMessageHandler": {
+    "name": "net/mcreator/mcd_javaedition/gui/GuiFancychestgui$GUIButtonPressedMessageHandler",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessageHandler"
+    ]
+  },
+  "net/mcreator/mcd_javaedition/gui/GuiFancychestgui$GUISlotChangedMessage": {
+    "name": "net/mcreator/mcd_javaedition/gui/GuiFancychestgui$GUISlotChangedMessage",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessage"
+    ]
+  },
+  "net/mcreator/mcd_javaedition/gui/GuiFancychestgui$GUISlotChangedMessageHandler": {
+    "name": "net/mcreator/mcd_javaedition/gui/GuiFancychestgui$GUISlotChangedMessageHandler",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessageHandler"
+    ]
+  },
+  "net/mcreator/mcd_javaedition/gui/GuiFancychestgui$GuiContainerMod": {
+    "name": "net/mcreator/mcd_javaedition/gui/GuiFancychestgui$GuiContainerMod",
+    "interfaces": [
+      "java/util/function/Supplier"
+    ]
+  },
+  "net/mcreator/mcd_javaedition/gui/GuiSkeletonChestGUI": {
+    "name": "net/mcreator/mcd_javaedition/gui/GuiSkeletonChestGUI",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/gui/GuiSkeletonChestGUI"
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/gui/GuiSkeletonChestGUI$GUIButtonPressedMessage": {
+    "name": "net/mcreator/mcd_javaedition/gui/GuiSkeletonChestGUI$GUIButtonPressedMessage",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessage"
+    ]
+  },
+  "net/mcreator/mcd_javaedition/gui/GuiSkeletonChestGUI$GUIButtonPressedMessageHandler": {
+    "name": "net/mcreator/mcd_javaedition/gui/GuiSkeletonChestGUI$GUIButtonPressedMessageHandler",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessageHandler"
+    ]
+  },
+  "net/mcreator/mcd_javaedition/gui/GuiSkeletonChestGUI$GUISlotChangedMessage": {
+    "name": "net/mcreator/mcd_javaedition/gui/GuiSkeletonChestGUI$GUISlotChangedMessage",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessage"
+    ]
+  },
+  "net/mcreator/mcd_javaedition/gui/GuiSkeletonChestGUI$GUISlotChangedMessageHandler": {
+    "name": "net/mcreator/mcd_javaedition/gui/GuiSkeletonChestGUI$GUISlotChangedMessageHandler",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessageHandler"
+    ]
+  },
+  "net/mcreator/mcd_javaedition/gui/GuiSkeletonChestGUI$GuiContainerMod": {
+    "name": "net/mcreator/mcd_javaedition/gui/GuiSkeletonChestGUI$GuiContainerMod",
+    "interfaces": [
+      "java/util/function/Supplier"
+    ]
+  },
+  "net/mcreator/mcd_javaedition/gui/GuiWoodenChestGui": {
+    "name": "net/mcreator/mcd_javaedition/gui/GuiWoodenChestGui",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/gui/GuiWoodenChestGui"
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/gui/GuiWoodenChestGui$GUIButtonPressedMessage": {
+    "name": "net/mcreator/mcd_javaedition/gui/GuiWoodenChestGui$GUIButtonPressedMessage",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessage"
+    ]
+  },
+  "net/mcreator/mcd_javaedition/gui/GuiWoodenChestGui$GUIButtonPressedMessageHandler": {
+    "name": "net/mcreator/mcd_javaedition/gui/GuiWoodenChestGui$GUIButtonPressedMessageHandler",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessageHandler"
+    ]
+  },
+  "net/mcreator/mcd_javaedition/gui/GuiWoodenChestGui$GUISlotChangedMessage": {
+    "name": "net/mcreator/mcd_javaedition/gui/GuiWoodenChestGui$GUISlotChangedMessage",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessage"
+    ]
+  },
+  "net/mcreator/mcd_javaedition/gui/GuiWoodenChestGui$GUISlotChangedMessageHandler": {
+    "name": "net/mcreator/mcd_javaedition/gui/GuiWoodenChestGui$GUISlotChangedMessageHandler",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessageHandler"
+    ]
+  },
+  "net/mcreator/mcd_javaedition/gui/GuiWoodenChestGui$GuiContainerMod": {
+    "name": "net/mcreator/mcd_javaedition/gui/GuiWoodenChestGui$GuiContainerMod",
+    "interfaces": [
+      "java/util/function/Supplier"
+    ]
+  },
+  "net/mcreator/mcd_javaedition/item/ItemApple": {
+    "name": "net/mcreator/mcd_javaedition/item/ItemApple",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/item/ItemApple"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:apple"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/item/ItemArcherarmor": {
+    "name": "net/mcreator/mcd_javaedition/item/ItemArcherarmor",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/item/ItemArcherarmor"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "helmet",
+        "value": {
+          "value": "mcd_javaedition:archerarmorhelmet"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "body",
+        "value": {
+          "value": "mcd_javaedition:archerarmorbody"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "legs",
+        "value": {
+          "value": "mcd_javaedition:archerarmorlegs"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "boots",
+        "value": {
+          "value": "mcd_javaedition:archerarmorboots"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/item/ItemBootsofswiftness": {
+    "name": "net/mcreator/mcd_javaedition/item/ItemBootsofswiftness",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/item/ItemBootsofswiftness"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:bootsofswiftness"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/item/ItemBread": {
+    "name": "net/mcreator/mcd_javaedition/item/ItemBread",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/item/ItemBread"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:bread"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/item/ItemDeathcapmushroom": {
+    "name": "net/mcreator/mcd_javaedition/item/ItemDeathcapmushroom",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/item/ItemDeathcapmushroom"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:deathcapmushroom"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/item/ItemFirewor": {
+    "name": "net/mcreator/mcd_javaedition/item/ItemFirewor",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/item/ItemFirewor"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:firewor"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/item/ItemFoxarmor": {
+    "name": "net/mcreator/mcd_javaedition/item/ItemFoxarmor",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/item/ItemFoxarmor"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "helmet",
+        "value": {
+          "value": "mcd_javaedition:foxarmorhelmet"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "body",
+        "value": {
+          "value": "mcd_javaedition:foxarmorbody"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "legs",
+        "value": {
+          "value": "mcd_javaedition:foxarmorlegs"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "boots",
+        "value": {
+          "value": "mcd_javaedition:foxarmorboots"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/item/ItemHealthpot": {
+    "name": "net/mcreator/mcd_javaedition/item/ItemHealthpot",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/item/ItemHealthpot"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:healthpot"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/item/ItemHighlandarmor": {
+    "name": "net/mcreator/mcd_javaedition/item/ItemHighlandarmor",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/item/ItemHighlandarmor"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "helmet",
+        "value": {
+          "value": "mcd_javaedition:highlandarmorhelmet"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "body",
+        "value": {
+          "value": "mcd_javaedition:highlandarmorbody"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "legs",
+        "value": {
+          "value": "mcd_javaedition:highlandarmorlegs"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "boots",
+        "value": {
+          "value": "mcd_javaedition:highlandarmorboots"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/item/ItemHunterarmor": {
+    "name": "net/mcreator/mcd_javaedition/item/ItemHunterarmor",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/item/ItemHunterarmor"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "helmet",
+        "value": {
+          "value": "mcd_javaedition:hunterarmorhelmet"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "body",
+        "value": {
+          "value": "mcd_javaedition:hunterarmorbody"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "legs",
+        "value": {
+          "value": "mcd_javaedition:hunterarmorlegs"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "boots",
+        "value": {
+          "value": "mcd_javaedition:hunterarmorboots"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/item/ItemNothing": {
+    "name": "net/mcreator/mcd_javaedition/item/ItemNothing",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/item/ItemNothing"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:nothing"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/item/ItemPorkchop": {
+    "name": "net/mcreator/mcd_javaedition/item/ItemPorkchop",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/item/ItemPorkchop"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:porkchop"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/item/ItemPotionHealth": {
+    "name": "net/mcreator/mcd_javaedition/item/ItemPotionHealth",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/item/ItemPotionHealth"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:potionhealth"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/item/ItemPotionSpeed": {
+    "name": "net/mcreator/mcd_javaedition/item/ItemPotionSpeed",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/item/ItemPotionSpeed"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:potionspeed"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/item/ItemScalemailarmor": {
+    "name": "net/mcreator/mcd_javaedition/item/ItemScalemailarmor",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/item/ItemScalemailarmor"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "helmet",
+        "value": {
+          "value": "mcd_javaedition:scalemailarmorhelmet"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "body",
+        "value": {
+          "value": "mcd_javaedition:scalemailarmorbody"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "legs",
+        "value": {
+          "value": "mcd_javaedition:scalemailarmorlegs"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "boots",
+        "value": {
+          "value": "mcd_javaedition:scalemailarmorboots"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/item/ItemShadowBrew": {
+    "name": "net/mcreator/mcd_javaedition/item/ItemShadowBrew",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/item/ItemShadowBrew"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:shadowbrew"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/item/ItemStrengthPotion": {
+    "name": "net/mcreator/mcd_javaedition/item/ItemStrengthPotion",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/item/ItemStrengthPotion"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:strengthpotion"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/item/ItemTnt": {
+    "name": "net/mcreator/mcd_javaedition/item/ItemTnt",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/item/ItemTnt"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "mcd_javaedition:tnt"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/item/ItemWolfsarmor": {
+    "name": "net/mcreator/mcd_javaedition/item/ItemWolfsarmor",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/item/ItemWolfsarmor"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "helmet",
+        "value": {
+          "value": "mcd_javaedition:wolfsarmorhelmet"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "body",
+        "value": {
+          "value": "mcd_javaedition:wolfsarmorbody"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "legs",
+        "value": {
+          "value": "mcd_javaedition:wolfsarmorlegs"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "boots",
+        "value": {
+          "value": "mcd_javaedition:wolfsarmorboots"
+        }
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/procedure/ProcedureAppleRightClickedInAir": {
+    "name": "net/mcreator/mcd_javaedition/procedure/ProcedureAppleRightClickedInAir",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/procedure/ProcedureAppleRightClickedInAir"
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/procedure/ProcedureBlueUrnLoot": {
+    "name": "net/mcreator/mcd_javaedition/procedure/ProcedureBlueUrnLoot",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/procedure/ProcedureBlueUrnLoot"
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/procedure/ProcedureBootsofswiftnessRangedItemUsed": {
+    "name": "net/mcreator/mcd_javaedition/procedure/ProcedureBootsofswiftnessRangedItemUsed",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/procedure/ProcedureBootsofswiftnessRangedItemUsed"
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/procedure/ProcedureBreadRightClickedInAir": {
+    "name": "net/mcreator/mcd_javaedition/procedure/ProcedureBreadRightClickedInAir",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/procedure/ProcedureBreadRightClickedInAir"
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/procedure/ProcedureCWTallGrassBottomBlockAdded": {
+    "name": "net/mcreator/mcd_javaedition/procedure/ProcedureCWTallGrassBottomBlockAdded",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/procedure/ProcedureCWTallGrassBottomBlockAdded"
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/procedure/ProcedureCWTallGrassBottomUpdateTick": {
+    "name": "net/mcreator/mcd_javaedition/procedure/ProcedureCWTallGrassBottomUpdateTick",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/procedure/ProcedureCWTallGrassBottomUpdateTick"
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/procedure/ProcedureCWTallGrassUpUpdateTick": {
+    "name": "net/mcreator/mcd_javaedition/procedure/ProcedureCWTallGrassUpUpdateTick",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/procedure/ProcedureCWTallGrassUpUpdateTick"
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/procedure/ProcedureDeathcapmushroomRangedItemUsed": {
+    "name": "net/mcreator/mcd_javaedition/procedure/ProcedureDeathcapmushroomRangedItemUsed",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/procedure/ProcedureDeathcapmushroomRangedItemUsed"
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/procedure/ProcedureDiamondChestOnBlockRightClicked": {
+    "name": "net/mcreator/mcd_javaedition/procedure/ProcedureDiamondChestOnBlockRightClicked",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/procedure/ProcedureDiamondChestOnBlockRightClicked"
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/procedure/ProcedureEmeraldChestOnBlockRightClicked": {
+    "name": "net/mcreator/mcd_javaedition/procedure/ProcedureEmeraldChestOnBlockRightClicked",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/procedure/ProcedureEmeraldChestOnBlockRightClicked"
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/procedure/ProcedureFancyTestOnBlockRightClicked": {
+    "name": "net/mcreator/mcd_javaedition/procedure/ProcedureFancyTestOnBlockRightClicked",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/procedure/ProcedureFancyTestOnBlockRightClicked"
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/procedure/ProcedureFireworRangedItemUsed": {
+    "name": "net/mcreator/mcd_javaedition/procedure/ProcedureFireworRangedItemUsed",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/procedure/ProcedureFireworRangedItemUsed"
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/procedure/ProcedureFireworblast": {
+    "name": "net/mcreator/mcd_javaedition/procedure/ProcedureFireworblast",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/procedure/ProcedureFireworblast"
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/procedure/ProcedureFireworblast$1": {
+    "name": "net/mcreator/mcd_javaedition/procedure/ProcedureFireworblast$1",
+    "interfaces": [
+      "net/minecraft/command/ICommandSender"
+    ]
+  },
+  "net/mcreator/mcd_javaedition/procedure/ProcedureFireworblast$2": {
+    "name": "net/mcreator/mcd_javaedition/procedure/ProcedureFireworblast$2",
+    "interfaces": [
+      "net/minecraft/command/ICommandSender"
+    ]
+  },
+  "net/mcreator/mcd_javaedition/procedure/ProcedureFireworblast$3": {
+    "name": "net/mcreator/mcd_javaedition/procedure/ProcedureFireworblast$3",
+    "interfaces": [
+      "net/minecraft/command/ICommandSender"
+    ]
+  },
+  "net/mcreator/mcd_javaedition/procedure/ProcedurePorkchopRightClickedInAir": {
+    "name": "net/mcreator/mcd_javaedition/procedure/ProcedurePorkchopRightClickedInAir",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/procedure/ProcedurePorkchopRightClickedInAir"
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/procedure/ProcedurePotheath1use": {
+    "name": "net/mcreator/mcd_javaedition/procedure/ProcedurePotheath1use",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/procedure/ProcedurePotheath1use"
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/procedure/ProcedurePotionHealthRightClickedInAir": {
+    "name": "net/mcreator/mcd_javaedition/procedure/ProcedurePotionHealthRightClickedInAir",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/procedure/ProcedurePotionHealthRightClickedInAir"
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/procedure/ProcedurePotionSpeedRightClickedInAir": {
+    "name": "net/mcreator/mcd_javaedition/procedure/ProcedurePotionSpeedRightClickedInAir",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/procedure/ProcedurePotionSpeedRightClickedInAir"
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/procedure/ProcedureShadowBrewRightClickedInAir": {
+    "name": "net/mcreator/mcd_javaedition/procedure/ProcedureShadowBrewRightClickedInAir",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/procedure/ProcedureShadowBrewRightClickedInAir"
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/procedure/ProcedureSkeletonChestOnBlockRightClicked": {
+    "name": "net/mcreator/mcd_javaedition/procedure/ProcedureSkeletonChestOnBlockRightClicked",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/procedure/ProcedureSkeletonChestOnBlockRightClicked"
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/procedure/ProcedureStrengthPotionRightClickedInAir": {
+    "name": "net/mcreator/mcd_javaedition/procedure/ProcedureStrengthPotionRightClickedInAir",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/procedure/ProcedureStrengthPotionRightClickedInAir"
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/procedure/ProcedureTntexplode": {
+    "name": "net/mcreator/mcd_javaedition/procedure/ProcedureTntexplode",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/procedure/ProcedureTntexplode"
+      }
+    ]
+  },
+  "net/mcreator/mcd_javaedition/procedure/ProcedureTntexplode$1": {
+    "name": "net/mcreator/mcd_javaedition/procedure/ProcedureTntexplode$1",
+    "interfaces": [
+      "net/minecraft/command/ICommandSender"
+    ]
+  },
+  "net/mcreator/mcd_javaedition/procedure/ProcedureTntexplode$2": {
+    "name": "net/mcreator/mcd_javaedition/procedure/ProcedureTntexplode$2",
+    "interfaces": [
+      "net/minecraft/command/ICommandSender"
+    ]
+  },
+  "net/mcreator/mcd_javaedition/procedure/ProcedureTntexplode$3": {
+    "name": "net/mcreator/mcd_javaedition/procedure/ProcedureTntexplode$3",
+    "interfaces": [
+      "net/minecraft/command/ICommandSender"
+    ]
+  },
+  "net/mcreator/mcd_javaedition/procedure/ProcedureWoodenchestOnBlockRightClicked": {
+    "name": "net/mcreator/mcd_javaedition/procedure/ProcedureWoodenchestOnBlockRightClicked",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/mcreator/mcd_javaedition/ElementsMcdjavaedition$ModElement$Tag;",
+        "target": "net/mcreator/mcd_javaedition/procedure/ProcedureWoodenchestOnBlockRightClicked"
+      }
+    ]
+  }
+}

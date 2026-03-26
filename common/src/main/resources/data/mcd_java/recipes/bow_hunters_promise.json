@@ -1,0 +1,43 @@
+{
+  "fabric:load_conditions":[
+    {
+      "condition":"mcd_java:item_enabled",
+      "values":[
+        "mcd_java:bow_hunting_bow"
+      ]
+    },
+    {
+      "condition":"mcd_java:item_enabled",
+      "values":[
+        "mcd_java:bow_hunters_promise"
+      ]
+    }
+  ],
+  "type":"minecraft:crafting_shaped",
+  "pattern":[
+    "rLF",
+    " BH",
+    "rLH"
+  ],
+  "key":{
+    "H":{
+      "item":"minecraft:honeycomb"
+    },
+    "r":{
+      "item":"minecraft:rabbit_hide"
+    },
+    "B":{
+      "item":"mcd_java:bow_hunting_bow"
+    },
+    "L":{
+      "item":"minecraft:leather"
+    },
+    "F":{
+      "item":"minecraft:feather"
+    }
+  },
+  "result":{
+    "item":"mcd_java:bow_hunters_promise",
+    "count":1
+  }
+}

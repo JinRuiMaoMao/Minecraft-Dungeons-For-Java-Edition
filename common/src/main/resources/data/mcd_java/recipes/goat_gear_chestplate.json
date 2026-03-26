@@ -1,0 +1,34 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcd_java:item_enabled",
+      "values": [
+        "mcd_java:goat_gear_chestplate"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ggg",
+    "bLb",
+    "grg"
+  ],
+  "key": {
+    "L": {
+      "item": "minecraft:leather_chestplate"
+    },
+    "b": {
+      "item": "mcd_java:fabric_bolt_blue"
+    },
+    "r": {
+      "item": "mcd_java:fabric_bolt_red"
+    },
+    "g": {
+      "item": "mcd_java:goat_pelt"
+    }
+  },
+  "result": {
+    "item": "mcd_java:goat_gear_chestplate",
+    "count": 1
+  }
+}

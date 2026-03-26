@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcda:item_enabled",
+      "values": [
+        "mcda:evocation_robe_leggings",
+        "mcda:verdant_robe_leggings"
+      ]
+    }
+  ],
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "mcda:evocation_robe_leggings"
+  },
+  "addition": {
+    "item": "mcda:upgrade_core_verdant"
+  },
+  "result": {
+    "item": "mcda:verdant_robe_leggings"
+    },
+    "template": {
+      "item": "minecraft:blaze_powder"
+    }
+}

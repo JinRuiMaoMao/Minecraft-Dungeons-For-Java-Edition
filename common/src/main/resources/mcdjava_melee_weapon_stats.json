@@ -1,0 +1,424 @@
+{
+    "defaults":  {
+                     "damage":  5,
+                     "attackSpeed":  -2.4,
+                     "tier":  "IRON"
+                 },
+    "weapons":  {
+                    "sword_beestinger":  {
+                                             "damage":  0,
+                                             "attackSpeed":  -1.1,
+                                             "tier":  "IRON"
+                                         },
+                    "sword_broadsword":  {
+                                             "damage":  5,
+                                             "attackSpeed":  -3,
+                                             "tier":  "IRON"
+                                         },
+                    "sword_broken_sawblade":  {
+                                                  "damage":  3,
+                                                  "attackSpeed":  -2.4,
+                                                  "tier":  "IRON"
+                                              },
+                    "sword_claymore":  {
+                                           "damage":  7,
+                                           "attackSpeed":  -3.2,
+                                           "tier":  "IRON"
+                                       },
+                    "sword_coral_blade":  {
+                                              "damage":  3,
+                                              "attackSpeed":  -2.4,
+                                              "tier":  "IRON"
+                                          },
+                    "sword_cutlass":  {
+                                          "damage":  2,
+                                          "attackSpeed":  -2.3,
+                                          "tier":  "IRON"
+                                      },
+                    "sword_dancers_sword":  {
+                                                "damage":  3,
+                                                "attackSpeed":  -2,
+                                                "tier":  "IRON"
+                                            },
+                    "sword_dark_katana":  {
+                                              "damage":  4,
+                                              "attackSpeed":  -2.9,
+                                              "tier":  "NETHERITE"
+                                          },
+                    "sword_diamond_sword_var":  {
+                                                    "damage":  3,
+                                                    "attackSpeed":  -2.4,
+                                                    "tier":  "DIAMOND"
+                                                },
+                    "sword_freezing_foil":  {
+                                                "damage":  1,
+                                                "attackSpeed":  -1.1,
+                                                "tier":  "IRON"
+                                            },
+                    "sword_frost_slayer":  {
+                                               "damage":  6,
+                                               "attackSpeed":  -3.2,
+                                               "tier":  "DIAMOND"
+                                           },
+                    "sword_great_axeblade":  {
+                                                 "damage":  7,
+                                                 "attackSpeed":  -3.2,
+                                                 "tier":  "IRON"
+                                             },
+                    "sword_hawkbrand":  {
+                                            "damage":  6,
+                                            "attackSpeed":  -2.9,
+                                            "tier":  "IRON"
+                                        },
+                    "sword_heartstealer":  {
+                                               "damage":  6,
+                                               "attackSpeed":  -3.2,
+                                               "tier":  "DIAMOND"
+                                           },
+                    "sword_iron_sword_var":  {
+                                                 "damage":  3,
+                                                 "attackSpeed":  -2.4,
+                                                 "tier":  "IRON"
+                                             },
+                    "sword_katana":  {
+                                         "damage":  4,
+                                         "attackSpeed":  -2.9,
+                                         "tier":  "IRON"
+                                     },
+                    "sword_masters_katana":  {
+                                                 "damage":  4,
+                                                 "attackSpeed":  -2.9,
+                                                 "tier":  "DIAMOND"
+                                             },
+                    "sword_mechanized_sawblade":  {
+                                                      "damage":  3,
+                                                      "attackSpeed":  -2.4,
+                                                      "tier":  "DIAMOND"
+                                                  },
+                    "sword_nameless_blade":  {
+                                                 "damage":  4,
+                                                 "attackSpeed":  -2.3,
+                                                 "tier":  "IRON"
+                                             },
+                    "sword_obsidian_claymore":  {
+                                                    "damage":  6,
+                                                    "attackSpeed":  -3.3,
+                                                    "tier":  "NETHERITE"
+                                                },
+                    "sword_rapier":  {
+                                         "damage":  0,
+                                         "attackSpeed":  -1.14,
+                                         "tier":  "IRON"
+                                     },
+                    "sword_sinister":  {
+                                           "damage":  6,
+                                           "attackSpeed":  -2.9,
+                                           "tier":  "IRON"
+                                       },
+                    "sword_sponge_striker":  {
+                                                 "damage":  3,
+                                                 "attackSpeed":  -2.4,
+                                                 "tier":  "DIAMOND"
+                                             },
+                    "sword_the_starless_night":  {
+                                                     "damage":  6,
+                                                     "attackSpeed":  -3.3,
+                                                     "tier":  "NETHERITE"
+                                                 },
+                    "axe_anchor":  {
+                                       "damage":  8,
+                                       "attackSpeed":  -3.4,
+                                       "tier":  "IRON"
+                                   },
+                    "axe_axe":  {
+                                    "damage":  6,
+                                    "attackSpeed":  -3.1,
+                                    "tier":  "IRON"
+                                },
+                    "axe_encrusted_anchor":  {
+                                                 "damage":  8,
+                                                 "attackSpeed":  -3.4,
+                                                 "tier":  "DIAMOND"
+                                             },
+                    "axe_firebrand":  {
+                                          "damage":  4,
+                                          "attackSpeed":  -2.9,
+                                          "tier":  "DIAMOND"
+                                      },
+                    "axe_highland":  {
+                                         "damage":  4,
+                                         "attackSpeed":  -2.9,
+                                         "tier":  "IRON"
+                                     },
+                    "double_axe_cursed":  {
+                                              "damage":  7,
+                                              "attackSpeed":  -2.9,
+                                              "tier":  "IRON"
+                                          },
+                    "double_axe_double":  {
+                                              "damage":  6,
+                                              "attackSpeed":  -2.9,
+                                              "tier":  "IRON"
+                                          },
+                    "double_axe_whirlwind":  {
+                                                 "damage":  6,
+                                                 "attackSpeed":  -2.9,
+                                                 "tier":  "IRON"
+                                             },
+                    "dagger_backstabber":  {
+                                               "damage":  1,
+                                               "attackSpeed":  -1.7,
+                                               "tier":  "DIAMOND"
+                                           },
+                    "dagger_chill_gale_knife":  {
+                                                    "damage":  2,
+                                                    "attackSpeed":  -2.2,
+                                                    "tier":  "DIAMOND"
+                                                },
+                    "dagger_dagger":  {
+                                          "damage":  1,
+                                          "attackSpeed":  -1.5,
+                                          "tier":  "IRON"
+                                      },
+                    "dagger_fangs_of_frost":  {
+                                                  "damage":  1,
+                                                  "attackSpeed":  -1.5,
+                                                  "tier":  "IRON"
+                                              },
+                    "dagger_moon":  {
+                                        "damage":  1,
+                                        "attackSpeed":  -1.5,
+                                        "tier":  "IRON"
+                                    },
+                    "dagger_resolute_tempest_knife":  {
+                                                          "damage":  2,
+                                                          "attackSpeed":  -2.2,
+                                                          "tier":  "IRON"
+                                                      },
+                    "dagger_shear_dagger":  {
+                                                "damage":  0,
+                                                "attackSpeed":  -1.5,
+                                                "tier":  "IRON"
+                                            },
+                    "dagger_swift_striker":  {
+                                                 "damage":  1,
+                                                 "attackSpeed":  -1.7,
+                                                 "tier":  "NETHERITE"
+                                             },
+                    "dagger_tempest_knife":  {
+                                                 "damage":  2,
+                                                 "attackSpeed":  -2.2,
+                                                 "tier":  "IRON"
+                                             },
+                    "dagger_the_beginning":  {
+                                                 "damage":  1,
+                                                 "attackSpeed":  -1.8,
+                                                 "tier":  "NETHERITE"
+                                             },
+                    "dagger_the_end":  {
+                                           "damage":  1,
+                                           "attackSpeed":  -1.8,
+                                           "tier":  "NETHERITE"
+                                       },
+                    "dagger_void_touched_blade":  {
+                                                      "damage":  1,
+                                                      "attackSpeed":  -1.8,
+                                                      "tier":  "DIAMOND"
+                                                  },
+                    "soul_dagger_eternal_knife":  {
+                                                      "damage":  4,
+                                                      "attackSpeed":  -2.8,
+                                                      "tier":  "NETHERITE"
+                                                  },
+                    "soul_dagger_soul_knife":  {
+                                                   "damage":  4,
+                                                   "attackSpeed":  -2.8,
+                                                   "tier":  "IRON"
+                                               },
+                    "soul_dagger_truthseeker":  {
+                                                    "damage":  3,
+                                                    "attackSpeed":  -2.8,
+                                                    "tier":  "NETHERITE"
+                                                },
+                    "hammer_boneclub":  {
+                                            "damage":  7,
+                                            "attackSpeed":  -3.2,
+                                            "tier":  "IRON"
+                                        },
+                    "hammer_bone_cudgel":  {
+                                               "damage":  7,
+                                               "attackSpeed":  -3.2,
+                                               "tier":  "NETHERITE"
+                                           },
+                    "hammer_flail":  {
+                                         "damage":  5,
+                                         "attackSpeed":  -2.8,
+                                         "tier":  "IRON"
+                                     },
+                    "hammer_gravity":  {
+                                           "damage":  6,
+                                           "attackSpeed":  -3.2,
+                                           "tier":  "DIAMOND"
+                                       },
+                    "hammer_great_hammer":  {
+                                                "damage":  6,
+                                                "attackSpeed":  -3.2,
+                                                "tier":  "IRON"
+                                            },
+                    "hammer_mace":  {
+                                        "damage":  5,
+                                        "attackSpeed":  -2.8,
+                                        "tier":  "IRON"
+                                    },
+                    "hammer_stormlander":  {
+                                               "damage":  7,
+                                               "attackSpeed":  -3.2,
+                                               "tier":  "DIAMOND"
+                                           },
+                    "hammer_suns_grace":  {
+                                              "damage":  4,
+                                              "attackSpeed":  -2.8,
+                                              "tier":  "DIAMOND"
+                                          },
+                    "gauntlet_gauntlet":  {
+                                              "damage":  0,
+                                              "attackSpeed":  -1.5,
+                                              "tier":  "IRON"
+                                          },
+                    "gauntlet_maulers":  {
+                                             "damage":  1,
+                                             "attackSpeed":  -1.5,
+                                             "tier":  "DIAMOND"
+                                         },
+                    "gauntlet_soul_fists":  {
+                                                "damage":  0,
+                                                "attackSpeed":  -1.5,
+                                                "tier":  "NETHERITE"
+                                            },
+                    "sickle_last_laugh_gold":  {
+                                                   "damage":  2,
+                                                   "attackSpeed":  -2.1,
+                                                   "tier":  "IRON"
+                                               },
+                    "sickle_last_laugh_silver":  {
+                                                     "damage":  2,
+                                                     "attackSpeed":  -2.1,
+                                                     "tier":  "IRON"
+                                                 },
+                    "sickle_nightmares_bite":  {
+                                                   "damage":  2,
+                                                   "attackSpeed":  -2.1,
+                                                   "tier":  "IRON"
+                                               },
+                    "sickle_sickle":  {
+                                          "damage":  1,
+                                          "attackSpeed":  -2.1,
+                                          "tier":  "IRON"
+                                      },
+                    "scythe_frost_scythe":  {
+                                                "damage":  4,
+                                                "attackSpeed":  -2.9,
+                                                "tier":  "DIAMOND"
+                                            },
+                    "scythe_jailors_scythe":  {
+                                                  "damage":  4,
+                                                  "attackSpeed":  -2.9,
+                                                  "tier":  "IRON"
+                                              },
+                    "scythe_skull_scythe":  {
+                                                "damage":  4,
+                                                "attackSpeed":  -2.9,
+                                                "tier":  "DIAMOND"
+                                            },
+                    "scythe_soul_scythe":  {
+                                               "damage":  3,
+                                               "attackSpeed":  -2.9,
+                                               "tier":  "DIAMOND"
+                                           },
+                    "pick_diamond_pickaxe_var":  {
+                                                     "damage":  1,
+                                                     "attackSpeed":  -2.8,
+                                                     "tier":  "DIAMOND"
+                                                 },
+                    "pick_hailing_pinnacle":  {
+                                                  "damage":  1,
+                                                  "attackSpeed":  -2.8,
+                                                  "tier":  "DIAMOND"
+                                              },
+                    "pick_howling_pick":  {
+                                              "damage":  1,
+                                              "attackSpeed":  -2.8,
+                                              "tier":  "IRON"
+                                          },
+                    "pick_mountaineer_pick":  {
+                                                  "damage":  1,
+                                                  "attackSpeed":  -2.8,
+                                                  "tier":  "IRON"
+                                              },
+                    "glaive_cackling_broom":  {
+                                                  "damage":  5,
+                                                  "attackSpeed":  -3,
+                                                  "tier":  "IRON"
+                                              },
+                    "glaive_glaive":  {
+                                          "damage":  5,
+                                          "attackSpeed":  -3,
+                                          "tier":  "IRON"
+                                      },
+                    "glaive_grave_bane":  {
+                                              "damage":  6,
+                                              "attackSpeed":  -3,
+                                              "tier":  "IRON"
+                                          },
+                    "glaive_venom_glaive":  {
+                                                "damage":  6,
+                                                "attackSpeed":  -3,
+                                                "tier":  "IRON"
+                                            },
+                    "spear_spear":  {
+                                        "damage":  4,
+                                        "attackSpeed":  -2.5,
+                                        "tier":  "IRON"
+                                    },
+                    "spear_whispering_spear":  {
+                                                   "damage":  5,
+                                                   "attackSpeed":  -2.5,
+                                                   "tier":  "IRON"
+                                               },
+                    "spear_fortune":  {
+                                          "damage":  5,
+                                          "attackSpeed":  -2.5,
+                                          "tier":  "IRON"
+                                      },
+                    "staff_battlestaff":  {
+                                              "damage":  2,
+                                              "attackSpeed":  -2.6,
+                                              "tier":  "WOOD"
+                                          },
+                    "staff_battlestaff_of_terror":  {
+                                                        "damage":  5,
+                                                        "attackSpeed":  -2.6,
+                                                        "tier":  "IRON"
+                                                    },
+                    "staff_growing_staff":  {
+                                                "damage":  5,
+                                                "attackSpeed":  -2.6,
+                                                "tier":  "IRON"
+                                            },
+                    "whip_vine_whip":  {
+                                           "damage":  5,
+                                           "attackSpeed":  -3.1,
+                                           "tier":  "IRON"
+                                       },
+                    "whip_whip":  {
+                                      "damage":  3,
+                                      "attackSpeed":  -3.1,
+                                      "tier":  "IRON"
+                                  },
+                    "gauntlet_fighters_bindings":  {
+                                                       "damage":  0,
+                                                       "attackSpeed":  -1.5,
+                                                       "tier":  "IRON"
+                                                   }
+                }
+}

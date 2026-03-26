@@ -1,0 +1,34 @@
+{
+  "fabric:load_conditions":[
+    {
+      "condition":"mcd_java:item_enabled",
+      "values":[
+        "mcd_java:bow_hunting_bow"
+      ]
+    }
+  ],
+  "type":"minecraft:crafting_shaped",
+  "pattern":[
+    "nLS",
+    " BS",
+    "nLS"
+  ],
+  "key":{
+    "S":{
+      "item":"minecraft:string"
+    },
+    "n":{
+      "item":"minecraft:iron_nugget"
+    },
+    "B":{
+      "item":"minecraft:bow"
+    },
+    "L":{
+      "item":"minecraft:leather"
+    }
+  },
+  "result":{
+    "item":"mcd_java:bow_hunting_bow",
+    "count":1
+  }
+}

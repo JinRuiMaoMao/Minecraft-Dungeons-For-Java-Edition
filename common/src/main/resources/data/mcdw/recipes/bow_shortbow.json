@@ -1,0 +1,28 @@
+{
+  "fabric:load_conditions":[
+    {
+      "condition":"mcd_java:item_enabled",
+      "values":[
+        "mcd_java:bow_shortbow"
+      ]
+    }
+  ],
+  "type":"minecraft:crafting_shaped",
+  "pattern":[
+    " //",
+    "/ S",
+    " //"
+  ],
+  "key":{
+    "/":{
+      "item":"minecraft:stick"
+    },
+    "S":{
+      "item":"minecraft:string"
+    }
+  },
+  "result":{
+    "item":"mcd_java:bow_shortbow",
+    "count":1
+  }
+}

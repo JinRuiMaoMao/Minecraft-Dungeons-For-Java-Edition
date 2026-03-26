@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id":"mcd_java:pick_diamond_pickaxe_var",
+      "required": false
+    },
+    {
+      "id":"mcd_java:pick_mountaineer_pick",
+      "required": false
+    },
+    {
+      "id":"mcd_java:pick_howling_pick",
+      "required": false
+    },
+    {
+      "id":"mcd_java:pick_hailing_pinnacle",
+      "required": false
+    }
+  ]
+}

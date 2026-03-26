@@ -1,0 +1,8 @@
+{
+  "parent": "mcd_javaedition:custom/glowing_plants",
+  "textures": {
+    "all": "mcd_javaedition:blocks/glowing_plants",
+    "particle": "mcd_javaedition:blocks/glowing_plants",
+    "0": "mcd_javaedition:blocks/glowing_plants"
+  }
+}

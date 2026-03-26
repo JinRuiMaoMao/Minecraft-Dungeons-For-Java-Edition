@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mcd_javaedition:blocks/stonefloor_dirty",
+    "up": "mcd_javaedition:blocks/stonefloor_dirty",
+    "north": "mcd_javaedition:blocks/stonefloor_dirty",
+    "east": "mcd_javaedition:blocks/stonefloor_dirty",
+    "south": "mcd_javaedition:blocks/stonefloor_dirty",
+    "west": "mcd_javaedition:blocks/stonefloor_dirty",
+    "particle": "mcd_javaedition:blocks/stonefloor_dirty"
+  }
+}

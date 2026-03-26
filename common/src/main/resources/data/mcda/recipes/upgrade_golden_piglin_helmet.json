@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcda:item_enabled",
+      "values": [
+        "mcda:piglin_armor_helmet",
+        "mcda:golden_piglin_armor_helmet"
+      ]
+    }
+  ],
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "mcda:piglin_armor_helmet"
+  },
+  "addition": {
+    "item": "mcda:upgrade_core_golden"
+  },
+  "result": {
+    "item": "mcda:golden_piglin_armor_helmet"
+  },
+  "template": {
+    "item": "minecraft:blaze_powder"
+  }
+}

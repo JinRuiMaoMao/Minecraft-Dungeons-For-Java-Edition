@@ -1,0 +1,28 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcda:item_enabled",
+      "values": [
+        "mcda:snow_armor_helmet"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "BIB",
+    "BBB"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_helmet"
+    },
+    "B": {
+      "item": "minecraft:snow_block"
+    }
+  },
+  "result": {
+    "item": "mcda:snow_armor_helmet",
+    "count": 1
+  }
+}

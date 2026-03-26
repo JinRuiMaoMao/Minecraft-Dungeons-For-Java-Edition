@@ -1,0 +1,38 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcd_java:item_enabled",
+      "values": [
+        "mcd_java:sword_claymore",
+        "mcd_java:sword_heartstealer"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " D#",
+        "R/D",
+        "rR "
+    ],
+    "key": {
+        "r": {
+            "item": "minecraft:redstone"
+        },
+        "R": {
+            "item": "minecraft:redstone_block"
+        },
+        "#": {
+            "item": "minecraft:iron_block"
+        },
+        "/": {
+            "item": "mcd_java:sword_claymore"
+        },
+        "D": {
+            "item": "minecraft:diamond"
+        }
+    },
+    "result": {
+        "item": "mcd_java:sword_heartstealer",
+        "count": 1
+    }
+}

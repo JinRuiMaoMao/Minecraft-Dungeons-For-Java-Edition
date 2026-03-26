@@ -1,0 +1,28 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcda:item_enabled",
+      "values": [
+        "mcda:grim_armor_chestplate"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B B",
+    "BRB",
+    "BRB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:bone"
+    },
+    "R": {
+      "item": "mcda:bone_rib_cage"
+    }
+  },
+  "result": {
+    "item": "mcda:grim_armor_chestplate",
+    "count": 1
+  }
+}

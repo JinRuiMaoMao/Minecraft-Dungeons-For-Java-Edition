@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcd_java:item_enabled",
+      "values": [
+        "mcd_java:soul_robe_chestplate",
+        "mcd_java:souldancer_robe_chestplate"
+      ]
+    }
+  ],
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "mcd_java:soul_robe_chestplate"
+  },
+  "addition": {
+    "item": "mcd_java:upgrade_core_soul"
+  },
+  "result": {
+    "item": "mcd_java:souldancer_robe_chestplate"
+    },
+    "template": {
+      "item": "minecraft:blaze_powder"
+    }
+}

@@ -1,0 +1,28 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcda:item_enabled",
+      "values": [
+        "mcda:phantom_armor_chestplate"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  L",
+    " L ",
+    "LPP"
+  ],
+  "key": {
+    "P": {
+      "item": "mcda:phantom_bones"
+    },
+    "L": {
+      "item": "mcda:phantom_skin"
+    }
+  },
+  "result": {
+    "item": "mcda:phantom_armor_chestplate",
+    "count": 1
+  }
+}

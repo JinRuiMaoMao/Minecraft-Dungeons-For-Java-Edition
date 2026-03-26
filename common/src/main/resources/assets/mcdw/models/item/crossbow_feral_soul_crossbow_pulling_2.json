@@ -1,0 +1,6 @@
+{
+  "parent": "mcd_java:item/crossbow_feral_soul_crossbow",
+  "textures": {
+    "layer0": "mcd_java:item/crossbows/feral_soul_crossbow_pulling_2"
+  }
+}

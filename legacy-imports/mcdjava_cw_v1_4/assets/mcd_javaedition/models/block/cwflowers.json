@@ -1,0 +1,8 @@
+{
+  "parent": "mcd_javaedition:custom/cw_flowers",
+  "textures": {
+    "all": "mcd_javaedition:blocks/creeperwoods_flower",
+    "particle": "mcd_javaedition:blocks/creeperwoods_flower",
+    "0": "mcd_javaedition:blocks/creeperwoods_flower"
+  }
+}

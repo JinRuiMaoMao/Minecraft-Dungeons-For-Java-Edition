@@ -1,0 +1,32 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcd_java:item_enabled",
+      "values": [
+        "mcd_java:sword_katana",
+        "mcd_java:sword_masters_katana"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "  G",
+        "CG ",
+        "KC "
+    ],
+    "key": {
+        "G": {
+            "item": "minecraft:diamond"
+        },
+        "K": {
+            "item": "mcd_java:sword_katana"
+        },
+        "C": {
+            "item": "minecraft:gold_ingot"
+        }
+    },
+    "result": {
+        "item": "mcd_java:sword_masters_katana",
+        "count": 1
+    }
+}

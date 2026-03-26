@@ -1,0 +1,31 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcd_java:item_enabled",
+      "values": [
+        "mcd_java:hammer_boneclub"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " SB",
+        " BS",
+        "b  "
+    ],
+    "key": {
+        "B": {
+            "item": "minecraft:bone_block"
+        },
+        "S": {
+            "item": "minecraft:string"
+        },
+        "b": {
+            "item": "minecraft:bone"
+        }
+    },
+    "result": {
+        "item": "mcd_java:hammer_boneclub",
+        "count": 1
+    }
+}

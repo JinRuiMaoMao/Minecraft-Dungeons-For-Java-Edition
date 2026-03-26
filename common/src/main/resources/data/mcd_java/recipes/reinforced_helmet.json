@@ -1,0 +1,28 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcd_java:item_enabled",
+      "values": [
+        "mcd_java:reinforced_mail_helmet"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "PIP",
+    "   "
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_helmet"
+    },
+    "P": {
+      "item": "mcd_java:iron_plate"
+    }
+  },
+  "result": {
+    "item": "mcd_java:reinforced_mail_helmet",
+    "count": 1
+  }
+}

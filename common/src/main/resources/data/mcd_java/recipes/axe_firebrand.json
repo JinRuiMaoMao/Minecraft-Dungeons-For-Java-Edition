@@ -1,0 +1,43 @@
+{
+  "fabric:load_conditions":[
+    {
+      "condition":"mcd_java:item_enabled",
+      "values":[
+        "mcd_java:axe_axe"
+      ]
+    },
+    {
+      "condition":"mcd_java:item_enabled",
+      "values":[
+        "mcd_java:axe_firebrand"
+      ]
+    }
+  ],
+  "type":"minecraft:crafting_shaped",
+  "pattern":[
+    "#AF",
+    " /B",
+    " B "
+  ],
+  "key":{
+    "#":{
+      "item":"minecraft:iron_ingot"
+    },
+    "/":{
+      "item":"minecraft:blaze_rod"
+    },
+    "A":{
+      "item":"mcd_java:axe_axe"
+    },
+    "F":{
+      "item":"minecraft:fire_charge"
+    },
+    "B":{
+      "item":"minecraft:blaze_powder"
+    }
+  },
+  "result":{
+    "item":"mcd_java:axe_firebrand",
+    "count":1
+  }
+}

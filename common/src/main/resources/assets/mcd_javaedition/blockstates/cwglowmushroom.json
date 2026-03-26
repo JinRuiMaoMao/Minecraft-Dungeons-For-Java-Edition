@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "mcd_javaedition:cwglowmushroom"
+    },
+    "facing=north": {
+      "model": "mcd_javaedition:cwglowmushroom"
+    },
+    "facing=east": {
+      "model": "mcd_javaedition:cwglowmushroom",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "mcd_javaedition:cwglowmushroom",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mcd_javaedition:cwglowmushroom",
+      "y": 270
+    }
+  }
+}

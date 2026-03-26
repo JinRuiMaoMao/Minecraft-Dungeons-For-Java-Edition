@@ -1,0 +1,23 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcda:item_enabled",
+      "values": [
+        "mcda:archers_leggings"
+      ]
+    }
+  ],
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:leather_leggings"
+  },
+  "addition": {
+    "item": "mcda:upgrade_core_archer"
+  },
+  "result": {
+    "item": "mcda:archers_leggings"
+    },
+    "template": {
+      "item": "minecraft:blaze_powder"
+    }
+}

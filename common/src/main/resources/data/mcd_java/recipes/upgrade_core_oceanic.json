@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "mcd_java:upgrade_core"
+  },
+  "addition": {
+    "item": "minecraft:water_bucket"
+  },
+  "result": {
+    "item": "mcd_java:upgrade_core_oceanic"
+    },
+    "template": {
+      "item": "minecraft:blaze_powder"
+    }
+}

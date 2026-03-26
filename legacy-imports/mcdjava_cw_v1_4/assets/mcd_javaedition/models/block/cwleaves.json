@@ -1,0 +1,9 @@
+{
+  "parent": "mcd_javaedition:custom/cw_leaves",
+  "textures": {
+    "all": "mcd_javaedition:blocks/leaves_oak_opaque",
+    "particle": "mcd_javaedition:blocks/leaves_oak_opaque",
+    "0": "mcd_javaedition:blocks/leaves_oak_opaque",
+    "1": "mcd_javaedition:blocks/leaves_oak_outer"
+  }
+}

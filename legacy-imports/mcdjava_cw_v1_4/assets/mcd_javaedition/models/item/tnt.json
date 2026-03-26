@@ -1,0 +1,6 @@
+{
+  "parent": "mcd_javaedition:custom/tnt",
+  "textures": {
+    "0": "mcd_javaedition:blocks/tnt"
+  }
+}

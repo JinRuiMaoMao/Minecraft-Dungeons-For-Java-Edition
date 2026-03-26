@@ -1,0 +1,28 @@
+{
+  "fabric:load_conditions":[
+    {
+      "condition":"mcd_java:item_enabled",
+      "values":[
+        "mcd_java:dagger_tempest_knife"
+      ]
+    }
+  ],
+  "type":"minecraft:crafting_shaped",
+  "pattern":[
+    "  I",
+    " II",
+    "/  "
+  ],
+  "key":{
+    "I":{
+      "item":"minecraft:iron_ingot"
+    },
+    "/":{
+      "item":"minecraft:stick"
+    }
+  },
+  "result":{
+    "item":"mcd_java:dagger_tempest_knife",
+    "count":1
+  }
+}

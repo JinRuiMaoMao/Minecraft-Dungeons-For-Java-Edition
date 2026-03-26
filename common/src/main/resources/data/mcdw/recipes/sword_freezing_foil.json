@@ -1,0 +1,38 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcd_java:item_enabled",
+      "values": [
+        "mcd_java:sword_rapier",
+        "mcd_java:sword_freezing_foil"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " NB",
+        "PRN",
+        "/P "
+    ],
+    "key": {
+        "B": {
+            "item": "minecraft:blue_ice"
+        },
+        "N": {
+            "item": "minecraft:iron_nugget"
+        },
+        "R": {
+            "item": "mcd_java:sword_rapier"
+        },
+        "P": {
+            "item": "minecraft:packed_ice"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "mcd_java:sword_freezing_foil",
+        "count": 1
+    }
+}

@@ -1,0 +1,962 @@
+{
+  "itemGroup.mcdw.weapons/melee":       "Оружие МК Подземелье (Ближнее)",
+  "itemGroup.mcdw.weapons/ranged":  "Оружие МК Подземелье (Дальнее)",
+  "itemGroup.mcdw.weapons/shields": "Оружие МК Подземелье (Щиты)",
+  "itemGroup.mcdw.enchantments":      "Оружие МК Подземелье (Зачарования)",
+
+  "attribute.name.generic.mcdw.reach": "Радиус Действия",
+  "attribute.name.generic.mcdw.attack_range": "Дальность Атаки",
+
+  "item.mcdw.axe_anchor": "Якорь",
+  "item.mcdw.axe_encrusted_anchor": "Заржавевший Якорь",
+
+  "item.mcdw.axe_axe": "Топор",
+  "item.mcdw.axe_highland": "Горный Топор",
+  "item.mcdw.axe_firebrand": "Огнерез",
+
+  "item.mcdw.double_axe_cursed": "Проклятый Топор",
+  "item.mcdw.double_axe_double": "Двойной Топор",
+  "item.mcdw.double_axe_whirlwind": "Топор Вихря",
+
+  "item.mcdw.dagger_dagger": "Кинжал",
+  "item.mcdw.dagger_fangs_of_frost": "Морозные Клыки",
+  "item.mcdw.dagger_moon": "Лунный Кинжал",
+
+  "item.mcdw.dagger_tempest_knife": "Штормовой Нож",
+  "item.mcdw.dagger_chill_gale_knife": "Кинжал Вечного Холода",
+  "item.mcdw.dagger_resolute_tempest_knife": "Нож Непоколебимого Шторма",
+
+  "item.mcdw.dagger_shear_dagger": "Рассеченый Кинжал",
+
+  "item.mcdw.dagger_backstabber": "Предатель",
+  "item.mcdw.dagger_swift_striker": "Стремительный Нападающий",
+
+  "item.mcdw.dagger_void_touched_blade": "Касание Бездны",
+  "item.mcdw.dagger_the_beginning": "Начало",
+  "item.mcdw.dagger_the_end": "Конец",
+
+  "item.mcdw.soul_dagger_soul_knife": "Кинжал Души",
+  "item.mcdw.soul_dagger_eternal_knife": "Вечный Нож",
+  "item.mcdw.soul_dagger_truthseeker": "Искатель Правды",
+
+  "item.mcdw.hammer_mace": "Булава",
+  "item.mcdw.hammer_flail": "Моргенштерн",
+  "item.mcdw.hammer_suns_grace": "Милость Солнца",
+
+  "item.mcdw.hammer_gravity": "Кувалда Гравитации",
+  "item.mcdw.hammer_bonehead": "Костеголовый",
+  "item.mcdw.hammer_great_hammer": "Великий Молот",
+  "item.mcdw.hammer_stormlander": "Покоритель Шторма",
+
+  "item.mcdw.hammer_boneclub": "Костолом",
+  "item.mcdw.hammer_bone_cudgel": "Костяная Палица",
+
+  "item.mcdw.pick_diamond_pickaxe_var": "Алмазная Кирка",
+  "item.mcdw.pick_mountaineer_pick": "Кирка Альпиниста",
+  "item.mcdw.pick_howling_pick": "Воющая Кирка",
+  "item.mcdw.pick_hailing_pinnacle": "Клич Вершин",
+
+  "item.mcdw.sickle_sickle": "Серп",
+  "item.mcdw.sickle_nightmares_bite": "Кошмарный Укус",
+  "item.mcdw.sickle_last_laugh_gold": "Последний Хохот",
+  "item.mcdw.sickle_last_laugh_silver": "Последний Хохот",
+
+  "item.mcdw.scythe_frost_scythe": "Морозная Коса",
+  "item.mcdw.scythe_jailors_scythe": "Коса Тюремщика",
+  "item.mcdw.scythe_soul_scythe": "Коса Душ",
+  "item.mcdw.scythe_skull_scythe": "Коса Черепа",
+
+  "item.mcdw.spear_spear": "Копьё",
+  "item.mcdw.spear_fortune": "Копьё Удачи",
+  "item.mcdw.spear_whispering_spear": "Шепчущее Копьё",
+
+  "item.mcdw.glaive_glaive": "Глефа",
+  "item.mcdw.glaive_grave_bane": "Могильное Проклятие",
+  "item.mcdw.glaive_venom_glaive": "Отравленная Глефа",
+  "item.mcdw.glaive_cackling_broom": "Болтливая Метла",
+
+  "item.mcdw.staff_battlestaff": "Боевой Посох",
+  "item.mcdw.staff_battlestaff_of_terror": "Боевой Посох Ужаса",
+  "item.mcdw.staff_growing_staff": "Растущий Посох",
+
+  "item.mcdw.sword_iron_sword_var": "Железный Меч",
+  "item.mcdw.sword_diamond_sword_var": "Алмазный Меч",
+  "item.mcdw.sword_hawkbrand": "Орлобой",
+  "item.mcdw.sword_sinister": "Зловещий Меч",
+
+  "item.mcdw.sword_rapier": "Рапира",
+  "item.mcdw.sword_beestinger": "Пчелиное Жало",
+  "item.mcdw.sword_freezing_foil": "Морозная Рапира",
+
+  "item.mcdw.sword_broadsword": "Палаш",
+  "item.mcdw.sword_claymore": "Клеймор",
+  "item.mcdw.sword_frost_slayer": "Морозный Убийца",
+  "item.mcdw.sword_great_axeblade": "Топоромеч",
+  "item.mcdw.sword_heartstealer": "Похититель Сердец",
+  "item.mcdw.sword_obsidian_claymore": "Обсидиановый Клеймор",
+  "item.mcdw.sword_the_starless_night": "Беззвёздная Ночь",
+
+  "item.mcdw.sword_cutlass": "Сабля",
+  "item.mcdw.sword_dancers_sword": "Меч Танцора",
+  "item.mcdw.sword_nameless_blade": "Безымянное Лезвие",
+  "item.mcdw.sword_sparkler": "Искорка",
+
+  "item.mcdw.sword_katana": "Катана",
+  "item.mcdw.sword_masters_katana": "Катана Мастера",
+  "item.mcdw.sword_dark_katana": "Тёмная Катана",
+
+  "item.mcdw.sword_broken_sawblade": "Сломанная Пила",
+  "item.mcdw.sword_mechanized_sawblade": "Механическая Пила",
+
+  "item.mcdw.sword_coral_blade": "Коралловый Клинок",
+  "item.mcdw.sword_sponge_striker": "Гроза Губок",
+
+  "item.mcdw.whip_whip": "Кнут",
+  "item.mcdw.whip_vine_whip": "Кнут Лозы",
+
+  "item.mcdw.gauntlet_fighters_bindings": "Связь Бойцов",
+  "item.mcdw.gauntlet_gauntlet": "Перчатка",
+  "item.mcdw.gauntlet_maulers": "Мучитель",
+  "item.mcdw.gauntlet_soul_fists": "Кулак Души",
+
+  "item.mcdw.bow_bonebow": "Костяной Лук",
+  "item.mcdw.bow_haunted_bow": "Призрачный Лук",
+  "item.mcdw.bow_twin_bow": "Двойной Лук",
+
+  "item.mcdw.bow_longbow": "Длинный Лук",
+  "item.mcdw.bow_red_snake": "Алая Змея",
+  "item.mcdw.bow_guardian_bow": "Лук Стража",
+
+  "item.mcdw.bow_shortbow": "Короткий Лук",
+  "item.mcdw.bow_love_spell_bow": "Чарующий Лук",
+  "item.mcdw.bow_mechanical_shortbow": "Механический Короткий Лук",
+  "item.mcdw.bow_purple_storm": "Фиолетовый Шторм",
+
+  "item.mcdw.bow_trickbow": "Трикстер",
+  "item.mcdw.bow_sugar_rush": "Сахарная Лихорадка",
+  "item.mcdw.bow_green_menace": "Зеленая Угроза",
+  "item.mcdw.bow_pink_scoundrel": "Розовый Подлец",
+
+  "item.mcdw.bow_power_bow": "Мощный Лук",
+  "item.mcdw.bow_elite_power_bow": "Элитный Мощный Лук",
+  "item.mcdw.bow_phantom_bow": "Фантомный Лук",
+  "item.mcdw.bow_sabrewing": "Саблекрыл",
+
+  "item.mcdw.bow_hunting_bow": "Охотничий Лук",
+  "item.mcdw.bow_ancient_bow": "Древний Лук",
+  "item.mcdw.bow_hunters_promise": "Обещание Охотника",
+  "item.mcdw.bow_masters_bow": "Лук Мастера",
+
+  "item.mcdw.bow_soul_bow": "Лук Душ",
+  "item.mcdw.bow_lost_souls": "Лук Потерянных Душ",
+  "item.mcdw.bow_nocturnal_bow": "Сумеречный Лук",
+  "item.mcdw.bow_shivering_bow": "Дрожащий Лук",
+
+  "item.mcdw.bow_snow_bow": "Снежный Лук",
+  "item.mcdw.bow_web_bow": "Лук Ткача",
+  "item.mcdw.bow_winters_touch": "Прикосновение Зимы",
+
+  "item.mcdw.bow_wind_bow": "Лук Ветра",
+  "item.mcdw.bow_burst_gale_bow": "Лук Свирепого Шторма",
+  "item.mcdw.bow_echo_of_the_valley": "Эхо Долины",
+
+  "item.mcdw.bow_twisting_vine_bow": "Лук Ветвистой Лозы",
+  "item.mcdw.bow_weeping_vine_bow": "Лук Плакучей Лозы",
+
+  "item.mcdw.bow_bubble_bow": "Пузырчатый Лук",
+  "item.mcdw.bow_bubble_burster": "Взрыватель Пузырьков",
+  "item.mcdw.bow_gloopy": "Мрачный Лук",
+
+  "item.mcdw.bow_void_bow": "Лук Бездны",
+  "item.mcdw.bow_call_of_the_void": "Зов Бездны",
+
+  "item.mcdw.crossbow_burst_crossbow" : "Всплеск",
+  "item.mcdw.crossbow_corrupted_crossbow" : "Искаженный Арбалет",
+  "item.mcdw.crossbow_soul_hunter_crossbow" : "Арбалет Охотника Души",
+
+  "item.mcdw.crossbow_cog_crossbow": "Cog Crossbow",
+  "item.mcdw.crossbow_pride_of_the_piglins": "Гроза Пиглинов",
+
+  "item.mcdw.crossbow_azure_seeker" : "Искатель Азуры",
+  "item.mcdw.crossbow_the_slicer" : "Срез",
+
+  "item.mcdw.crossbow_dual_crossbow" : "Двойной Арбалет",
+  "item.mcdw.crossbow_baby_crossbow" : "Детский Арбалет",
+  "item.mcdw.crossbow_spellbound_crossbow" : "Зачарованный Арбалет",
+
+  "item.mcdw.crossbow_exploding_crossbow" : "Взрывной Арбалет",
+  "item.mcdw.crossbow_firebolt_thrower" : "Метатель Всполохов",
+  "item.mcdw.crossbow_imploding_crossbow" : "Разрывной Арбалет",
+
+  "item.mcdw.crossbow_harpoon_crossbow": "Гарпунный Арбалет",
+  "item.mcdw.crossbow_nautical_crossbow": "Морской Арбалет",
+
+  "item.mcdw.crossbow_heavy_crossbow" : "Тяжелый Арбалет",
+  "item.mcdw.crossbow_doom_crossbow" : "Арбалет Погибели",
+  "item.mcdw.crossbow_slayer_crossbow" : "Арбалет Убицы",
+
+  "item.mcdw.crossbow_rapid_crossbow" : "Быстрый Арбалет",
+  "item.mcdw.crossbow_auto_crossbow" : "Автоматический Арбалет",
+  "item.mcdw.crossbow_butterfly_crossbow" : "Скрещенный Арбалет",
+
+  "item.mcdw.crossbow_scatter_crossbow" : "Рассеянный Арбалет",
+  "item.mcdw.crossbow_harp_crossbow" : "Арфа-Арбалет",
+  "item.mcdw.crossbow_lightning_harp_crossbow" : "Молниеносная Арфа-Арбалет",
+
+  "item.mcdw.crossbow_shadow_crossbow": "Арбалет Тени",
+  "item.mcdw.crossbow_shrieking_crossbow": "Кричащий Арбалет",
+  "item.mcdw.crossbow_veiled_crossbow": "Скрытый Арбалет",
+
+  "item.mcdw.crossbow_soul_crossbow" : "Арбалет Души",
+  "item.mcdw.crossbow_feral_soul_crossbow" : "Арбалет Дикой Души",
+  "item.mcdw.crossbow_voidcaller_crossbow" : "Арбалет Зова Бездны",
+
+  "item.mcdw.shield_royal_guard": "Щит Королевского Стража",
+  "item.mcdw.shield_tower_guard": "Щит Охранника Башни",
+  "item.mcdw.shield_vanguard": "Щит Авангарда",
+
+  "item.mcdw.item_bee_stinger": "Пчелиное Жало",
+  "item.mcdw.item_bee_stinger.tooltip": "Пчелку не жалко, жалко у пчелки...",
+  "item.mcdw.moreinfo.tooltip": "Удерживайте [SHIFT] Для доп. информации",
+  "item.mcdw.item_bee_stinger.tooltip2": "Я чувствую, что мне это пригодится.",
+
+  "effect.mcdw.accelerate": "Ускорение",
+  "effect.mcdw.dynamo": "Динамо",
+  "effect.mcdw.pain_cycle": "Круг Боли",
+  "effect.mcdw.shadow_form": "Теневая Форма",
+
+  "enchantment.mcdw.accelerate": "Ускорение",
+  "enchantment.mcdw.ambush": "Западня",
+  "enchantment.mcdw.anima_conduit": "Проводник Души",
+  "enchantment.mcdw.bonus_shot": "Бонусный Выстрел",
+  "enchantment.mcdw.burst_bowstring": "Лопнувшая Тетива",
+  "enchantment.mcdw.busy_bee": "Занятая Пчелка",
+  "enchantment.mcdw.chain_reaction": "Цепная Реакция",
+  "enchantment.mcdw.chains": "Цепи",
+  "enchantment.mcdw.charge": "Заряд",
+  "enchantment.mcdw.cobweb_shot": "Паутинный Удар",
+  "enchantment.mcdw.committed": "Целеустремлённость",
+  "enchantment.mcdw.critical_hit": "Критический Удар",
+  "enchantment.mcdw.dipping_poison": "Капающий яд",
+  "enchantment.mcdw.dynamo": "Динамо",
+  "enchantment.mcdw.echo": "Эхо",
+  "enchantment.mcdw.enigma_resonator": "Таинственный Резонатор",
+  "enchantment.mcdw.exploding": "Взрыв",
+  "enchantment.mcdw.freezing": "Паралич",
+  "enchantment.mcdw.fuse_shot": "Отложеный Выстрел",
+  "enchantment.mcdw.gravity": "Притяжение",
+  "enchantment.mcdw.growing": "Увеличение",
+  "enchantment.mcdw.guarding_strike": "Охраняющий Удар",
+  "enchantment.mcdw.illagers_bane": "Бич Разбойников",
+  "enchantment.mcdw.jungle_poison": "Яд Джунглей",
+  "enchantment.mcdw.leeching": "Вампиризм",
+  "enchantment.mcdw.levitation_shot": "Левитационная Стрела",
+  "enchantment.mcdw.multi_shot": "Мультивыстрел",
+  "enchantment.mcdw.overcharge": "Перегрузка",
+  "enchantment.mcdw.pain_cycle": "Круг Боли",
+  "enchantment.mcdw.phantoms_mark": "Метка Фантома",
+  "enchantment.mcdw.poison_cloud": "Отравленное Облако",
+  "enchantment.mcdw.prospector": "Изыскатель",
+  "enchantment.mcdw.radiance": "Лучезарный",
+  "enchantment.mcdw.radiance_shot": "Лучезарный Выстрел",
+  "enchantment.mcdw.rampaging": "Буйство",
+  "enchantment.mcdw.refreshment": "Обновление",
+  "enchantment.mcdw.refreshment_shot": "Обновляющий Выстрел",
+  "enchantment.mcdw.replenish": "Восстановление",
+  "enchantment.mcdw.ricochet": "Рикошет",
+  "enchantment.mcdw.rushdown": "Преследование",
+  "enchantment.mcdw.shadow_barb": "Теневой Шип",
+  "enchantment.mcdw.shadow_shot": "Теневой Выстрел",
+  "enchantment.mcdw.shared_pain": "Разделяющая Боль",
+  "enchantment.mcdw.shockwave": "Ударная Волна",
+  "enchantment.mcdw.smiting": "Поражение",
+  "enchantment.mcdw.soul_devourer": "Пожиратель Душ",
+  "enchantment.mcdw.soul_siphon": "Перекачка Душ",
+  "enchantment.mcdw.stunning": "Оглушение",
+  "enchantment.mcdw.swirling": "Вихрь",
+  "enchantment.mcdw.tempo_theft": "Кража Темпа",
+  "enchantment.mcdw.thundering": "Гроза",
+  "enchantment.mcdw.void_shot": "Выстрел Бездны",
+  "enchantment.mcdw.void_strike": "Удар Бездны",
+  "enchantment.mcdw.weakening": "Ослабление",
+  "enchantment.mcdw.wild_rage": "Дикая Ярость",
+
+  "subtitles.mcdw.echo_sound": "Звук удара Эха",
+
+  "tooltip_info_item.mcdw.axe_1"                    : "Топор - Эффективное",
+  "tooltip_info_item.mcdw.axe_2"                    : "Орудие, обожаемое",
+  "tooltip_info_item.mcdw.axe_3"                    : "безжалостными Поборниками",
+  "tooltip_info_item.mcdw.axe_4"                    : "всей Архи-Злодеянинской",
+  "tooltip_info_item.mcdw.axe_5"                    : "Армии.",
+
+  "tooltip_info_item.mcdw.firebrand_1"              : "Создан в темнейших",
+  "tooltip_info_item.mcdw.firebrand_2"              : "глубинах Огненной Кузни",
+  "tooltip_info_item.mcdw.firebrand_3"              : "и зачарован силой",
+  "tooltip_info_item.mcdw.firebrand_4"              : "Пламени.",
+
+  "tooltip_info_item.mcdw.highland_1"               : "Мастерски выкованное и",
+  "tooltip_info_item.mcdw.highland_2"               : "отполированное орудие войны,",
+  "tooltip_info_item.mcdw.highland_3"               : "Горный Топор, также является",
+  "tooltip_info_item.mcdw.highland_4"               : "отличной чесалкой для спины.",
+
+  "tooltip_info_item.mcdw.anchor_1"                 : "Те, кто достаточно силен, чтобы",
+  "tooltip_info_item.mcdw.anchor_2"                 : "удержать Якорь в Бою, следуют",
+  "tooltip_info_item.mcdw.anchor_3"                 : "традициям легендарных",
+  "tooltip_info_item.mcdw.anchor_4"                 : "войнов-мореплавателей.",
+
+  "tooltip_info_item.mcdw.encrusted_anchor_1"       : "Этот Заржавевший Якорь",
+  "tooltip_info_item.mcdw.encrusted_anchor_2"       : "давно утерян в море, став",
+  "tooltip_info_item.mcdw.encrusted_anchor_3"       : "за долгие годы забвения",
+  "tooltip_info_item.mcdw.encrusted_anchor_4"       : "жестким и покрытым коррозией.",
+
+  "tooltip_info_item.mcdw.claymore_1"               : "Массивный меч, который кажется",
+  "tooltip_info_item.mcdw.claymore_2"               : "невозможно тяжелым, пока лежит,",
+  "tooltip_info_item.mcdw.claymore_3"               : "оказывается легким в руках",
+  "tooltip_info_item.mcdw.claymore_4"               : "война.",
+
+  "tooltip_info_item.mcdw.frost_slayer_1"           : "Легендарный Морозный Убийца",
+  "tooltip_info_item.mcdw.frost_slayer_2"           : "возвращается на поле битвы только",
+  "tooltip_info_item.mcdw.frost_slayer_3"           : "в самые тёмные и холодные",
+  "tooltip_info_item.mcdw.frost_slayer_4"           : "дни зимы.",
+
+  "tooltip_info_item.mcdw.broadsword_1"             : "Только те, у кого есть сила",
+  "tooltip_info_item.mcdw.broadsword_2"             : "Чемпиона и сердце",
+  "tooltip_info_item.mcdw.broadsword_3"             : "Героя может удержать",
+  "tooltip_info_item.mcdw.broadsword_4"             : "этот массивный клинок.",
+
+  "tooltip_info_item.mcdw.great_axeblade_1"         : "Удачливый кузнец превратил",
+  "tooltip_info_item.mcdw.great_axeblade_2"         : "ошибку в мастерской в",
+  "tooltip_info_item.mcdw.great_axeblade_3"         : "чудо на поле боя, скрестив",
+  "tooltip_info_item.mcdw.great_axeblade_4"         : "два орудия во что-то",
+  "tooltip_info_item.mcdw.great_axeblade_5"         : "совершенно новое.",
+
+  "tooltip_info_item.mcdw.heartstealer_1"           : "Подарен одному из выдающихся",
+  "tooltip_info_item.mcdw.heartstealer_2"           : "генералов Архи-Злодеянина за",
+  "tooltip_info_item.mcdw.heartstealer_3"           : "их завоевание Побережья Кальмаров -",
+  "tooltip_info_item.mcdw.heartstealer_4"           : "этот рунный клинок наполнен",
+  "tooltip_info_item.mcdw.heartstealer_5"           : "тёмным колдовством.",
+
+  "tooltip_info_item.mcdw.obsidian_claymore_1"      : "Этот массивный клинок срезает даже",
+  "tooltip_info_item.mcdw.obsidian_claymore_2"      : "самую толстую оболочку шалкера",
+  "tooltip_info_item.mcdw.obsidian_claymore_3"      : "с простотой и стилем.",
+
+  "tooltip_info_item.mcdw.the_starless_night_1"     : "Беззвёздная Ночь преследуема отголосками ",
+  "tooltip_info_item.mcdw.the_starless_night_2"     : "боли, что остаются внутри чёрного, как",
+  "tooltip_info_item.mcdw.the_starless_night_3"     : "смоль, сознания.",
+
+  "tooltip_info_item.mcdw.cutlass_1"                : "Это изогнутое лезвие, выкованное",
+  "tooltip_info_item.mcdw.cutlass_2"                : "войнами Побережья Кальмаров,",
+  "tooltip_info_item.mcdw.cutlass_3"                : "требует твердой руки в бою.",
+
+  "tooltip_info_item.mcdw.dancers_sword_1"          : "Войны, что видят битву, как танец",
+  "tooltip_info_item.mcdw.dancers_sword_2"          : "со смертью, предпочитают двусторонние клинки.",
+
+  "tooltip_info_item.mcdw.nameless_blade_1"         : "История этого смертоносного клинка",
+  "tooltip_info_item.mcdw.nameless_blade_2"         : "потеряна в бесконечных песках времени.",
+
+  "tooltip_info_item.mcdw.sparkler_1"               : "Искорка освещает вечеринку,",
+  "tooltip_info_item.mcdw.sparkler_2"               : "прорезаясь сквозь темноту.",
+
+  "tooltip_info_item.mcdw.katana_1"                 : "Этот меч подходит проффесиональным",
+  "tooltip_info_item.mcdw.katana_2"                 : "войнам и борцам, его клинок",
+  "tooltip_info_item.mcdw.katana_3"                 : "создан для нанесения точных ударов.",
+
+  "tooltip_info_item.mcdw.masters_katana_1"         : "Катана Мастера существует",
+  "tooltip_info_item.mcdw.masters_katana_2"         : "на протяжении веков, представая",
+  "tooltip_info_item.mcdw.masters_katana_3"         : "пред героями в нужный момент.",
+
+  "tooltip_info_item.mcdw.dark_katana_1"            : "Клинок, который не подведет, пока",
+  "tooltip_info_item.mcdw.dark_katana_2"            : "битва не будет выйграна.",
+
+  "tooltip_info_item.mcdw.rapier_1"                 : "Рапира, легкий и тонкий клинок,",
+  "tooltip_info_item.mcdw.rapier_2"                 : "что наносит быстрые и свирепые удары.",
+
+  "tooltip_info_item.mcdw.beestinger_1"             : "Пчелиное Жало, быстрый клинок,",
+  "tooltip_info_item.mcdw.beestinger_2"             : "вдохновленный пчелиной иглой,",
+  "tooltip_info_item.mcdw.beestinger_3"             : "который может воззвать к пчелам,",
+  "tooltip_info_item.mcdw.beestinger_4"             : "что будут сражаться с вами бок о бок.",
+
+  "tooltip_info_item.mcdw.freezing_foil_1"          : "Это игловидное лезвие",
+  "tooltip_info_item.mcdw.freezing_foil_2"          : "холодное при прикосновении и",
+  "tooltip_info_item.mcdw.freezing_foil_3"          : "легко разрезает все, что ему попадется.",
+
+  "tooltip_info_item.mcdw.truthseeker_1"            : "Смотритель Залов Высокоблочья",
+  "tooltip_info_item.mcdw.truthseeker_2"            : "хранил этот неприглядный клинок",
+  "tooltip_info_item.mcdw.truthseeker_3"            : "у себя во время допросов.",
+
+  "tooltip_info_item.mcdw.diamond_sword_var_1"      : "Алмазный меч - это истинная",
+  "tooltip_info_item.mcdw.diamond_sword_var_2"      : "метка Героя и",
+  "tooltip_info_item.mcdw.diamond_sword_var_3"      : "опытного приключенца.",
+
+  "tooltip_info_item.mcdw.iron_sword_var_1"         : "Прочное и надежное лезвие.",
+
+  "tooltip_info_item.mcdw.hawkbrand_1"              : "Орлобой - это",
+  "tooltip_info_item.mcdw.hawkbrand_2"              : "легенчарный меч истинных",
+  "tooltip_info_item.mcdw.hawkbrand_3"              : "войнов.",
+
+  "tooltip_info_item.mcdw.sinister_1"               : "Зловещий меч, притягательный",
+  "tooltip_info_item.mcdw.sinister_2"               : "тем, кто сталкивается с самыми",
+  "tooltip_info_item.mcdw.sinister_3"               : "жуткими ночами, пронзается",
+  "tooltip_info_item.mcdw.sinister_4"               : "сквозь ночь с диким воем.",
+
+  "tooltip_info_item.mcdw.broken_sawblade_1"        : "Сломанная Пила была разрушена",
+  "tooltip_info_item.mcdw.broken_sawblade_2"        : "временем, но всё ещё может",
+  "tooltip_info_item.mcdw.broken_sawblade_3"        : "наносить значительный ущерб.",
+
+  "tooltip_info_item.mcdw.mechanized_sawblade_1"    : "Механическая Пила всё ещё",
+  "tooltip_info_item.mcdw.mechanized_sawblade_2"    : "светится от огней Нижнего мира,",
+  "tooltip_info_item.mcdw.mechanized_sawblade_3"    : "где она и была выкована.",
+
+  "tooltip_info_item.mcdw.coral_blade_1"            : "Коралловый Клинок прорывается",
+  "tooltip_info_item.mcdw.coral_blade_2"            : "сквозь врагов с жалящей",
+  "tooltip_info_item.mcdw.coral_blade_3"            : "точностью.",
+
+  "tooltip_info_item.mcdw.sponge_striker_1"         : "Этот клинок может показаться",
+  "tooltip_info_item.mcdw.sponge_striker_2"         : "бесцветным и мертвым, но в бою он",
+  "tooltip_info_item.mcdw.sponge_striker_3"         : "накапливает энергию и выпускает",
+  "tooltip_info_item.mcdw.sponge_striker_4"         : "её с поражающей силой.",
+
+  "tooltip_info_item.mcdw.double_1"                 : "Разрушительное оружие,",
+  "tooltip_info_item.mcdw.double_2"                 : "подходящее войнам-варварам.",
+
+  "tooltip_info_item.mcdw.cursed_1"                 : "Этот проклятый, отравленный топор",
+  "tooltip_info_item.mcdw.cursed_2"                 : "заставляет своих жертв болеть",
+  "tooltip_info_item.mcdw.cursed_3"                 : "на протяжении многих лет",
+  "tooltip_info_item.mcdw.cursed_4"                 : "из-за одной царапинки.",
+
+  "tooltip_info_item.mcdw.whirlwind_1"              : "Топор Вихря, выкованный во время",
+  "tooltip_info_item.mcdw.whirlwind_2"              : "невообразимой бури, это обоюдосотрый",
+  "tooltip_info_item.mcdw.whirlwind_3"              : "топор, что немного зависает в воздухе.",
+
+  "tooltip_info_item.mcdw.fighters_bindings_1"      : "Созданные в диких местах среди",
+  "tooltip_info_item.mcdw.fighters_bindings_2"      : "гор, эти перчатки были носимы",
+  "tooltip_info_item.mcdw.fighters_bindings_3"      : "войнами на протяжении веков.",
+
+  "tooltip_info_item.mcdw.gauntlet_1"               : "Перчатки отсылают нас к",
+  "tooltip_info_item.mcdw.gauntlet_2"               : "древнему стилю рукопашного боя.",
+
+  "tooltip_info_item.mcdw.maulers_1"                : "Это когтеподобное оружие,",
+  "tooltip_info_item.mcdw.maulers_2"                : "носимое содатами Разбойниками",
+  "tooltip_info_item.mcdw.maulers_3"                : "весьма яростно в бою.",
+
+  "tooltip_info_item.mcdw.soul_fists_1"             : "Кулаки Души - перчатки, украшенные",
+  "tooltip_info_item.mcdw.soul_fists_2"             : "драгоценными камнями, каждый из которых",
+  "tooltip_info_item.mcdw.soul_fists_3"             : "содержит мощную душу.",
+
+  "tooltip_info_item.mcdw.dagger_1"                 : "Кинжалы - это орудие трусов,",
+  "tooltip_info_item.mcdw.dagger_2"                 : "по крайней мере так говорят в народе.",
+
+  "tooltip_info_item.mcdw.fangs_of_frost_1"         : "Эти хваленые двойные кинжалы",
+  "tooltip_info_item.mcdw.fangs_of_frost_2"         : "с северных вершин известны",
+  "tooltip_info_item.mcdw.fangs_of_frost_3"         : "тем, что замораживают",
+  "tooltip_info_item.mcdw.fangs_of_frost_4"         : "врагов в цельный лёд.",
+
+  "tooltip_info_item.mcdw.moon_1"                   : "Эти изогнутые лезвия сияют,",
+  "tooltip_info_item.mcdw.moon_2"                   : "как полумесяц,",
+  "tooltip_info_item.mcdw.moon_3"                   : "темной ночью.",
+
+  "tooltip_info_item.mcdw.shear_dagger_1"           : "Даже простые фермеры,",
+  "tooltip_info_item.mcdw.shear_dagger_2"           : "могут иметь при себе Рассеченый Кинжал,",
+  "tooltip_info_item.mcdw.shear_dagger_3"           : "хоть и очень неумело.",
+
+  "tooltip_info_item.mcdw.backstabber_1"            : "Орудие, предпочитаемое ворами",
+  "tooltip_info_item.mcdw.backstabber_2"            : "и ассасинами, Предатель необходим",
+  "tooltip_info_item.mcdw.backstabber_3"            : "для любой экипировки разбойника.",
+
+  "tooltip_info_item.mcdw.swift_striker_1"          : "Клинок для тех, кто знает, что",
+  "tooltip_info_item.mcdw.swift_striker_2"          : "самы верный путь к победе - это",
+  "tooltip_info_item.mcdw.swift_striker_3"          : "нанести удар незамеченным.",
+
+  "tooltip_info_item.mcdw.void_touched_blade_1"     : "Этот клинок насыщен тревожащим",
+  "tooltip_info_item.mcdw.void_touched_blade_2"     : "предназначением после множества",
+  "tooltip_info_item.mcdw.void_touched_blade_3"     : "веков, проведенных в Энде.",
+
+  "tooltip_info_item.mcdw.the_beginning_1"          : "Выкованный выжившими в обреченной экспедиции",
+  "tooltip_info_item.mcdw.the_beginning_2"          : "в Энде, этот клинок, как и его близнец,",
+  "tooltip_info_item.mcdw.the_beginning_3"          : "Начало, таит в себе тёмные секреты.",
+
+  "tooltip_info_item.mcdw.the_end_1"                : "Выкованный выжившими в обреченной экспедиции",
+  "tooltip_info_item.mcdw.the_end_2"                : "в Энде, этот клинок, как и его близнец,",
+  "tooltip_info_item.mcdw.the_end_3"                : "Конец, таит в себе тёмные секреты.",
+
+  "tooltip_info_item.mcdw.soul_knife_1"             : "Церемониальный нож, что использует",
+  "tooltip_info_item.mcdw.soul_knife_2"             : "магическую энергию, чтобы сдержать",
+  "tooltip_info_item.mcdw.soul_knife_3"             : "гнев душ внутри этого клинка.",
+
+  "tooltip_info_item.mcdw.eternal_knife_1"          : "Тревожная аура окружает этот",
+  "tooltip_info_item.mcdw.eternal_knife_2"          : "нож, как будто она существовала",
+  "tooltip_info_item.mcdw.eternal_knife_3"          : "вечность и переживет всех нас.",
+
+  "tooltip_info_item.mcdw.glaive_1"                 : "Глефа, носимая слугами",
+  "tooltip_info_item.mcdw.glaive_2"                 : "Безымянного, это оружие со",
+  "tooltip_info_item.mcdw.glaive_3"                 : "стилем и мощью.",
+
+  "tooltip_info_item.mcdw.venom_glaive_1"           : "Кажется, что ядовитое облако преследует",
+  "tooltip_info_item.mcdw.venom_glaive_2"           : "Отравленную Глефу, где бы она ни была...",
+
+  "tooltip_info_item.mcdw.grave_bane_1"             : "Реликвия со времен Тьмы;",
+  "tooltip_info_item.mcdw.grave_bane_2"             : "Эта глефа излучает мощную магическую",
+  "tooltip_info_item.mcdw.grave_bane_3"             : "энергию, что отгоняет нежить.",
+
+  "tooltip_info_item.mcdw.cackling_broom_1"         : "Сметайте своих врагов с ног",
+  "tooltip_info_item.mcdw.cackling_broom_2"         : "вместе с Болтливой Метлой.",
+
+  "tooltip_info_item.mcdw.spear_1"                  : "Копьё, с его большой дальностью",
+  "tooltip_info_item.mcdw.spear_2"                  : "и мощному радиусу действия, является",
+  "tooltip_info_item.mcdw.spear_3"                  : "правильным выбором оружия.",
+
+  "tooltip_info_item.mcdw.fortune_1"                : "Копьё, что следит за счастливыми",
+  "tooltip_info_item.mcdw.fortune_2"                : "душами, принесет удачу любому,",
+  "tooltip_info_item.mcdw.fortune_3"                : "кто им владеет.",
+
+  "tooltip_info_item.mcdw.whispering_spear_1"       : "Легенда гласит, что это проклятое копьё",
+  "tooltip_info_item.mcdw.whispering_spear_2"       : "поражено душой, что контроллирует",
+  "tooltip_info_item.mcdw.whispering_spear_3"       : "сознанием того, кто им владеет.",
+
+  "tooltip_info_item.mcdw.mace_1"                   : "Булава - это брутальное орудие войны",
+  "tooltip_info_item.mcdw.mace_2"                   : "и то, чего ему не хватает в изяществе,",
+  "tooltip_info_item.mcdw.mace_3"                   : "оно восполняет силой.",
+
+  "tooltip_info_item.mcdw.flail_1"                  : "Это древнее орудие причиняет боль",
+  "tooltip_info_item.mcdw.flail_2"                  : "тупым предметом тем, кто не смог",
+  "tooltip_info_item.mcdw.flail_3"                  : "избежать смертоносного металичесткого шара.",
+
+  "tooltip_info_item.mcdw.suns_grace_1"             : "Эта булава, с выгравированными рунами исцеления,",
+  "tooltip_info_item.mcdw.suns_grace_2"             : "наделяет мощными восстанавливающими свойствами.",
+
+  "tooltip_info_item.mcdw.great_hammer_1"           : "Кузнецы и солдаты используют",
+  "tooltip_info_item.mcdw.great_hammer_2"           : "Великий Молот с его силой как в",
+  "tooltip_info_item.mcdw.great_hammer_3"           : "ковке, так и в битвах.",
+
+  "tooltip_info_item.mcdw.bonehead_1"               : "Выполненный похожим на",
+  "tooltip_info_item.mcdw.bonehead_2"               : "птицу, этот молот тянет",
+  "tooltip_info_item.mcdw.bonehead_3"               : "ваших врагов навстречу",
+  "tooltip_info_item.mcdw.bonehead_4"               : "своей погибели.",
+
+  "tooltip_info_item.mcdw.gravity_1"                : "Молот, с инкрустированным кристаллом,",
+  "tooltip_info_item.mcdw.gravity_2"                : "что использует силу гравитации, является",
+  "tooltip_info_item.mcdw.gravity_3"                : "невероятно мощным.",
+
+  "tooltip_info_item.mcdw.stormlander_1"            : "Покоритель Шторма, зачарованный силой",
+  "tooltip_info_item.mcdw.stormlander_2"            : "надвигающейся бури, является сокровищем",
+  "tooltip_info_item.mcdw.stormlander_3"            : "Разбойников.",
+
+  "tooltip_info_item.mcdw.boneclub_1"               : "Те, кто носит при себе Костолом, предпочитают",
+  "tooltip_info_item.mcdw.boneclub_2"               : "менее изощренный способ решения проблем.",
+
+  "tooltip_info_item.mcdw.bone_cudgel_1"            : "Костячная Палица достаточно древняя, чтобы",
+  "tooltip_info_item.mcdw.bone_cudgel_2"            : "считаться древним сокровищем, но все ещё",
+  "tooltip_info_item.mcdw.bone_cudgel_3"            : "может представлять угрозу по нынешним меркам.",
+
+  "tooltip_info_item.mcdw.diamond_pickaxe_var_1"    : "Алмаз - это один из самых прочных",
+  "tooltip_info_item.mcdw.diamond_pickaxe_var_2"    : "материалов, что делает его прекрасным",
+  "tooltip_info_item.mcdw.diamond_pickaxe_var_3"    : "выбором для кирки.",
+
+  "tooltip_info_item.mcdw.soul_scythe_1"            : "Безжалостный жнец душ, Коса",
+  "tooltip_info_item.mcdw.soul_scythe_2"            : "Душ, не сентиментальна в",
+  "tooltip_info_item.mcdw.soul_scythe_3"            : "своей работе.",
+
+  "tooltip_info_item.mcdw.frost_scythe_1"           : "Морозная Коса это (почти)",
+  "tooltip_info_item.mcdw.frost_scythe_2"           : "неразрушимый клинок, что",
+  "tooltip_info_item.mcdw.frost_scythe_3"           : "замораживает при касании и",
+  "tooltip_info_item.mcdw.frost_scythe_4"           : "кажется, что этот лед не расстает.",
+
+  "tooltip_info_item.mcdw.jailors_scythe_1"         : "Эта коса принадлежит грозе",
+  "tooltip_info_item.mcdw.jailors_scythe_2"         : "Залов Высокоблочья, Тюремщику.",
+
+  "tooltip_info_item.mcdw.skull_scythe_1"           : "Даже не спрашивай, кости какого необъяснимого",
+  "tooltip_info_item.mcdw.skull_scythe_2"           : "существа были использованы для создания этого оружия.",
+  "tooltip_info_item.mcdw.skull_scythe_3"           : "Ты не хочешь знать.",
+
+  "tooltip_info_item.mcdw.sickle_1"                 : "Церемониальное оружие, что родом",
+  "tooltip_info_item.mcdw.sickle_2"                 : "из того же региона, что и",
+  "tooltip_info_item.mcdw.sickle_3"                 : "Песчаный Храм.",
+
+  "tooltip_info_item.mcdw.last_laugh_gold_1"        : "Страный и искаженный смех,",
+  "tooltip_info_item.mcdw.last_laugh_gold_2"        : "кажется, доносится шепотом",
+  "tooltip_info_item.mcdw.last_laugh_gold_3"        : "из этих угрожающе выглядящих серпов.",
+
+  "tooltip_info_item.mcdw.last_laugh_silver_1"      : "Страный и искаженный смех,",
+  "tooltip_info_item.mcdw.last_laugh_silver_2"      : "кажется, доносится шепотом",
+  "tooltip_info_item.mcdw.last_laugh_silver_3"      : "из этих угрожающе выглядящих серпов.",
+
+  "tooltip_info_item.mcdw.nightmares_bite_1"        : "Двойные клинки Кошмарного Укуса",
+  "tooltip_info_item.mcdw.nightmares_bite_2"        : "капают зловещим ядом, что все ещё",
+  "tooltip_info_item.mcdw.nightmares_bite_3"        : "действует после стольких лет.",
+
+  "tooltip_info_item.mcdw.battlestaff_1"            : "Боевой Посох - это идеально",
+  "tooltip_info_item.mcdw.battlestaff_2"            : "сбалансированный посох, что",
+  "tooltip_info_item.mcdw.battlestaff_3"            : "готов к любой битве.",
+
+  "tooltip_info_item.mcdw.battlestaff_of_terror_1"  : "Этот посох поражает",
+  "tooltip_info_item.mcdw.battlestaff_of_terror_2"  : "свою цель в битве,",
+  "tooltip_info_item.mcdw.battlestaff_of_terror_3"  : "взрывая её.",
+
+  "tooltip_info_item.mcdw.growing_staff_1"          : "Посох, что растёт и меняется,",
+  "tooltip_info_item.mcdw.growing_staff_2"          : "когда он атакует, Растущий Посох",
+  "tooltip_info_item.mcdw.growing_staff_3"          : "непредсказуем и могущественен.",
+
+  "tooltip_info_item.mcdw.whip_1"                   : "Хлыст, сделанный из прочной веревки,",
+  "tooltip_info_item.mcdw.whip_2"                   : "очень опасен в правильных",
+  "tooltip_info_item.mcdw.whip_3"                   : "руках.",
+
+  "tooltip_info_item.mcdw.vine_whip_1"              : "Прочный хлыст, созданный из",
+  "tooltip_info_item.mcdw.vine_whip_2"              : "толстой шипастой лозы, способной",
+  "tooltip_info_item.mcdw.vine_whip_3"              : "отравить всё, к чему прикоснётся.",
+  "tooltip_info_item.mcdw.vine_whip_4"              : "Нужно быть осторожным, чтобы не",
+  "tooltip_info_item.mcdw.vine_whip_5"              : "поранить себя.",
+
+  "tooltip_info_item.mcdw.tempest_knife_1"          : "Этот нож рассекает врагов",
+  "tooltip_info_item.mcdw.tempest_knife_2"          : "подобно ветру, что проносится",
+  "tooltip_info_item.mcdw.tempest_knife_3"          : "меж горными вершинами.",
+
+  "tooltip_info_item.mcdw.resolute_tempest_knife_1" : "Передаваемый из поколения в поколение",
+  "tooltip_info_item.mcdw.resolute_tempest_knife_2" : "горными кочевниками, этот клинок",
+  "tooltip_info_item.mcdw.resolute_tempest_knife_3" : "использовался в бесчетном количестве сражений.",
+
+  "tooltip_info_item.mcdw.chill_gale_knife_1"       : "Созданный из нетающего льда,",
+  "tooltip_info_item.mcdw.chill_gale_knife_2"       : "на вершинах гор, этот клинок",
+  "tooltip_info_item.mcdw.chill_gale_knife_3"       : "навечно останестся ледяным на ощупь.",
+
+  "tooltip_info_item.mcdw.ancient_bow_1"            : "Лук Древних все ещё такой же",
+  "tooltip_info_item.mcdw.ancient_bow_2"            : "надежный, когда его впервые натянули.",
+
+  "tooltip_info_item.mcdw.bonebow_1"                : "Костный Лук - гордость Тыквенных",
+  "tooltip_info_item.mcdw.bonebow_2"                : "Пастбищ, cозданный в стенах",
+  "tooltip_info_item.mcdw.bonebow_3"                : "их скромной деревушки.",
+
+  "tooltip_info_item.mcdw.lost_souls_1"             : "Этот лук, созданный из проклятых костей",
+  "tooltip_info_item.mcdw.lost_souls_2"             : "лишает врагов жизни и сами",
+  "tooltip_info_item.mcdw.lost_souls_3"             : "их души.",
+
+  "tooltip_info_item.mcdw.elite_power_bow_1"        : "Секрет конструкции Элитного",
+  "tooltip_info_item.mcdw.elite_power_bow_2"        : "Мощного Лука был",
+  "tooltip_info_item.mcdw.elite_power_bow_3"        : "утерян без следа.",
+
+  "tooltip_info_item.mcdw.guardian_bow_1"           : "Выкованный из окаменевшего коралла,",
+  "tooltip_info_item.mcdw.guardian_bow_2"           : "Лук Защитника является остатком",
+  "tooltip_info_item.mcdw.guardian_bow_3"           : "забытых цивилизаций прошедших времен.",
+
+  "tooltip_info_item.mcdw.haunted_bow_1"            : "Что за неописуемый ужас!",
+  "tooltip_info_item.mcdw.haunted_bow_2"            : "ползучие щупальца этого лука",
+  "tooltip_info_item.mcdw.haunted_bow_3"            : "тянутся к непостижимой Пустоте.",
+
+  "tooltip_info_item.mcdw.hunters_promise_1"        : "Этот зачарованный лук",
+  "tooltip_info_item.mcdw.hunters_promise_2"        : "укрепляет связь между охотником",
+  "tooltip_info_item.mcdw.hunters_promise_3"        : "и его надежным животным-",
+  "tooltip_ench_item.mcdw.hunters_promise_1"        : "компаньоном.",
+
+  "tooltip_info_item.mcdw.hunting_bow_1"            : "Этот зачарованный лук укрепляет",
+  "tooltip_info_item.mcdw.hunting_bow_2"            : "связь между охотником и",
+  "tooltip_info_item.mcdw.hunting_bow_3"            : "его надежным животным-компаньоном.",
+
+  "tooltip_info_item.mcdw.longbow_1"                : "Длинный Лук, созданный больше",
+  "tooltip_info_item.mcdw.longbow_2"                : "для охоты, нежели чем для битвы",
+  "tooltip_info_item.mcdw.longbow_3"                : "всё ещё полезен в бою.",
+
+  "tooltip_info_item.mcdw.love_spell_bow_1"         : "Любовь может быть волшебной, но когда она",
+  "tooltip_info_item.mcdw.love_spell_bow_2"         : "становится слишком сильной, она может",
+  "tooltip_info_item.mcdw.love_spell_bow_3"         : "обратиться в безумие.",
+
+  "tooltip_info_item.mcdw.masters_bow_1"            : "Лук, предпочитаемый мастерами",
+  "tooltip_info_item.mcdw.masters_bow_2"            : "лучниками по всему Верхнему Миру,",
+  "tooltip_info_item.mcdw.masters_bow_3"            : "Неважно, насколько просто он выглядит.",
+
+  "tooltip_info_item.mcdw.mechanical_shortbow_1"    : "Этот лук, являющийся новейшей",
+  "tooltip_info_item.mcdw.mechanical_shortbow_2"    : "разработкой быстрой стрельбы,",
+  "tooltip_info_item.mcdw.mechanical_shortbow_3"    : "гарантирует стремительный удар.",
+
+  "tooltip_info_item.mcdw.nocturnal_bow_1"          : "Души, что привязаны к луку, направляют",
+  "tooltip_info_item.mcdw.nocturnal_bow_2"          : "стрелы к их целям, чем",
+  "tooltip_info_item.mcdw.nocturnal_bow_3"          : "заставляют их немного светиться.",
+
+  "tooltip_info_item.mcdw.power_bow_1"              : "Вопрос о том, что делает Мощный",
+  "tooltip_info_item.mcdw.power_bow_2"              : "лук таким мощным, веками занимал",
+  "tooltip_info_item.mcdw.power_bow_3"              : "умы ученых.",
+
+  "tooltip_info_item.mcdw.purple_storm_1"           : "Названный Фиолетовым Штормом из-за",
+  "tooltip_info_item.mcdw.purple_storm_2"           : "его прекрасного оттенка, этот легендарный",
+  "tooltip_info_item.mcdw.purple_storm_3"           : "лук наносит мощные удары.",
+
+  "tooltip_info_item.mcdw.red_snake_1"              : "Алая Змея излучает",
+  "tooltip_info_item.mcdw.red_snake_2"              : "взрывоопасное тепло, что делает его смертельно",
+  "tooltip_info_item.mcdw.red_snake_3"              : "опасным при пожаре в сухих пустынных землях.",
+
+  "tooltip_info_item.mcdw.sabrewing_1"              : "Этот лук, созданный для давно пропавшего",
+  "tooltip_info_item.mcdw.sabrewing_2"              : "чемпиона, идеально подходит для тех,",
+  "tooltip_info_item.mcdw.sabrewing_3"              : "кто ищет справедливости.",
+
+  "tooltip_info_item.mcdw.shortbow_1"               : "Оружие, предпочитаемое ворами и",
+  "tooltip_info_item.mcdw.shortbow_2"               : "разбойниками, Короткий Лук - ловок",
+  "tooltip_info_item.mcdw.shortbow_3"               : "и летален на коротких дистанциях.",
+
+  "tooltip_info_item.mcdw.snow_bow_1"               : "Те, кто столкнётся с Снежным луком в",
+  "tooltip_info_item.mcdw.snow_bow_2"               : "бою, должен быть так же готов к",
+  "tooltip_info_item.mcdw.snow_bow_3"               : "холоду леденящих зимних ветров.",
+
+  "tooltip_info_item.mcdw.soul_bow_1"               : "Лук душ излучает всю",
+  "tooltip_info_item.mcdw.soul_bow_2"               : "красоту и ярость",
+  "tooltip_info_item.mcdw.soul_bow_3"               : "атакующих Вредин.",
+
+  "tooltip_info_item.mcdw.green_menace_1"           : "Стрелы, выпущенные из Зелёной",
+  "tooltip_info_item.mcdw.green_menace_2"           : "Угрозы, всегда попадают в назначенную",
+  "tooltip_info_item.mcdw.green_menace_3"           : "цель, даже в самый густой туман.",
+
+  "tooltip_info_item.mcdw.pink_scoundrel_1"         : "Было бы смертельной ошибкой",
+  "tooltip_info_item.mcdw.pink_scoundrel_2"         : "недооценивать мощь",
+  "tooltip_info_item.mcdw.pink_scoundrel_3"         : "Розового Негодяя.",
+
+  "tooltip_info_item.mcdw.trickbow_1"               : "Изящный лук, что, кажется,",
+  "tooltip_info_item.mcdw.trickbow_2"               : "никогда не промахивается по цели.",
+
+  "tooltip_info_item.mcdw.sugar_rush_1"             : "Этот, покрашенный в конфетные цвета, лук,",
+  "tooltip_info_item.mcdw.sugar_rush_2"             : "на удивление горький на вкус.",
+
+  "tooltip_info_item.mcdw.twin_bow_1"               : "Двойной Лук является защитником",
+  "tooltip_info_item.mcdw.twin_bow_2"               : "героя, что оказался в",
+  "tooltip_info_item.mcdw.twin_bow_3"               : "меньшинстве или одиночестве.",
+
+  "tooltip_info_item.mcdw.winters_touch_1"          : "Стрелы, выпущенные из этого легендарного",
+  "tooltip_info_item.mcdw.winters_touch_2"          : "лука, говорят о том, что их переносят",
+  "tooltip_info_item.mcdw.winters_touch_3"          : "сами зимние ветра.",
+
+  "tooltip_info_item.mcdw.shivering_bow_1"          : "Дрожащий Лук пробивает даже",
+  "tooltip_info_item.mcdw.shivering_bow_2"          : "самый древний лёд и выстреливает",
+  "tooltip_info_item.mcdw.shivering_bow_3"          : "морозом в сердца врагов.",
+
+  "tooltip_info_item.mcdw.wind_bow_1"               : "Завораживающий лук, что улавливает",
+  "tooltip_info_item.mcdw.wind_bow_2"               : "силу ветра и выпускает могучие",
+  "tooltip_info_item.mcdw.wind_bow_3"               : "Штормовые Стрелы.",
+
+  "tooltip_info_item.mcdw.echo_of_the_valley_1"     : "Этот лук взывает к бурлящим ветрам",
+  "tooltip_info_item.mcdw.echo_of_the_valley_2"     : "скрытой долины, где он был",
+  "tooltip_info_item.mcdw.echo_of_the_valley_3"     : "впервые натянут.",
+
+  "tooltip_info_item.mcdw.burst_gale_bow_1"         : "Лук, наполненный силой",
+  "tooltip_info_item.mcdw.burst_gale_bow_2"         : "пронзающих ветров, что могут",
+  "tooltip_info_item.mcdw.burst_gale_bow_3"         : "вспыхнуть в одно касание.",
+
+  "tooltip_info_item.mcdw.twisting_vine_bow_1"      : "Этот лук извивается в вашей руке,",
+  "tooltip_info_item.mcdw.twisting_vine_bow_2"      : "будто пытается обвить всё",
+  "tooltip_info_item.mcdw.twisting_vine_bow_3"      : "на своем пути своими",
+  "tooltip_info_item.mcdw.twisting_vine_bow_4"      : "усиками.",
+
+  "tooltip_info_item.mcdw.weeping_vine_bow_1"       : "Токсичные лианы Лука Плакучей Лозы",
+  "tooltip_info_item.mcdw.weeping_vine_bow_2"       : "создают ядовитый туман на",
+  "tooltip_info_item.mcdw.weeping_vine_bow_3"       : "поле боя.",
+
+  "tooltip_info_item.mcdw.bubble_bow_1"             : "Позвольсвоим проблемам улететь",
+  "tooltip_info_item.mcdw.bubble_bow_2"             : "с Пузырчатым Луком, что",
+  "tooltip_info_item.mcdw.bubble_bow_3"             : "запечатывает вашу цель в пузырек",
+  "tooltip_info_item.mcdw.bubble_bow_4"             : "при заряженом выстреле.",
+
+  "tooltip_info_item.mcdw.bubble_burster_1"         : "Гроза Пузырьков создает цепной",
+  "tooltip_info_item.mcdw.bubble_burster_2"         : "эффект пузырьковых неприятностей",
+  "tooltip_info_item.mcdw.bubble_burster_3"         : "для ваших врагов.",
+
+  "tooltip_info_item.mcdw.gloopy_bow_1"             : "Заточите своих врагов в сиропообразный",
+  "tooltip_info_item.mcdw.gloopy_bow_2"             : "пузырь и покажите им, кто здесь",
+  "tooltip_info_item.mcdw.gloopy_bow_3"             : "Босс!",
+
+  "tooltip_info_item.mcdw.void_bow_1"               : "Когда вы натягиваете тетиву",
+  "tooltip_info_item.mcdw.void_bow_2"               : "Лука Пустоты, тревожная тишина",
+  "tooltip_info_item.mcdw.void_bow_3"               : "воцаряется на поле битвы.",
+
+  "tooltip_info_item.mcdw.call_of_the_void_1"       : "Вы чувствуете, как Бездна шепчет",
+  "tooltip_info_item.mcdw.call_of_the_void_2"       : "изнутри этого лука, но позади",
+  "tooltip_info_item.mcdw.call_of_the_void_3"       : "этого звука вы слышите ещё голос",
+  "tooltip_info_item.mcdw.call_of_the_void_4"       : "из темноты.",
+
+  "tooltip_info_item.mcdw.phantom_bow_1"            : "Стрелы, выпущенные из Лука",
+  "tooltip_info_item.mcdw.phantom_bow_2"            : "Фантомов, обрушиваются на",
+  "tooltip_info_item.mcdw.phantom_bow_3"            : "врагов, как кошмарный",
+  "tooltip_info_item.mcdw.phantom_bow_4"            : "тезка этого лука.",
+
+  "tooltip_info_item.mcdw.web_bow_1"                : "Созданный из паутин могущественных",
+  "tooltip_info_item.mcdw.web_bow_2"                : "пауков, Лук Ткача позволяет",
+  "tooltip_info_item.mcdw.web_bow_3"                : "вам выбраться из любой липкой",
+  "tooltip_info_item.mcdw.web_bow_4"                : "ситуации.",
+
+  "tooltip_info_item.mcdw.auto_crossbow_1"          : "Архи-Злодеянин изрек, что дизайн",
+  "tooltip_info_item.mcdw.auto_crossbow_2"          : "этого мощного арбалета",
+  "tooltip_info_item.mcdw.auto_crossbow_3"          : "пришел к нему в видении.",
+
+  "tooltip_info_item.mcdw.azure_seeker_1"           : "Если бы у синего цвета был звук,",
+  "tooltip_info_item.mcdw.azure_seeker_2"           : "то это был бы звук выстрела из",
+  "tooltip_info_item.mcdw.azure_seeker_3"           : "Искателя Азуры.",
+
+  "tooltip_info_item.mcdw.baby_crossbow_1"          : "Пока все обсуждают милый",
+  "tooltip_info_item.mcdw.baby_crossbow_2"          : "Детский Арбалет, это смертоносное оружие",
+  "tooltip_info_item.mcdw.baby_crossbow_3"          : "превращается в тяжелое орудие дальнего боя.",
+
+  "tooltip_info_item.mcdw.burst_crossbow_1"         : "Тактический арбалет, любимый войнами",
+  "tooltip_info_item.mcdw.burst_crossbow_2"         : "и охотниками, Всплеск - это мощное",
+  "tooltip_info_item.mcdw.burst_crossbow_3"         : "оружие для любого героя.",
+
+  "tooltip_info_item.mcdw.butterfly_crossbow_1"     : "Этот арбалет двигается быстрее, чем",
+  "tooltip_info_item.mcdw.butterfly_crossbow_2"     : "крылья в полете и сражает врагов",
+  "tooltip_info_item.mcdw.butterfly_crossbow_3"     : "прежде, чем они увидят снаряд.",
+
+  "tooltip_info_item.mcdw.cog_crossbow_1"           : "Шестеренки древного Механического",
+  "tooltip_info_item.mcdw.cog_crossbow_2"           : "Арбалета до сих пор плавно вращаются,",
+  "tooltip_info_item.mcdw.cog_crossbow_3"           : "Что делает его надежным выбором",
+  "tooltip_info_item.mcdw.cog_crossbow_4"           : "и по сей день.",
+
+  "tooltip_info_item.mcdw.corrupted_crossbow_1"     : "Этот арбалет обладает неуловимой, но",
+  "tooltip_info_item.mcdw.corrupted_crossbow_2"     : "разрушительной силой, что подходит как",
+  "tooltip_info_item.mcdw.corrupted_crossbow_3"     : "для воров, так и для ловких войнов.",
+
+  "tooltip_info_item.mcdw.doom_crossbow_1"          : "Многие думали, что Арбалет Погибели -",
+  "tooltip_info_item.mcdw.doom_crossbow_2"          : "это просто миф, но на этот раз",
+  "tooltip_info_item.mcdw.doom_crossbow_3"          : "слухи оказались правдой.",
+
+  "tooltip_info_item.mcdw.dual_crossbow_1"          : "Двойные Арбалеты - прекрасный выбор",
+  "tooltip_info_item.mcdw.dual_crossbow_2"          : "для войнов с хорошими рефлексами",
+  "tooltip_info_item.mcdw.dual_crossbow_3"          : "в быстро-развивающейся битве.",
+
+  "tooltip_info_item.mcdw.exploding_crossbow_1"     : "Мощь тротила, соединенная с новейшими",
+  "tooltip_info_item.mcdw.exploding_crossbow_2"     : "разработками лучников, привела к созданию",
+  "tooltip_info_item.mcdw.exploding_crossbow_3"     : "этого разрушительного арбалета.",
+
+  "tooltip_info_item.mcdw.feral_soul_crossbow_1"    : "Если вы прислушаетесь, то услышите, как",
+  "tooltip_info_item.mcdw.feral_soul_crossbow_2"    : "души внутри арбалета",
+  "tooltip_info_item.mcdw.feral_soul_crossbow_3"    : "высмеивают тебя.",
+
+  "tooltip_info_item.mcdw.firebolt_thrower_1"       : "Метатель Всполохов вызывает хаос",
+  "tooltip_info_item.mcdw.firebolt_thrower_2"       : "в цепной реакции взрывающихся стрел.",
+
+  "tooltip_info_item.mcdw.harp_crossbow_1"          : "Наполовину музыкальный инструмент и по-настоящему",
+  "tooltip_info_item.mcdw.harp_crossbow_2"          : "смертоносное оружие, Арбалет-арфа -",
+  "tooltip_info_item.mcdw.harp_crossbow_3"          : "это изюминка любой вечеринки.",
+
+  "tooltip_info_item.mcdw.harpoon_crossbow_1"       : "Гарпунный Арбалет стреляет гарпунами,",
+  "tooltip_info_item.mcdw.harpoon_crossbow_2"       : "что прорезают воздух и воду своей",
+  "tooltip_info_item.mcdw.harpoon_crossbow_3"       : "разрушительной мощью.",
+
+  "tooltip_info_item.mcdw.heavy_crossbow_1"         : "Тяжелый арбалет - это угроза, что",
+  "tooltip_info_item.mcdw.heavy_crossbow_2"         : "наносит большой урон и представляет угрозу",
+  "tooltip_info_item.mcdw.heavy_crossbow_3"         : "на дальней дистанции.",
+
+  "tooltip_info_item.mcdw.imploding_crossbow_1"     : "Разрывной Арбалет был волшебным",
+  "tooltip_info_item.mcdw.imploding_crossbow_2"     : "образом доработан, чтобы максимально",
+  "tooltip_info_item.mcdw.imploding_crossbow_3"     : "усилить эффект взрыва.",
+
+  "tooltip_info_item.mcdw.lightning_harp_crossbow_1": "Добавление электричества к этому",
+  "tooltip_info_item.mcdw.lightning_harp_crossbow_2": "арбалету сделало звук его выстрела",
+  "tooltip_info_item.mcdw.lightning_harp_crossbow_3": "более драматичным.",
+
+  "tooltip_info_item.mcdw.nautical_crossbow_1"      : "Why harpoon one enemy when you",
+  "tooltip_info_item.mcdw.nautical_crossbow_2"      : "can harpoon many!",
+
+  "tooltip_info_item.mcdw.pride_of_the_piglins_1"   : "Найденный в самых отдаленных уголках",
+  "tooltip_info_item.mcdw.pride_of_the_piglins_2"   : "Нижнего Мира, арбалет 'Гордость Пиглинов'",
+  "tooltip_info_item.mcdw.pride_of_the_piglins_3"   : "является винтажным и порочным.",
+
+  "tooltip_info_item.mcdw.rapid_crossbow_1"         : "Новая технология перезарядки помогает этому",
+  "tooltip_info_item.mcdw.rapid_crossbow_2"         : "арбалету стрелять быстрее, чем тем,",
+  "tooltip_info_item.mcdw.rapid_crossbow_3"         : "что были до него.",
+
+  "tooltip_info_item.mcdw.scatter_crossbow_1"       : "Этот арбалет, улучшеный для удержания и выпсука",
+  "tooltip_info_item.mcdw.scatter_crossbow_2"       : "множества снарядов, также является неплохим",
+  "tooltip_info_item.mcdw.scatter_crossbow_3"       : "музыкальным инструментом.",
+
+  "tooltip_info_item.mcdw.shadow_crossbow_1"        : "Те, кто пожелает использовать Арбалет",
+  "tooltip_info_item.mcdw.shadow_crossbow_2"        : "Тени, должны тренироваться в полнейшей",
+  "tooltip_info_item.mcdw.shadow_crossbow_3"        : "темноте, прежде чем они смогут владеть им.",
+
+  "tooltip_info_item.mcdw.shrieking_crossbow_1"     : "Пока вы будете владеть этим",
+  "tooltip_info_item.mcdw.shrieking_crossbow_2"     : "пугающим оружием, вы почувствуете,",
+  "tooltip_info_item.mcdw.shrieking_crossbow_3"     : "что поддаётесь тьме и ",
+  "tooltip_info_item.mcdw.shrieking_crossbow_4"     : "становитесь единым с ночью.",
+
+  "tooltip_info_item.mcdw.slayer_crossbow_1"        : "Арбалет Убийцы - это драгоценная",
+  "tooltip_info_item.mcdw.slayer_crossbow_2"        : "реликвия многих легендарных стрелков.",
+
+  "tooltip_info_item.mcdw.the_slicer_1"             : "Вершина инженерной мысли Разбойников,",
+  "tooltip_info_item.mcdw.the_slicer_2"             : "знаменитый Срез, был создан для того,",
+  "tooltip_info_item.mcdw.the_slicer_3"             : "чтобы стрелять снарядами, пробивающими",
+  "tooltip_info_item.mcdw.the_slicer_4"             : "даже самую толстую и крепкую",
+  "tooltip_info_item.mcdw.the_slicer_5"             : "броню.",
+
+  "tooltip_info_item.mcdw.soul_crossbow_1"          : "Арбалет Душ был создан загадочными",
+  "tooltip_info_item.mcdw.soul_crossbow_2"          : "Призывателями и Зачарователями в",
+  "tooltip_info_item.mcdw.soul_crossbow_3"          : "Особняках.",
+
+  "tooltip_info_item.mcdw.soul_hunter_crossbow_1"   : "Этот арбалет был создан в кузнице,",
+  "tooltip_info_item.mcdw.soul_hunter_crossbow_2"   : "богатой душами, и он отлично работает в",
+  "tooltip_info_item.mcdw.soul_hunter_crossbow_3"   : "местах скопления этих самых душ.",
+
+  "tooltip_info_item.mcdw.spellbound_crossbow_1"    : "Зачарованые враги особо уязвимы",
+  "tooltip_info_item.mcdw.spellbound_crossbow_2"    : "к магии этого арбалета.",
+
+  "tooltip_info_item.mcdw.veiled_crossbow_1"        : "Скрытый Арбалет скрывает носителя",
+  "tooltip_info_item.mcdw.veiled_crossbow_2"        : "в тени, идеален для тех, кто хочет",
+  "tooltip_info_item.mcdw.veiled_crossbow_3"        : "остаться незамеченным (и непобеждённым).",
+
+  "tooltip_info_item.mcdw.voidcaller_crossbow_1"    : "Это орудие взывает к душам, что",
+  "tooltip_info_item.mcdw.voidcaller_crossbow_2"    : "заточены меж этим миром и",
+  "tooltip_info_item.mcdw.voidcaller_crossbow_3"    : "последующим.",
+
+  "tooltip_info_item.mcdw.gap": " ",
+  "tooltip_note_item.mcdw.dualwield": "Обоерукое",
+  "tooltip_note_item.mcdw.longbow": "Длинный Лук",
+  "tooltip_note_item.mcdw.shortbow": "Короткий Лук",
+
+  "death.attack.electricShock": "%s был 'шокирован' до смерти",
+
+  "enchantment.mcdw.accelerate.desc": "Увеличивает скорость атаки при каждом последующем выстреле. Сбрасывается через три секунды после атаки.",
+  "enchantment.mcdw.ambush.desc": "Наносит дополнительный урон, во время ползанья и невидимости.",
+  "enchantment.mcdw.anima_conduit.desc": "Каждая единица опыта дает небольшое количество здоровья.",
+  "enchantment.mcdw.bonus_shot.desc": "Выпускает дополнительный снаряд по второстепенной цели.",
+  "enchantment.mcdw.burst_bowstring.desc": "Стреляет в ближайших мобов, когда вы прыгаете, тратя по одной стреле за прыжок на каждом уровне. Снаряды наносят 40% урона от стрелы.",
+  "enchantment.mcdw.busy_bee.desc": "Держа в руке пчелиное жало, атакуйте врага, чтобы призвать пчел сражаться бок о бок с вами.",
+  "enchantment.mcdw.chain_reaction.desc": "Возможность выпустить дополнительные снаряды из цели, пораженной стрелой.",
+  "enchantment.mcdw.chains.desc": "Шанс сдвинуть мобов друг к другу и замедлить их.",
+  "enchantment.mcdw.charge.desc": "Шанс получить эффект скорости при ударе врага.",
+  "enchantment.mcdw.cobweb_shot.desc": "Накрывает врага паутиной, когда ваша стрела попадет в цель.",
+  "enchantment.mcdw.committed.desc": "Шанс нанести урон, зависящий от здоровья цели.",
+  "enchantment.mcdw.critical_hit.desc": "Шанс нанести критический удар, не прыгая.",
+  "enchantment.mcdw.dipping_poison.desc": "Дает 8 отравленных стрел при выпивании зелья здоровья.",
+  "enchantment.mcdw.dynamo.desc": "Увеличивает урон от вашей следующей атаки после прыжка. Этот эффект может накапливаться до 20 раз.",
+  "enchantment.mcdw.echo.desc": "Шанс нанести звуковой урон по области на площади в 3 блока.",
+  "enchantment.mcdw.enigma_resonator.desc": "Наносит урон, зависящий от количества опыта, накопленного игроком.",
+  "enchantment.mcdw.exploding.desc": "Вероятность того, что цель взорвется после смерти, нанося урон окружающим врагам.",
+  "enchantment.mcdw.freezing.desc": "Дает шанс замедлить цель и вызывает у нее усталость.",
+  "enchantment.mcdw.fuse_shot.desc": "Есть шанс, что стрела взорвется при ударе.",
+  "enchantment.mcdw.gravity.desc": "Возможность притягивать и отталкивать цель. Расстояние броска зависит от уровня.",
+  "enchantment.mcdw.growing.desc": "Наносит дополнительный урон по мере удаления от цели.",
+  "enchantment.mcdw.guarding_strike.desc": "Дает эффект сопротивления за убийство мобов.",
+  "enchantment.mcdw.illagers_bane.desc": "Наносит дополнительный урон Разбойникам.",
+  "enchantment.mcdw.jungle_poison.desc": "Шанс наложит на цель яд.",
+  "enchantment.mcdw.leeching.desc": "Восстанавливает ХП в соответствии с максимальным запасом здоровья цели после ее смерти.",
+  "enchantment.mcdw.levitation_shot.desc": "Стреляет снарядом, который дает эффект левитации, очень похожий на пулю шалкера.",
+  "enchantment.mcdw.multi_shot.desc": "При нападении нескольких врагов выпускает дополнительные стрелы в аналогичных направлениях.",
+  "enchantment.mcdw.overcharge.desc": "Удерживайте ПКМ, чтобы удвоить, утроить или учетверить заряд лука, с каждым разом увеличивая его урон.",
+  "enchantment.mcdw.pain_cycle.desc": "Атака отнимает у вас хп, что дает вам 1 Цикл Боли. При 5 Циклах Боли она направляется на следующую атаку.",
+  "enchantment.mcdw.phantoms_mark.desc": "Заставляет цель светиться в зависимости от уровня наложенного заклинания.",
+  "enchantment.mcdw.poison_cloud.desc": "Шанс создать ядовитое облако вокруг цели.",
+  "enchantment.mcdw.prospector.desc": "Шанс выпадения изумруда после убийства цели.",
+  "enchantment.mcdw.radiance.desc": "Шанс создать исцеляющее облако вокруг цели.",
+  "enchantment.mcdw.radiance_shot.desc": "Шанс создать исцеляющее облако вокруг цели, пораженной стрелой.",
+  "enchantment.mcdw.rampaging.desc": "Шанс увеличить скорость копания при убийстве.",
+  "enchantment.mcdw.refreshment.desc": "При убийстве с помощью оружия с этим зачарованием, наполняет пустые бутылки зельями здоровья.",
+  "enchantment.mcdw.refreshment_shot.desc": "Наполняет пустые бутылки зельями здоровья при убийстве дальнобойным оружием с этим зачарованием.",
+  "enchantment.mcdw.replenish.desc": "Шанс вернуть стрелу после выстрела.",
+  "enchantment.mcdw.ricochet.desc": "Стрела отскакивает от цели к цели.",
+  "enchantment.mcdw.rushdown.desc": "Шанс увеличить свою скорость при убийстве.",
+  "enchantment.mcdw.shadow_barb.desc": "Стрельба из арбалета не нарушит Теневую Форму.",
+  "enchantment.mcdw.shadow_shot.desc": "Шанс наделить игрока Теневой Формой при убийстве.",
+  "enchantment.mcdw.shared_pain.desc": "Если игрок перенанесет урон мобу, оставшийся урон будет нанесен ближайшему мобу, если таковой имеется.",
+  "enchantment.mcdw.shockwave.desc": "Шанс нанести взрывной урон в радиусе 3 блоков.",
+  "enchantment.mcdw.smiting.desc": "Наносит урон по области нежити в радиусе 3 блоков.",
+  "enchantment.mcdw.soul_devourer.desc": "Увеличивает опыт, полученный за убийство.",
+  "enchantment.mcdw.soul_siphon.desc": "Шанс получить дополнительный опыт за убийство.",
+  "enchantment.mcdw.stunning.desc": "Шанс почти остановить цель и вызвать эффект тошноты.",
+  "enchantment.mcdw.swirling.desc": "Шанс поразить все объекты в радиусе 1,5 блоков вокруг атакующего.",
+  "enchantment.mcdw.tempo_theft.desc": "Крадёт скорость вашей цели, замедляя ее и ускоряя вас.",
+  "enchantment.mcdw.thundering.desc": "Шанс вызвать молнию и нанести урон всем существам по радисусу, зависящему от уровня.",
+  "enchantment.mcdw.void_strike.desc": "Шанс нанести мультипликативный урон ближнего боя. Зависит от уровня наложенных чар.",
+  "enchantment.mcdw.void_shot.desc": "Шанс нанести мультипликативный урон дальнего боя. Зависит от уровня наложенных чар.",
+  "enchantment.mcdw.weakening.desc": "Шанс создать облако слабости вокруг цели.",
+  "enchantment.mcdw.wild_rage.desc": "Удар по врагу может привести его в ярость, сделав враждебным по отношению ко всем."
+}

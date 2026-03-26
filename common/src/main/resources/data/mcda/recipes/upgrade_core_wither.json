@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "mcda:upgrade_core"
+  },
+  "addition": {
+    "item": "minecraft:wither_skeleton_skull"
+  },
+  "result": {
+    "item": "mcda:upgrade_core_wither"
+    },
+    "template": {
+      "item": "minecraft:blaze_powder"
+    }
+}

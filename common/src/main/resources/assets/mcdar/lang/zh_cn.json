@@ -1,0 +1,197 @@
+{
+  "itemGroup.mcdar.artifacts":                            "我的世界：地下城法器",
+
+  "item.mcdar.blast_fungus":                              "爆破菌",
+  "item.mcdar.boots_of_swiftness":                        "迅捷之靴",
+  "item.mcdar.buzzy_nest":                                "嗡嗡蜂巢",
+  "item.mcdar.corrupted_beacon":                          "腐化信标",
+  "item.mcdar.corrupted_seeds":                           "腐化种子",
+  "item.mcdar.death_cap_mushroom":                        "毒帽菇",
+  "item.mcdar.enchanted_grass":                           "附魔草",
+  "item.mcdar.enchanters_tome":                           "附魔师之典",
+  "item.mcdar.flaming_quiver":                            "燃烧箭袋",
+  "item.mcdar.ghost_cloak":                               "幽灵战袍",
+  "item.mcdar.golem_kit":                                 "傀儡用具",
+  "item.mcdar.gong_of_weakening":                         "弱化之锣",
+  "item.mcdar.harpoon_quiver":                            "鱼叉箭袋",
+  "item.mcdar.harvester":                                 "收割者",
+  "item.mcdar.iron_hide_amulet":                          "铁皮护身符",
+  "item.mcdar.light_feather":                             "浮流之羽",
+  "item.mcdar.lightning_rod":                             "雷霆法杖",
+  "item.mcdar.love_medallion":                            "迷情挂坠",
+  "item.mcdar.powershaker":                               "巨力沙锤",
+  "item.mcdar.satchel_of_elements":                       "元素背袋",
+  "item.mcdar.satchel_of_elixirs":                        "药水背袋",
+  "item.mcdar.satchel_of_snacks":                         "零食背袋",
+  "item.mcdar.shock_powder":                              "休克粉末",
+  "item.mcdar.soul_healer":                               "灵魂治疗器",
+  "item.mcdar.tasty_bone":                                "美味骨肉",
+  "item.mcdar.thundering_quiver":                         "雷霆箭袋",
+  "item.mcdar.torment_quiver":                            "苦痛箭袋",
+  "item.mcdar.totem_of_regeneration":                     "再生图腾",
+  "item.mcdar.totem_of_shielding":                        "护盾图腾",
+  "item.mcdar.totem_of_soul_protection":                  "卫魂图腾",
+  "item.mcdar.updraft_tome":                              "鼓风之典",
+  "item.mcdar.wind_horn":                                 "风之号角",
+  "item.mcdar.wonderful_wheat":                           "优质小麦",
+
+  "entity.mcdar.buzzy_nest_bee":                          "嗡嗡蜂巢蜜蜂",
+  "entity.mcdar.enchanted_blue_sheep":                    "附魔羊",
+  "entity.mcdar.enchanted_green_sheep":                   "附魔羊",
+  "entity.mcdar.enchanted_red_sheep":                     "附魔羊",
+  "entity.mcdar.golem_kit_golem":                         "傀儡用具铁傀儡",
+  "entity.mcdar.tasty_bone_wolf":                         "美味骨肉狼",
+  "entity.mcdar.wonderful_wheat_llama":                   "优质小麦羊驼",
+
+  "death.attack.electricShock":                           "%s被电死了。",
+
+  "effect.mcdar.shielding":                               "屏蔽护盾",
+  "effect.mcdar.soul_protection":                         "保护灵魂",
+  "effect.mcdar.stunned":                                 "愕然",
+
+  "enchantment.mcdar.beast_boss":                         "万兽之王",
+  "enchantment.mcdar.beast_burst":                        "万兽之烈",
+  "enchantment.mcdar.beast_surge":                        "万兽之力",
+  "enchantment.mcdar.cooldown":                           "冷却",
+
+  "enchantment.mcdar.beast_boss.desc":                    "你的宠物会造成更多伤害。",
+  "enchantment.mcdar.beast_burst.desc":                   "使用治疗药水会在宠物所在处造成爆炸，对宠物和怪物伤害。",
+  "enchantment.mcdar.beast_surge.desc":                   "使用治疗药水会提升宠物攻击速度和移动速度10秒。",
+  "enchantment.mcdar.cooldown.desc":                      "减少法器冷却时间。",
+
+  "tooltip_info_item.mcdar.blast_fungus_1":               "只有最勇敢的武士才敢",
+  "tooltip_info_item.mcdar.blast_fungus_2":               "携带此物。不仅因为其",
+  "tooltip_info_item.mcdar.blast_fungus_3":               "孢子有毒，而且气味也",
+  "tooltip_info_item.mcdar.blast_fungus_4":               "很糟糕。",
+
+  "tooltip_info_item.mcdar.boots_of_swiftness_1":         "这些靴子的结界使穿着者",
+  "tooltip_info_item.mcdar.boots_of_swiftness_2":         "可以快速移动。 它们在诸如",
+  "tooltip_info_item.mcdar.boots_of_swiftness_3":         "此类的不确定时期很有用。",
+
+  "tooltip_info_item.mcdar.buzzy_nest_1":                 "爱蜜蜂的人和被蜜蜂爱的",
+  "tooltip_info_item.mcdar.buzzy_nest_2":                 "人都是嗡嗡蜂巢的粉丝，",
+  "tooltip_info_item.mcdar.buzzy_nest_3":                 "但不要被里面可爱的蜜蜂所迷惑——",
+  "tooltip_info_item.mcdar.buzzy_nest_4":                 "它们蜇人真的疼！",
+
+  "tooltip_info_item.mcdar.corrupted_beacon_1":           "腐化信标暗含",
+  "tooltip_info_item.mcdar.corrupted_beacon_2":           "巨大的能量。释放",
+  "tooltip_info_item.mcdar.corrupted_beacon_3":           "只需一个时机。",
+
+  "tooltip_info_item.mcdar.corrupted_seeds_1":            "一袋有毒的腐化种子，",
+  "tooltip_info_item.mcdar.corrupted_seeds_2":            "会长出带有尖刺的扭曲藤蔓，",
+  "tooltip_info_item.mcdar.corrupted_seeds_3":            "缠住敌人并缓慢地吸取",
+  "tooltip_info_item.mcdar.corrupted_seeds_4":            "受害者的生命力。",
+
+  "tooltip_info_item.mcdar.death_cap_mushroom_1":         "毒帽菇在战斗前",
+  "tooltip_info_item.mcdar.death_cap_mushroom_2":         "被大胆的战士吃掉，",
+  "tooltip_info_item.mcdar.death_cap_mushroom_3":         "使战士们陷入狂热。",
+
+  "tooltip_info_item.mcdar.enchanted_grass_1":            "跟强大并随叫随到的",
+  "tooltip_info_item.mcdar.enchanted_grass_2":            "英雄一样，用他召唤",
+  "tooltip_info_item.mcdar.enchanted_grass_3":            "出来的附魔羊也会",
+  "tooltip_info_item.mcdar.enchanted_grass_4":            "立刻投入战斗。",
+
+  "tooltip_info_item.mcdar.enchanters_tome_1":            "只能由附魔师执掌，",
+  "tooltip_info_item.mcdar.enchanters_tome_2":            "它的魔力可以召唤",
+  "tooltip_info_item.mcdar.enchanters_tome_3":            "强大的魔咒。",
+
+  "tooltip_info_item.mcdar.flaming_quiver_1":             "这个箭袋中装满了最致命",
+  "tooltip_info_item.mcdar.flaming_quiver_2":             "的箭。",
+
+  "tooltip_info_item.mcdar.ghost_cloak_1":                "囚禁在战袍内的灵魂",
+  "tooltip_info_item.mcdar.ghost_cloak_2":                "会保护使用者，但它们",
+  "tooltip_info_item.mcdar.ghost_cloak_3":                "会散发出一种忧郁感。",
+
+  "tooltip_info_item.mcdar.golem_kit_1":                  "铁傀儡一直以来都在",
+  "tooltip_info_item.mcdar.golem_kit_2":                  "庇护着村民。但由于",
+  "tooltip_info_item.mcdar.golem_kit_3":                  "奇厄教主的战争，它们",
+  "tooltip_info_item.mcdar.golem_kit_4":                  "的数量正在减少。",
+
+  "tooltip_info_item.mcdar.gong_of_weakening_1":          "这个古老的铜锣是一个无名",
+  "tooltip_info_item.mcdar.gong_of_weakening_2":          "王国的象征，拿在手上感觉",
+  "tooltip_info_item.mcdar.gong_of_weakening_3":          "很安全，但会向附近的人",
+  "tooltip_info_item.mcdar.gong_of_weakening_4":          "发出可怕的嗡嗡声。",
+
+  "tooltip_info_item.mcdar.harpoon_quiver_1":             "这个箭袋装有许多鱼叉，",
+  "tooltip_info_item.mcdar.harpoon_quiver_2":             "可以迅速刺穿",
+  "tooltip_info_item.mcdar.harpoon_quiver_3":             "陆地或水下的敌人。",
+
+  "tooltip_info_item.mcdar.harvester_1":                  "收割者会吸收",
+  "tooltip_info_item.mcdar.harvester_2":                  "死者的灵魂，释放成",
+  "tooltip_info_item.mcdar.harvester_3":                  "一股强大的力量。",
+
+  "tooltip_info_item.mcdar.iron_hide_amulet_1":           "古老和永恒",
+  "tooltip_info_item.mcdar.iron_hide_amulet_2":           "的象征。沙子从",
+  "tooltip_info_item.mcdar.iron_hide_amulet_3":           "裂缝中流过",
+  "tooltip_info_item.mcdar.iron_hide_amulet_4":           "却不见尽头。",
+
+  "tooltip_info_item.mcdar.light_feather_1":              "无人知晓这根神秘",
+  "tooltip_info_item.mcdar.light_feather_2":              "的羽毛来自何种生物，",
+  "tooltip_info_item.mcdar.light_feather_3":              "它既美丽又充满能量。",
+
+  "tooltip_info_item.mcdar.lightning_rod_1":              "由灾厄村民中的地卜师",
+  "tooltip_info_item.mcdar.lightning_rod_2":              "制作而成，附魔了天空",
+  "tooltip_info_item.mcdar.lightning_rod_3":              "中雷暴的力量。",
+
+  "tooltip_info_item.mcdar.love_medallion_1":             "一个咒语从这个小饰物中放射",
+  "tooltip_info_item.mcdar.love_medallion_2":             "出来，并迷惑住附近的人，让",
+  "tooltip_info_item.mcdar.love_medallion_3":             "他们必须不惜一切代价保护这个",
+  "tooltip_info_item.mcdar.love_medallion_4":             "挂坠的持有者。",
+
+  "tooltip_info_item.mcdar.powershaker_1":                "摇晃巨力沙锤能给你带来",
+  "tooltip_info_item.mcdar.powershaker_2":                "一段美好时光，不过对于敌人",
+  "tooltip_info_item.mcdar.powershaker_3":                "来说可能就没那么有趣了。",
+
+  "tooltip_info_item.mcdar.satchel_of_elements_1":        "谜团重重的原始背袋，",
+  "tooltip_info_item.mcdar.satchel_of_elements_2":        "它会爆发出火焰、寒冰",
+  "tooltip_info_item.mcdar.satchel_of_elements_3":        "还是其它什么不好的东西？",
+
+  "tooltip_info_item.mcdar.satchel_of_elixirs_1":         "药水背袋总是包含,",
+  "tooltip_info_item.mcdar.satchel_of_elixirs_2":         "您需要的确切药水！ （嗯，",
+  "tooltip_info_item.mcdar.satchel_of_elixirs_3":         "至少它认为你需要的药水，",
+  "tooltip_info_item.mcdar.satchel_of_elixirs_4":         "这仍然很有帮助。）",
+
+  "tooltip_info_item.mcdar.satchel_of_snacks_1":          "食物背袋会在您最",
+  "tooltip_info_item.mcdar.satchel_of_snacks_2":          "需要的时候提供零食！",
+
+  "tooltip_info_item.mcdar.shock_powder_1":               "对于那些希望迅速抽身的人",
+  "tooltip_info_item.mcdar.shock_powder_2":               "来说，休克粉末是可靠的工具。",
+
+  "tooltip_info_item.mcdar.soul_healer_1":                "灵魂治疗器触感冰凉，",
+  "tooltip_info_item.mcdar.soul_healer_2":                "会因灵魂的力量而颤抖。",
+  "tooltip_info_item.mcdar.soul_healer_3":                "在林地府邸的",
+  "tooltip_info_item.mcdar.soul_healer_4":                "灾厄村民中非常普遍。",
+
+  "tooltip_info_item.mcdar.tasty_bone_1":                 "当你把这根美味骨肉拿在手中",
+  "tooltip_info_item.mcdar.tasty_bone_2":                 "时，你可以听到远方的狼嚎。",
+
+  "tooltip_info_item.mcdar.thundering_quiver_1":          "这个铜制箭袋可以",
+  "tooltip_info_item.mcdar.thundering_quiver_2":          "吸引雷电的力量。",
+
+  "tooltip_info_item.mcdar.torment_quiver_1":             "亡灵生物强大",
+  "tooltip_info_item.mcdar.torment_quiver_2":             "的能量是苦痛箭",
+  "tooltip_info_item.mcdar.torment_quiver_3":             "袋力量的来源。",
+
+  "tooltip_info_item.mcdar.totem_of_regeneration_1":      "这个手工制作的木雕",
+  "tooltip_info_item.mcdar.totem_of_regeneration_2":      "发出犹如营火般的温暖，",
+  "tooltip_info_item.mcdar.totem_of_regeneration_3":      "并治愈每个人。",
+
+  "tooltip_info_item.mcdar.totem_of_shielding_1":         "这个图腾拥有保护周围的人",
+  "tooltip_info_item.mcdar.totem_of_shielding_2":         "不受投射物伤害的神秘力量。",
+
+  "tooltip_info_item.mcdar.totem_of_soul_protection_1":   "唤魔者们大师对",
+  "tooltip_info_item.mcdar.totem_of_soul_protection_2":   "不死图腾的改进，",
+  "tooltip_info_item.mcdar.totem_of_soul_protection_3":   "可以保护多个人。",
+
+  "tooltip_info_item.mcdar.updraft_tome_1":               "一本满是莫辨字形的",
+  "tooltip_info_item.mcdar.updraft_tome_2":               "古书，翻动书页时，",
+  "tooltip_info_item.mcdar.updraft_tome_3":               "常有怪风拂来。",
+
+  "tooltip_info_item.mcdar.wind_horn_1":                  "当风之号角在整个世界的",
+  "tooltip_info_item.mcdar.wind_horn_2":                  "森林中回响时，夜晚的生物们",
+  "tooltip_info_item.mcdar.wind_horn_3":                  "会因恐惧而颤抖。",
+
+  "tooltip_info_item.mcdar.wonderful_wheat_1":            "散发出淡淡的乡间",
+  "tooltip_info_item.mcdar.wonderful_wheat_2":            "气息，让人联想到",
+  "tooltip_info_item.mcdar.wonderful_wheat_3":            "烤面包和新鲜的作物。"
+}

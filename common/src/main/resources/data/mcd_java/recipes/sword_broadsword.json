@@ -1,0 +1,29 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcd_java:item_enabled",
+      "values": [
+        "mcd_java:sword_iron_sword_var",
+        "mcd_java:sword_broadsword"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " I ",
+        "III",
+        " W "
+    ],
+    "key": {
+        "I": {
+            "item": "minecraft:iron_ingot"
+        },
+        "W": {
+            "item": "mcd_java:sword_iron_sword_var"
+        }
+    },
+    "result": {
+        "item": "mcd_java:sword_broadsword",
+        "count": 1
+    }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mcd_javaedition:blocks/cw_mossy_andesite",
+    "up": "mcd_javaedition:blocks/cw_mossy_andesite",
+    "north": "mcd_javaedition:blocks/cw_mossy_andesite",
+    "east": "mcd_javaedition:blocks/cw_mossy_andesite",
+    "south": "mcd_javaedition:blocks/cw_mossy_andesite",
+    "west": "mcd_javaedition:blocks/cw_mossy_andesite",
+    "particle": "mcd_javaedition:blocks/cw_mossy_andesite"
+  }
+}

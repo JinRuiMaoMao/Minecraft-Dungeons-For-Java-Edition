@@ -1,0 +1,28 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcda:item_enabled",
+      "values": [
+        "mcda:battle_robe_leggings"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BGB",
+    "B B",
+    "B B"
+  ],
+  "key": {
+    "B": {
+      "item": "mcda:fabric_bolt_black"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "mcda:battle_robe_leggings",
+    "count": 1
+  }
+}

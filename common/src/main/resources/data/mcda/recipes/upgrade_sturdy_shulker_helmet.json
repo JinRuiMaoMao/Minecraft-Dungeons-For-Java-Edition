@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcda:item_enabled",
+      "values": [
+        "mcda:shulker_armor_helmet",
+        "mcda:sturdy_shulker_armor_helmet"
+      ]
+    }
+  ],
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "mcda:shulker_armor_helmet"
+  },
+  "addition": {
+    "item": "mcda:upgrade_core_void"
+  },
+  "result": {
+    "item": "mcda:sturdy_shulker_armor_helmet"
+    },
+    "template": {
+      "item": "minecraft:blaze_powder"
+    }
+}

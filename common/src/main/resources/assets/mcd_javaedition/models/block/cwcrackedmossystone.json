@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mcd_javaedition:blocks/cw_cracked_mossy_stone",
+    "up": "mcd_javaedition:blocks/cw_cracked_mossy_stone",
+    "north": "mcd_javaedition:blocks/cw_cracked_mossy_stone",
+    "east": "mcd_javaedition:blocks/cw_cracked_mossy_stone",
+    "south": "mcd_javaedition:blocks/cw_cracked_mossy_stone",
+    "west": "mcd_javaedition:blocks/cw_cracked_mossy_stone",
+    "particle": "mcd_javaedition:blocks/cw_cracked_mossy_stone"
+  }
+}

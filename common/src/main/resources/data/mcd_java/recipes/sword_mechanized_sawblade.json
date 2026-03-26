@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcd_java:item_enabled",
+      "values": [
+        "mcd_java:sword_broken_sawblade",
+        "mcd_java:sword_mechanized_sawblade"
+      ]
+    }
+  ],
+  "type": "minecraft:smithing_transform",
+    "addition": {
+      "item": "minecraft:blaze_rod"
+    },
+    "base": {
+      "item": "mcd_java:sword_broken_sawblade"
+    },
+    "result": {
+      "item": "mcd_java:sword_mechanized_sawblade"
+    },
+    "template": {
+      "item": "minecraft:blaze_powder"
+    }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mcd_javaedition:blocks/grass_path_top",
+    "up": "mcd_javaedition:blocks/grass_path_top",
+    "north": "mcd_javaedition:blocks/grass_path_top",
+    "east": "mcd_javaedition:blocks/grass_path_top",
+    "south": "mcd_javaedition:blocks/grass_path_top",
+    "west": "mcd_javaedition:blocks/grass_path_top",
+    "particle": "mcd_javaedition:blocks/grass_path_top"
+  }
+}

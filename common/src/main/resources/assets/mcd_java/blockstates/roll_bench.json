@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mcd_java:block/roll_bench"
+    },
+    "facing=south": {
+      "model": "mcd_java:block/roll_bench",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mcd_java:block/roll_bench",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "mcd_java:block/roll_bench",
+      "y": 90
+    }
+  }
+}

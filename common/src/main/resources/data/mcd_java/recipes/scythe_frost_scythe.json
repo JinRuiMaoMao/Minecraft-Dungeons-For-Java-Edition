@@ -1,0 +1,35 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcd_java:item_enabled",
+      "values": [
+        "mcd_java:sickle_sickle",
+        "mcd_java:scythe_frost_scythe"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " BS",
+        "B/I",
+        "/I "
+    ],
+    "key": {
+        "/": {
+            "item": "minecraft:stick"
+        },
+        "S": {
+            "item": "mcd_java:sickle_sickle"
+        },
+        "B": {
+            "item": "minecraft:blue_ice"
+        },
+        "I": {
+            "item": "minecraft:ice"
+        }
+    },
+    "result": {
+        "item": "mcd_java:scythe_frost_scythe",
+        "count": 1
+    }
+}

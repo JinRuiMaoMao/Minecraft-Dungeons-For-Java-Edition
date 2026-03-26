@@ -1,0 +1,56 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcd_java:item_enabled",
+      "values": [
+        "mcd_java:mercenary_armor_boots",
+        "mcd_java:renegade_armor_boots"
+      ]
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_upgrade_core": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mcd_java:upgrade_core_metal"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_mercenary_armor_boots": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mcd_java:mercenary_armor_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "mcd_java:renegade_armor_boots"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_upgrade_core",
+      "has_mercenary_armor_boots",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "mcd_java:renegade_armor_boots"
+    ]
+  }
+}

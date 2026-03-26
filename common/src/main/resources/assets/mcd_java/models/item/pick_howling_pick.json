@@ -1,0 +1,19 @@
+{
+	"parent": "mcd_java:item/model_pick",
+	"textures": {
+		"layer0": "mcd_java:item/picks/pick_howling_pick",
+		"particle": "mcd_java:item/picks/pick_howling_pick"
+	},
+	"gui_light": "front",
+	"display": {
+		"head": {
+			"rotation": [0, 0, 0],
+			"translation": [0, 2, 0],
+			"scale":[ 0.5, 0.5, 0.5 ]
+		},
+		"ground": {
+			"translation": [ 0, 2, 0 ],
+			"scale": [ 0.5, 0.5, 0.5 ]
+		}
+	}
+}

@@ -1,0 +1,28 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcda:item_enabled",
+      "values": [
+        "mcda:squid_armor_chestplate"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "BHB",
+    "BHB"
+  ],
+  "key": {
+    "H": {
+      "item": "minecraft:leather"
+    },
+    "B": {
+      "item": "minecraft:ink_sac"
+    }
+  },
+  "result": {
+    "item": "mcda:squid_armor_chestplate",
+    "count": 1
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcda:item_enabled",
+      "values": [
+        "mcda:mercenary_armor_boots"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "P P",
+    " I ",
+    "P P"
+  ],
+  "key": {
+    "P": {
+      "item": "mcda:iron_plate"
+    },
+    "I": {
+      "item": "minecraft:iron_boots"
+    }
+  },
+  "result": {
+    "item": "mcda:mercenary_armor_boots",
+    "count": 1
+  }
+}

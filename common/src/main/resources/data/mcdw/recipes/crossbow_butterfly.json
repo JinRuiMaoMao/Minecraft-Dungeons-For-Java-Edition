@@ -1,0 +1,40 @@
+{
+  "fabric:load_conditions":[
+    {
+      "condition":"mcd_java:item_enabled",
+      "values":[
+        "mcd_java:crossbow_rapid_crossbow"
+      ]
+    },
+    {
+      "condition":"mcd_java:item_enabled",
+      "values":[
+        "mcd_java:crossbow_butterfly_crossbow"
+      ]
+    }
+  ],
+  "type":"minecraft:crafting_shaped",
+  "pattern":[
+    "I I",
+    "cCc",
+    "SIS"
+  ],
+  "key":{
+    "C":{
+      "item":"mcd_java:crossbow_rapid_crossbow"
+    },
+    "S":{
+      "item":"minecraft:string"
+    },
+    "I":{
+      "item":"minecraft:iron_ingot"
+    },
+    "c":{
+      "item":"minecraft:cyan_dye"
+    }
+  },
+  "result":{
+    "item":"mcd_java:crossbow_butterfly_crossbow",
+    "count":1
+  }
+}

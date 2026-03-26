@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "mcd_java:shield_royal_guard",
+      "required": false
+    },
+    {
+      "id": "mcd_java:shield_vanguard",
+      "required": false
+    },
+    {
+      "id": "mcd_java:shield_tower_guard",
+      "required": false
+    }
+  ]
+}

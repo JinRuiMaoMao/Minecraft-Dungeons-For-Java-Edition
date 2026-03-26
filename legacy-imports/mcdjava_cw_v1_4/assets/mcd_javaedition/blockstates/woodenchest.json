@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "mcd_javaedition:woodenchest"
+    },
+    "facing=north": {
+      "model": "mcd_javaedition:woodenchest"
+    },
+    "facing=east": {
+      "model": "mcd_javaedition:woodenchest",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "mcd_javaedition:woodenchest",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mcd_javaedition:woodenchest",
+      "y": 270
+    }
+  }
+}

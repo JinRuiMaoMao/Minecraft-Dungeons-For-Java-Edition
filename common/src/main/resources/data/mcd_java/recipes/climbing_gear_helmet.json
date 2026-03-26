@@ -1,0 +1,34 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcd_java:item_enabled",
+      "values": [
+        "mcd_java:climbing_gear_helmet"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "gLg",
+    "BBB"
+  ],
+  "key": {
+    "G": {
+      "item": "mcd_java:fabric_bolt_green"
+    },
+    "g": {
+      "item": "minecraft:gray_stained_glass_pane"
+    },
+    "L": {
+      "item": "minecraft:leather_helmet"
+    },
+    "B": {
+      "item": "mcd_java:fabric_bolt_brown"
+    }
+  },
+  "result": {
+    "item": "mcd_java:climbing_gear_helmet",
+    "count": 1
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "mcd_java:item/crossbow_the_slicer",
+  "textures": {
+    "layer0": "mcd_java:item/crossbows/the_slicer_pulling_0"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "fabric:load_conditions":[
+    {
+      "condition":"mcd_java:item_enabled",
+      "values":[
+        "mcd_java:crossbow_exploding_crossbow"
+      ]
+    },
+    {
+      "condition":"mcd_java:item_enabled",
+      "values":[
+        "mcd_java:crossbow_firebolt_crossbow"
+      ]
+    }
+  ],
+  "type":"minecraft:crafting_shaped",
+  "pattern":[
+    " F ",
+    "RCR",
+    "SYS"
+  ],
+  "key":{
+    "C":{
+      "item":"mcd_java:crossbow_exploding_crossbow"
+    },
+    "F":{
+      "item":"minecraft:fire_charge"
+    },
+    "S":{
+      "item":"minecraft:string"
+    },
+    "R":{
+      "item":"minecraft:red_dye"
+    },
+    "Y":{
+      "item":"minecraft:yellow_dye"
+    }
+  },
+  "result":{
+    "item":"mcd_java:crossbow_firebolt_thrower",
+    "count":1
+  }
+}

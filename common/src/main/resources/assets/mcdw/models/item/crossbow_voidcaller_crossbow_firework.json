@@ -1,0 +1,6 @@
+{
+  "parent": "mcd_java:item/crossbow_voidcaller_crossbow",
+  "textures": {
+    "layer0": "mcd_java:item/crossbows/voidcaller_crossbow_firework"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcd_java:item_enabled",
+      "values": [
+        "mcd_java:sprout_armor_leggings"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WSW",
+    "W W",
+    "W W"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:twisting_vines"
+    },
+    "S": {
+      "item": "minecraft:nether_sprouts"
+    }
+  },
+  "result": {
+    "item": "mcd_java:sprout_armor_leggings",
+    "count": 1
+  }
+}

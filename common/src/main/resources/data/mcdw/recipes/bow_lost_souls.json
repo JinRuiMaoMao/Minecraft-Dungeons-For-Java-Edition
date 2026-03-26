@@ -1,0 +1,37 @@
+{
+  "fabric:load_conditions":[
+    {
+      "condition":"mcd_java:item_enabled",
+      "values":[
+        "mcd_java:bow_lost_souls"
+      ]
+    }
+  ],
+  "type":"minecraft:crafting_shaped",
+  "pattern":[
+    "BBs",
+    "WSG",
+    "BBs"
+  ],
+  "key":{
+    "s":{
+      "item":"minecraft:string"
+    },
+    "B":{
+      "item":"minecraft:bone_block"
+    },
+    "S":{
+      "item":"mcd_java:bow_soul_bow"
+    },
+    "G":{
+      "item":"minecraft:ghast_tear"
+    },
+    "W":{
+      "item":"minecraft:wither_skeleton_skull"
+    }
+  },
+  "result":{
+    "item":"mcd_java:bow_lost_souls",
+    "count":1
+  }
+}

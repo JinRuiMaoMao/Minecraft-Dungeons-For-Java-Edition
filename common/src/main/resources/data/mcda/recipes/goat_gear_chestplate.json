@@ -1,0 +1,34 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcda:item_enabled",
+      "values": [
+        "mcda:goat_gear_chestplate"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ggg",
+    "bLb",
+    "grg"
+  ],
+  "key": {
+    "L": {
+      "item": "minecraft:leather_chestplate"
+    },
+    "b": {
+      "item": "mcda:fabric_bolt_blue"
+    },
+    "r": {
+      "item": "mcda:fabric_bolt_red"
+    },
+    "g": {
+      "item": "mcda:goat_pelt"
+    }
+  },
+  "result": {
+    "item": "mcda:goat_gear_chestplate",
+    "count": 1
+  }
+}

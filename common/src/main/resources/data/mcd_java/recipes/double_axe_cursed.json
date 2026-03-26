@@ -1,0 +1,40 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcd_java:item_enabled",
+      "values": [
+        "mcd_java:axe_axe"
+      ]
+    },
+    {
+      "condition": "mcd_java:item_enabled",
+      "values": [
+        "mcd_java:double_axe_cursed"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " BB",
+        " AB",
+        "D/D"
+    ],
+    "key": {
+        "B": {
+            "item": "minecraft:iron_block"
+        },
+        "A": {
+            "item": "mcd_java:axe_axe"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        },
+        "D": {
+            "item": "minecraft:rotten_flesh"
+        }
+    },
+    "result": {
+        "item": "mcd_java:double_axe_cursed",
+        "count": 1
+    }
+}

@@ -1,0 +1,45 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "mcd_javaedition:grave.obj",
+    "custom": {
+      "flip-v": true
+    },
+    "textures": {
+      "#M_GravestoneCyan_Inst": "mcd_javaedition:blocks/t_gravestone1"
+    }
+  },
+  "variants": {
+    "normal": {
+      "model": "mcd_javaedition:grave.obj"
+    },
+    "facing=north": {
+      "model": "mcd_javaedition:grave.obj"
+    },
+    "facing=east": {
+      "model": "mcd_javaedition:grave.obj",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "mcd_javaedition:grave.obj",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mcd_javaedition:grave.obj",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "mcd_javaedition:grave.obj",
+      "x": 90
+    },
+    "facing=down": {
+      "model": "mcd_javaedition:grave.obj",
+      "x": 270
+    },
+    "inventory": [
+      {
+        "transform": "forge:default-item"
+      }
+    ]
+  }
+}

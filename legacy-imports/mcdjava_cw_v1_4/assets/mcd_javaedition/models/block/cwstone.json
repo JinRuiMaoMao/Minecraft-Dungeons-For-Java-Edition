@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mcd_javaedition:blocks/cw_stone",
+    "up": "mcd_javaedition:blocks/cw_stone",
+    "north": "mcd_javaedition:blocks/cw_stone",
+    "east": "mcd_javaedition:blocks/cw_stone",
+    "south": "mcd_javaedition:blocks/cw_stone",
+    "west": "mcd_javaedition:blocks/cw_stone",
+    "particle": "mcd_javaedition:blocks/cw_stone"
+  }
+}

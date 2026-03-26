@@ -1,0 +1,8 @@
+{
+  "parent": "mcd_javaedition:custom/glowmushroom_all",
+  "textures": {
+    "all": "mcd_javaedition:blocks/glow_mushroom",
+    "particle": "mcd_javaedition:blocks/glow_mushroom",
+    "0": "mcd_javaedition:blocks/glow_mushroom"
+  }
+}

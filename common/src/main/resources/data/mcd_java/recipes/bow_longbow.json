@@ -1,0 +1,28 @@
+{
+  "fabric:load_conditions":[
+    {
+      "condition":"mcd_java:item_enabled",
+      "values":[
+        "mcd_java:bow_longbow"
+      ]
+    }
+  ],
+  "type":"minecraft:crafting_shaped",
+  "pattern":[
+    "//S",
+    "/ S",
+    "//S"
+  ],
+  "key":{
+    "S":{
+      "item":"minecraft:string"
+    },
+    "/":{
+      "item":"minecraft:stick"
+    }
+  },
+  "result":{
+    "item":"mcd_java:bow_longbow",
+    "count":1
+  }
+}

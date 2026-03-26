@@ -1,0 +1,31 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcd_java:item_enabled",
+      "values": [
+        "mcd_java:red_mystery_armor_helmet"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IGI",
+    "B B",
+    "   "
+  ],
+  "key": {
+    "G": {
+      "item": "mcd_java:gemstone_red"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "B": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "result": {
+    "item": "mcd_java:red_mystery_armor_helmet",
+    "count": 1
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcd_java:item_enabled",
+      "values": [
+        "mcd_java:double_axe_double",
+        "mcd_java:sword_claymore",
+        "mcd_java:sword_great_axeblade"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " A ",
+        " i ",
+        "ECE"
+    ],
+    "key": {
+        "A": {
+            "item": "mcd_java:double_axe_double"
+        },
+        "C": {
+            "item": "mcd_java:sword_claymore"
+        },
+        "i": {
+            "item": "minecraft:iron_ingot"
+        },
+        "E": {
+            "item": "minecraft:emerald"
+        }
+    },
+    "result": {
+        "item": "mcd_java:sword_great_axeblade",
+        "count": 1
+    }
+}

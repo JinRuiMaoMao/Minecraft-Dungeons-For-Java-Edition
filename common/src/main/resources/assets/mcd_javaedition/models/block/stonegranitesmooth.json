@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mcd_javaedition:blocks/stone_granite_smooth",
+    "up": "mcd_javaedition:blocks/stone_granite_smooth",
+    "north": "mcd_javaedition:blocks/stone_granite_smooth",
+    "east": "mcd_javaedition:blocks/stone_granite_smooth",
+    "south": "mcd_javaedition:blocks/stone_granite_smooth",
+    "west": "mcd_javaedition:blocks/stone_granite_smooth",
+    "particle": "mcd_javaedition:blocks/stone_granite_smooth"
+  }
+}

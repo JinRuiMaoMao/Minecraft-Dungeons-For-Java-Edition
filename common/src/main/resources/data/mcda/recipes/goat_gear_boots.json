@@ -1,0 +1,31 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcda:item_enabled",
+      "values": [
+        "mcda:goat_gear_boots"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "glg",
+    "gLg",
+    "   "
+  ],
+  "key": {
+    "L": {
+      "item": "minecraft:leather_boots"
+    },
+    "l": {
+      "item": "mcda:fabric_bolt_light_gray"
+    },
+    "g": {
+      "item": "mcda:goat_pelt"
+    }
+  },
+  "result": {
+    "item": "mcda:goat_gear_boots",
+    "count": 1
+  }
+}

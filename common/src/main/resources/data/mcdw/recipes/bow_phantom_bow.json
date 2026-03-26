@@ -1,0 +1,37 @@
+{
+  "fabric:load_conditions":[
+    {
+      "condition":"mcd_java:item_enabled",
+      "values":[
+        "mcd_java:bow_phantom_bow"
+      ]
+    }
+  ],
+  "type":"minecraft:crafting_shaped",
+  "pattern":[
+    "FsW",
+    "sBS",
+    "WSS"
+  ],
+  "key":{
+    "s":{
+      "item":"minecraft:phantom_membrane"
+    },
+    "B":{
+      "item":"minecraft:bow"
+    },
+    "F":{
+      "item":"minecraft:emerald"
+    },
+    "S":{
+      "item":"minecraft:string"
+    },
+    "W":{
+      "item":"minecraft:bone"
+    }
+  },
+  "result":{
+    "item":"mcd_java:bow_phantom_bow",
+    "count":1
+  }
+}

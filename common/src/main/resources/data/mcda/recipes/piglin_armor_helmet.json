@@ -1,0 +1,31 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcda:item_enabled",
+      "values": [
+        "mcda:piglin_armor_helmet"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BGB",
+    "bBb",
+    "B B"
+  ],
+  "key": {
+    "B": {
+      "item": "mcda:fabric_bolt_brown"
+    },
+    "G": {
+      "item": "mcda:fabric_bolt_gray"
+    },
+    "b": {
+      "item": "minecraft:bone"
+    }
+  },
+  "result": {
+    "item": "mcda:piglin_armor_helmet",
+    "count": 1
+  }
+}

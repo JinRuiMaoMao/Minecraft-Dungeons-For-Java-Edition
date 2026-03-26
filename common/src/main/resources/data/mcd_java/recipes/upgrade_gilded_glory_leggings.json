@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcd_java:item_enabled",
+      "values": [
+        "mcd_java:opulent_armor_leggings",
+        "mcd_java:gilded_glory_leggings"
+      ]
+    }
+  ],
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "mcd_java:opulent_armor_leggings"
+  },
+  "addition": {
+    "item": "minecraft:totem_of_undying"
+  },
+  "result": {
+    "item": "mcd_java:gilded_glory_leggings"
+  },
+  "template": {
+    "item": "minecraft:blaze_powder"
+  }
+}

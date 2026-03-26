@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "normal": {
+      "model": "mcd_javaedition:mcdtent"
+    },
+    "facing=north": {
+      "model": "mcd_javaedition:mcdtent"
+    },
+    "facing=east": {
+      "model": "mcd_javaedition:mcdtent",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "mcd_javaedition:mcdtent",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mcd_javaedition:mcdtent",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "mcd_javaedition:mcdtent",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "mcd_javaedition:mcdtent",
+      "x": 90
+    }
+  }
+}

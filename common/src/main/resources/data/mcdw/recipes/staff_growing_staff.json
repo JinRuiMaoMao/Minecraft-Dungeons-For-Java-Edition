@@ -1,0 +1,32 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "mcd_java:item_enabled",
+      "values": [
+        "mcd_java:staff_battlestaff",
+        "mcd_java:staff_growing_staff"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " NI",
+    "NSN",
+    "IN "
+  ],
+  "key": {
+    "S": {
+      "item": "mcd_java:staff_battlestaff"
+    },
+    "I": {
+      "item": "minecraft:gold_ingot"
+    },
+    "N": {
+      "item": "minecraft:gold_nugget"
+    }
+  },
+  "result": {
+    "item": "mcd_java:staff_growing_staff",
+    "count": 1
+  }
+}
