@@ -4,7 +4,7 @@
 [Architectury Transformer DEBUG] Provided 101 classpath jar(s):
 [Architectury Transformer DEBUG]  - C:\Users\Jinrui\.gradle\caches\fabric-loom\1.20.1\forge\1.20.1-47.2.0\client-extra.jar
 [Architectury Transformer DEBUG]  - C:\Users\Jinrui\.gradle\caches\modules-2\files-2.1\dev.architectury\architectury-injectables\1.0.10\62db2a366d662606d1b23ad02ccc3212ed37ec3\architectury-injectables-1.0.10.jar
-[Architectury Transformer DEBUG]  - C:\Users\Jinrui\.gradle\caches\modules-2\files-2.1\net.fabricmc\fabric-loader\0.18.4\dc4682125d5db647d6ce80a98b98945835adcd4b\fabric-loader-0.18.4.jar
+[Architectury Transformer DEBUG]  - C:\Users\Jinrui\.gradle\caches\modules-2\files-2.1\net.fabricmc\fabric-loader\0.18.5\ead70ea5aec413c7cf5bbfb0d42b883d08b3c2b9\fabric-loader-0.18.5.jar
 [Architectury Transformer DEBUG]  - C:\Users\Jinrui\.gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\24.1.0\7af6a669488450c4a07c2c3254e2151df42d7d04\annotations-24.1.0.jar
 [Architectury Transformer DEBUG]  - C:\Users\Jinrui\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.2\25ea2e8b0c338a877313bd4672d3fe056ea78f0d\jsr305-3.0.2.jar
 [Architectury Transformer DEBUG]  - C:\Users\Jinrui\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlearlydisplay\1.20.1-47.2.0\4c56a03dcedcb909c7eaa8469dd5a36c493a0008\fmlearlydisplay-1.20.1-47.2.0.jar
@@ -103,9 +103,9 @@
 [Architectury Transformer DEBUG]  - C:\Users\Jinrui\.gradle\caches\fabric-loom\minecraftMaven\net\minecraft\forge-1.20.1-47.2.0-minecraft-merged\1.20.1-loom.mappings.1_20_1.layered+hash.40359-v2-forge-1.20.1-47.2.0\forge-1.20.1-47.2.0-minecraft-merged-1.20.1-loom.mappings.1_20_1.layered+hash.40359-v2-forge-1.20.1-47.2.0.jar
 [Architectury Transformer DEBUG]  - C:\Users\Jinrui\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-epoll\4.1.82.Final\c7350a71920f3ae9142945e25fed4846cce53374\netty-transport-native-epoll-4.1.82.Final-linux-x86_64.jar
 [Architectury Transformer DEBUG]  - C:\Users\Jinrui\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-epoll\4.1.82.Final\476409d6255001ca53a55f65b01c13822f8dc93a\netty-transport-native-epoll-4.1.82.Final-linux-aarch_64.jar
-[Architectury Transformer] Read classpath in 1.548 s
+[Architectury Transformer] Read classpath in 2.608 s
 [Architectury Transformer DEBUG] Closed File Systems for E:\Minecraft Dungeons For Java Edition\common\build\devlibs\common-1.0.0-dev.jar
-[Architectury Transformer DEBUG] Transforming 8 transformer(s) from E:\Minecraft Dungeons For Java Edition\common\build\devlibs\common-1.0.0-dev.jar to C:\Users\Jinrui\AppData\Local\Temp\17691861859901479504.jar: 
+[Architectury Transformer DEBUG] Transforming 8 transformer(s) from E:\Minecraft Dungeons For Java Edition\common\build\devlibs\common-1.0.0-dev.jar to C:\Users\Jinrui\AppData\Local\Temp\8138122966255504316.jar: 
 [Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@5352bc0e
 [Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@49b73e6c
 [Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@1f138b74
@@ -114,20 +114,20 @@
 [Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment@7a285418
 [Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeForgeMod@79e33802
 [Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.FixForgeMixin@74471600
-[Architectury Transformer DEBUG] Transforming from E:\Minecraft Dungeons For Java Edition\common\build\devlibs\common-1.0.0-dev.jar to C:\Users\Jinrui\AppData\Local\Temp\17691861859901479504.jar with 8 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
+[Architectury Transformer DEBUG] Transforming from E:\Minecraft Dungeons For Java Edition\common\build\devlibs\common-1.0.0-dev.jar to C:\Users\Jinrui\AppData\Local\Temp\8138122966255504316.jar with 8 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x0000020c4008e588@2e68bd3d
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x000001459308e588@2e68bd3d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing mc_javaedition/combat/MeleeWeaponStatLookup with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing mc_javaedition/combat/RangedWeaponStatLookup$Stats with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing mc_javaedition/combat/ArmorStatLookup$Stats with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing mc_javaedition/combat/RangedWeaponStatLookup with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing mc_javaedition/combat/MeleeWeaponStatLookup$Stats with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing mc_javaedition/combat/ArmorStatLookup with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing mc_javaedition/combat/MeleeWeaponStatLookup$Stats with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing mc_javaedition/combat/RangedWeaponStatLookup with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing mc_javaedition/combat/MeleeWeaponStatLookup with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing mc_javaedition/combat/ArmorTextureLookup with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing mc_javaedition/combat/RangedWeaponStatLookup$Stats with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing mc_javaedition/legacy/LegacyCreeperWoodsItemsRegistry with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing mc_javaedition/legacy/LegacyCreeperWoodsRegistry with maxs=true frames=true
 [Architectury Transformer DEBUG] Checking whether /mcdjava_armor_stats.json is a mixin config.
@@ -139,14 +139,14 @@
 [Architectury Transformer DEBUG] Checking whether /mcdjava_melee_weapon_stats.json is a mixin config.
 [Architectury Transformer DEBUG] Checking whether /mcdjava_ranged_weapon_stats.json is a mixin config.
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: forge-forge-refmap.json
-[Architectury Transformer DEBUG] Closed File Systems for C:\Users\Jinrui\AppData\Local\Temp\17691861859901479504.jar
+[Architectury Transformer DEBUG] Closed File Systems for C:\Users\Jinrui\AppData\Local\Temp\8138122966255504316.jar
 [Architectury Transformer] Listening at E:\Minecraft Dungeons For Java Edition\common\build\devlibs\common-1.0.0-dev.jar
-[Architectury Transformer DEBUG] Temporary jar [C:\Users\Jinrui\AppData\Local\Temp\17691861859901479504.jar] contains packages: mc_javaedition.combat, mc_javaedition.legacy
+[Architectury Transformer DEBUG] Temporary jar [C:\Users\Jinrui\AppData\Local\Temp\8138122966255504316.jar] contains packages: mc_javaedition.combat, mc_javaedition.legacy
 [Architectury Transformer DEBUG] Closed File Systems for E:\Minecraft Dungeons For Java Edition\common\build\devlibs\common-1.0.0-dev.jar
 [Architectury Transformer DEBUG] Classpath entry [E:\Minecraft Dungeons For Java Edition\forge\build\resources\main] contains packages: 
 [Architectury Transformer DEBUG] Transforming from mc_javaedition/combat/MeleeWeaponStatLookup.class to mc_javaedition/combat/MeleeWeaponStatLookup.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x0000020c4008e588@2e68bd3d
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x000001459308e588@2e68bd3d
 [Architectury Transformer DEBUG] Remapping with Dirty Mappings...
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
@@ -154,64 +154,64 @@
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing mc_javaedition/combat/MeleeWeaponStatLookup with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed mc_javaedition/combat/MeleeWeaponStatLookup in 94.87 ms
+[Architectury Transformer DEBUG] Transformed mc_javaedition/combat/MeleeWeaponStatLookup in 99.68 ms
 [Architectury Transformer DEBUG] Transforming from mc_javaedition/combat/MeleeWeaponStatLookup$Stats.class to mc_javaedition/combat/MeleeWeaponStatLookup$Stats.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x0000020c4008e588@2e68bd3d
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x000001459308e588@2e68bd3d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing mc_javaedition/combat/MeleeWeaponStatLookup$Stats with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed mc_javaedition/combat/MeleeWeaponStatLookup$Stats in 19.35 ms
+[Architectury Transformer DEBUG] Transformed mc_javaedition/combat/MeleeWeaponStatLookup$Stats in 29.07 ms
 [Architectury Transformer DEBUG] Transforming from mc_javaedition/combat/RangedWeaponStatLookup.class to mc_javaedition/combat/RangedWeaponStatLookup.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x0000020c4008e588@2e68bd3d
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x000001459308e588@2e68bd3d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing mc_javaedition/combat/RangedWeaponStatLookup with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed mc_javaedition/combat/RangedWeaponStatLookup in 17.79 ms
+[Architectury Transformer DEBUG] Transformed mc_javaedition/combat/RangedWeaponStatLookup in 23.22 ms
 [Architectury Transformer DEBUG] Transforming from mc_javaedition/combat/RangedWeaponStatLookup$Stats.class to mc_javaedition/combat/RangedWeaponStatLookup$Stats.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x0000020c4008e588@2e68bd3d
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x000001459308e588@2e68bd3d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing mc_javaedition/combat/RangedWeaponStatLookup$Stats with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed mc_javaedition/combat/RangedWeaponStatLookup$Stats in 17.81 ms
+[Architectury Transformer DEBUG] Transformed mc_javaedition/combat/RangedWeaponStatLookup$Stats in 17.82 ms
 [Architectury Transformer DEBUG] Transforming from mc_javaedition/combat/ArmorStatLookup.class to mc_javaedition/combat/ArmorStatLookup.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x0000020c4008e588@2e68bd3d
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x000001459308e588@2e68bd3d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing mc_javaedition/combat/ArmorStatLookup with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed mc_javaedition/combat/ArmorStatLookup in 16.08 ms
+[Architectury Transformer DEBUG] Transformed mc_javaedition/combat/ArmorStatLookup in 17.88 ms
 [Architectury Transformer DEBUG] Transforming from mc_javaedition/combat/ArmorStatLookup$Stats.class to mc_javaedition/combat/ArmorStatLookup$Stats.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x0000020c4008e588@2e68bd3d
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x000001459308e588@2e68bd3d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing mc_javaedition/combat/ArmorStatLookup$Stats with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed mc_javaedition/combat/ArmorStatLookup$Stats in 15.07 ms
+[Architectury Transformer DEBUG] Transformed mc_javaedition/combat/ArmorStatLookup$Stats in 16.88 ms
 [Architectury Transformer DEBUG] Transforming from mc_javaedition/combat/ArmorTextureLookup.class to mc_javaedition/combat/ArmorTextureLookup.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x0000020c4008e588@2e68bd3d
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x000001459308e588@2e68bd3d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing mc_javaedition/combat/ArmorTextureLookup with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed mc_javaedition/combat/ArmorTextureLookup in 6.310 ms
+[Architectury Transformer DEBUG] Transformed mc_javaedition/combat/ArmorTextureLookup in 6.777 ms

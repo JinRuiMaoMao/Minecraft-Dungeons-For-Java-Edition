@@ -3,7 +3,7 @@
 [Architectury Transformer DEBUG] Preparing tiny remapper prepared transformer: dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Provided 114 classpath jar(s):
 [Architectury Transformer DEBUG]  - C:\Users\Jinrui\.gradle\caches\modules-2\files-2.1\dev.architectury\architectury-injectables\1.0.10\62db2a366d662606d1b23ad02ccc3212ed37ec3\architectury-injectables-1.0.10.jar
-[Architectury Transformer DEBUG]  - C:\Users\Jinrui\.gradle\caches\modules-2\files-2.1\net.fabricmc\fabric-loader\0.18.4\dc4682125d5db647d6ce80a98b98945835adcd4b\fabric-loader-0.18.4.jar
+[Architectury Transformer DEBUG]  - C:\Users\Jinrui\.gradle\caches\modules-2\files-2.1\net.fabricmc\fabric-loader\0.18.5\ead70ea5aec413c7cf5bbfb0d42b883d08b3c2b9\fabric-loader-0.18.5.jar
 [Architectury Transformer DEBUG]  - C:\Users\Jinrui\.gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\24.1.0\7af6a669488450c4a07c2c3254e2151df42d7d04\annotations-24.1.0.jar
 [Architectury Transformer DEBUG]  - C:\Users\Jinrui\.gradle\caches\modules-2\files-2.1\blue.endless\jankson\1.2.3\b6e55780c7e40dcf485413421440ba3b75cb148b\jankson-1.2.3.jar
 [Architectury Transformer DEBUG]  - C:\Users\Jinrui\.gradle\caches\modules-2\files-2.1\com.hrakaroo\glob\0.9.0\1f4b52474a7c869c22ee3e9c1ed5cb8485b977a4\glob-0.9.0.jar
@@ -116,15 +116,15 @@
 [Architectury Transformer DEBUG]  - E:\Minecraft Dungeons For Java Edition\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2\net\fabricmc\fabric-api\fabric-sound-api-v1\1.0.12+b3afc78b77\fabric-sound-api-v1-1.0.12+b3afc78b77.jar
 [Architectury Transformer DEBUG]  - E:\Minecraft Dungeons For Java Edition\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2\net\fabricmc\fabric-api\fabric-transitive-access-wideners-v1\4.3.0+6c31357e77\fabric-transitive-access-wideners-v1-4.3.0+6c31357e77.jar
 [Architectury Transformer DEBUG]  - E:\Minecraft Dungeons For Java Edition\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2\me\shedaniel\cloth\basic-math\0.6.1\basic-math-0.6.1.jar
-[Architectury Transformer] Read classpath in 1.630 s
+[Architectury Transformer] Read classpath in 2.060 s
 [Architectury Transformer DEBUG] Closed File Systems for E:\Minecraft Dungeons For Java Edition\common\build\devlibs\common-1.0.0-dev.jar
-[Architectury Transformer DEBUG] Transforming 5 transformer(s) from E:\Minecraft Dungeons For Java Edition\common\build\devlibs\common-1.0.0-dev.jar to C:\Users\Jinrui\AppData\Local\Temp\12027600823719979946.jar: 
+[Architectury Transformer DEBUG] Transforming 5 transformer(s) from E:\Minecraft Dungeons For Java Edition\common\build\devlibs\common-1.0.0-dev.jar to C:\Users\Jinrui\AppData\Local\Temp\2680994389233216415.jar: 
 [Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@6a7b4ff5
 [Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeFabricMod@2a20aa4e
 [Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@3f7d73e3
 [Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@513ddf5f
 [Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@6109366a
-[Architectury Transformer DEBUG] Transforming from E:\Minecraft Dungeons For Java Edition\common\build\devlibs\common-1.0.0-dev.jar to C:\Users\Jinrui\AppData\Local\Temp\12027600823719979946.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
+[Architectury Transformer DEBUG] Transforming from E:\Minecraft Dungeons For Java Edition\common\build\devlibs\common-1.0.0-dev.jar to C:\Users\Jinrui\AppData\Local\Temp\2680994389233216415.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing mc_javaedition/combat/ArmorStatLookup$Stats with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing mc_javaedition/combat/ArmorStatLookup with maxs=true frames=true
@@ -139,36 +139,36 @@
 [Architectury Transformer DEBUG] Checking whether /mcdjava_armor_texture_map.json is a mixin config.
 [Architectury Transformer DEBUG] Checking whether /mcdjava_melee_weapon_stats.json is a mixin config.
 [Architectury Transformer DEBUG] Checking whether /mcdjava_ranged_weapon_stats.json is a mixin config.
-[Architectury Transformer DEBUG] Closed File Systems for C:\Users\Jinrui\AppData\Local\Temp\12027600823719979946.jar
+[Architectury Transformer DEBUG] Closed File Systems for C:\Users\Jinrui\AppData\Local\Temp\2680994389233216415.jar
 [Architectury Transformer] Listening at E:\Minecraft Dungeons For Java Edition\common\build\devlibs\common-1.0.0-dev.jar
-[Architectury Transformer DEBUG] Temporary jar [C:\Users\Jinrui\AppData\Local\Temp\12027600823719979946.jar] contains packages: mc_javaedition.combat, mc_javaedition.legacy
+[Architectury Transformer DEBUG] Temporary jar [C:\Users\Jinrui\AppData\Local\Temp\2680994389233216415.jar] contains packages: mc_javaedition.combat, mc_javaedition.legacy
 [Architectury Transformer DEBUG] Closed File Systems for E:\Minecraft Dungeons For Java Edition\common\build\devlibs\common-1.0.0-dev.jar
 [Architectury Transformer DEBUG] Classpath entry [E:\Minecraft Dungeons For Java Edition\fabric\build\resources\main] contains packages: 
 [Architectury Transformer DEBUG] Transforming from mc_javaedition/combat/MeleeWeaponStatLookup.class to mc_javaedition/combat/MeleeWeaponStatLookup.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing mc_javaedition/combat/MeleeWeaponStatLookup with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed mc_javaedition/combat/MeleeWeaponStatLookup in 2.208 ms
+[Architectury Transformer DEBUG] Transformed mc_javaedition/combat/MeleeWeaponStatLookup in 2.420 ms
 [Architectury Transformer DEBUG] Transforming from mc_javaedition/combat/MeleeWeaponStatLookup$Stats.class to mc_javaedition/combat/MeleeWeaponStatLookup$Stats.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing mc_javaedition/combat/MeleeWeaponStatLookup$Stats with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed mc_javaedition/combat/MeleeWeaponStatLookup$Stats in 499.1 μs
+[Architectury Transformer DEBUG] Transformed mc_javaedition/combat/MeleeWeaponStatLookup$Stats in 646.2 μs
 [Architectury Transformer DEBUG] Transforming from mc_javaedition/combat/RangedWeaponStatLookup.class to mc_javaedition/combat/RangedWeaponStatLookup.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing mc_javaedition/combat/RangedWeaponStatLookup with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed mc_javaedition/combat/RangedWeaponStatLookup in 1.321 ms
+[Architectury Transformer DEBUG] Transformed mc_javaedition/combat/RangedWeaponStatLookup in 1.413 ms
 [Architectury Transformer DEBUG] Transforming from mc_javaedition/combat/RangedWeaponStatLookup$Stats.class to mc_javaedition/combat/RangedWeaponStatLookup$Stats.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing mc_javaedition/combat/RangedWeaponStatLookup$Stats with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed mc_javaedition/combat/RangedWeaponStatLookup$Stats in 521.4 μs
+[Architectury Transformer DEBUG] Transformed mc_javaedition/combat/RangedWeaponStatLookup$Stats in 780.0 μs
 [Architectury Transformer DEBUG] Transforming from mc_javaedition/combat/ArmorStatLookup.class to mc_javaedition/combat/ArmorStatLookup.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing mc_javaedition/combat/ArmorStatLookup with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed mc_javaedition/combat/ArmorStatLookup in 1.551 ms
+[Architectury Transformer DEBUG] Transformed mc_javaedition/combat/ArmorStatLookup in 1.613 ms
 [Architectury Transformer DEBUG] Transforming from mc_javaedition/combat/ArmorStatLookup$Stats.class to mc_javaedition/combat/ArmorStatLookup$Stats.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing mc_javaedition/combat/ArmorStatLookup$Stats with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed mc_javaedition/combat/ArmorStatLookup$Stats in 641.8 μs
+[Architectury Transformer DEBUG] Transformed mc_javaedition/combat/ArmorStatLookup$Stats in 545.0 μs
 [Architectury Transformer DEBUG] Transforming from mc_javaedition/combat/ArmorTextureLookup.class to mc_javaedition/combat/ArmorTextureLookup.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing mc_javaedition/combat/ArmorTextureLookup with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed mc_javaedition/combat/ArmorTextureLookup in 937.0 μs
+[Architectury Transformer DEBUG] Transformed mc_javaedition/combat/ArmorTextureLookup in 1.068 ms
