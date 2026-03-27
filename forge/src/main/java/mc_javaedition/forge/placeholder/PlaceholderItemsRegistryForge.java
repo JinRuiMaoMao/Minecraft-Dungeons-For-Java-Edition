@@ -47,7 +47,8 @@ public final class PlaceholderItemsRegistryForge {
             "shock_powder", "satchel_of_elixirs", "satchel_of_elements", "powershaker", "love_medallion",
             "lightning_rod", "light_feather", "iron_hide_amulet", "harvester", "harpoon_quiver",
             "gong_of_weakening", "golem_kit", "ghost_cloak", "flaming_quiver", "enchanters_tome",
-            "enchanted_grass", "death_cap_mushroom", "corrupted_seeds", "buzzy_nest", "boots_of_swiftness", "blast_fungus",
+            "enchanted_grass", "death_cap_mushroom", "corrupted_seeds", "fishing_rod", "ice_wand",
+            "buzzy_nest", "boots_of_swiftness", "blast_fungus",
             "eye_of_the_guardian", "corrupted_pumpkin"
     );
     private static final Set<String> FORCED_ARTIFACT_PLACEHOLDERS = Set.of(
@@ -59,7 +60,14 @@ public final class PlaceholderItemsRegistryForge {
             "blast_fungus",
             "spinblade",
             "eye_of_the_guardian",
-            "corrupted_pumpkin"
+            "corrupted_pumpkin",
+            "corrupted_seeds",
+            "fishing_rod",
+            "gong_of_weakening",
+            "ice_wand",
+            "love_medallion",
+            "satchel_of_elements",
+            "shock_powder"
     );
 
     public static void register(IEventBus bus) {

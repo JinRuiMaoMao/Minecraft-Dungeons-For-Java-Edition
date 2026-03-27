@@ -55,7 +55,11 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
-      "minecraft:slime": "2026-03-26 18:14:09 +1300"
+      "minecraft:skeleton": "2026-03-27 22:07:22 +1300",
+      "minecraft:spider": "2026-03-27 22:06:27 +1300",
+      "minecraft:slime": "2026-03-26 18:14:09 +1300",
+      "minecraft:witch": "2026-03-27 16:30:51 +1300",
+      "minecraft:zombie": "2026-03-27 22:07:12 +1300"
     },
     "done": false
   },
@@ -104,6 +108,270 @@
   "minecraft:recipes/redstone/slime_block": {
     "criteria": {
       "has_slime_ball": "2026-03-26 19:55:14 +1300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ladder": {
+    "criteria": {
+      "has_stick": "2026-03-27 16:30:54 +1300"
+    },
+    "done": true
+  },
+  "mcd_java:recipes/crafting_items/fabric_bolt_red": {
+    "criteria": {
+      "has_stick": "2026-03-27 16:30:54 +1300"
+    },
+    "done": true
+  },
+  "mcd_java:recipes/crafting_items/fabric_bolt_brown": {
+    "criteria": {
+      "has_stick": "2026-03-27 16:30:54 +1300"
+    },
+    "done": true
+  },
+  "mcda:recipes/crafting_items/fabric_bolt_purple": {
+    "criteria": {
+      "has_stick": "2026-03-27 16:30:54 +1300"
+    },
+    "done": true
+  },
+  "mcd_java:recipes/crafting_items/fabric_bolt_yellow": {
+    "criteria": {
+      "has_stick": "2026-03-27 16:30:54 +1300"
+    },
+    "done": true
+  },
+  "mcda:recipes/crafting_items/fabric_bolt_orange": {
+    "criteria": {
+      "has_stick": "2026-03-27 16:30:54 +1300"
+    },
+    "done": true
+  },
+  "mcda:recipes/crafting_items/fabric_bolt_light_blue": {
+    "criteria": {
+      "has_stick": "2026-03-27 16:30:54 +1300"
+    },
+    "done": true
+  },
+  "mcd_java:recipes/crafting_items/fabric_bolt_purple": {
+    "criteria": {
+      "has_stick": "2026-03-27 16:30:54 +1300"
+    },
+    "done": true
+  },
+  "mcda:recipes/crafting_items/fabric_bolt_yellow": {
+    "criteria": {
+      "has_stick": "2026-03-27 16:30:54 +1300"
+    },
+    "done": true
+  },
+  "mcd_java:recipes/crafting_items/fabric_bolt_light_blue": {
+    "criteria": {
+      "has_stick": "2026-03-27 16:30:54 +1300"
+    },
+    "done": true
+  },
+  "mcd_java:recipes/crafting_items/fabric_bolt_orange": {
+    "criteria": {
+      "has_stick": "2026-03-27 16:30:54 +1300"
+    },
+    "done": true
+  },
+  "mcda:recipes/crafting_items/fabric_bolt_brown": {
+    "criteria": {
+      "has_stick": "2026-03-27 16:30:54 +1300"
+    },
+    "done": true
+  },
+  "mcd_java:recipes/crafting_items/fabric_bolt_black": {
+    "criteria": {
+      "has_stick": "2026-03-27 16:30:54 +1300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_stick": "2026-03-27 16:30:54 +1300"
+    },
+    "done": true
+  },
+  "mcd_java:recipes/crafting_items/fabric_bolt_green": {
+    "criteria": {
+      "has_stick": "2026-03-27 16:30:54 +1300"
+    },
+    "done": true
+  },
+  "mcda:recipes/crafting_items/fabric_bolt_magenta": {
+    "criteria": {
+      "has_stick": "2026-03-27 16:30:54 +1300"
+    },
+    "done": true
+  },
+  "mcda:recipes/crafting_items/fabric_bolt_green": {
+    "criteria": {
+      "has_stick": "2026-03-27 16:30:54 +1300"
+    },
+    "done": true
+  },
+  "mcda:recipes/crafting_items/fabric_bolt_black": {
+    "criteria": {
+      "has_stick": "2026-03-27 16:30:54 +1300"
+    },
+    "done": true
+  },
+  "mcd_java:recipes/crafting_items/fabric_bolt_magenta": {
+    "criteria": {
+      "has_stick": "2026-03-27 16:30:54 +1300"
+    },
+    "done": true
+  },
+  "mcda:recipes/crafting_items/fabric_bolt_cyan": {
+    "criteria": {
+      "has_stick": "2026-03-27 16:30:54 +1300"
+    },
+    "done": true
+  },
+  "mcd_java:recipes/crafting_items/fabric_bolt_lime": {
+    "criteria": {
+      "has_stick": "2026-03-27 16:30:54 +1300"
+    },
+    "done": true
+  },
+  "mcda:recipes/crafting_items/fabric_bolt_blue": {
+    "criteria": {
+      "has_stick": "2026-03-27 16:30:54 +1300"
+    },
+    "done": true
+  },
+  "mcda:recipes/crafting_items/fabric_bolt_lime": {
+    "criteria": {
+      "has_stick": "2026-03-27 16:30:54 +1300"
+    },
+    "done": true
+  },
+  "mcda:recipes/crafting_items/fabric_bolt_white": {
+    "criteria": {
+      "has_stick": "2026-03-27 16:30:54 +1300"
+    },
+    "done": true
+  },
+  "mcd_java:recipes/crafting_items/fabric_bolt_blue": {
+    "criteria": {
+      "has_stick": "2026-03-27 16:30:54 +1300"
+    },
+    "done": true
+  },
+  "mcda:recipes/crafting_items/fabric_bolt_pink": {
+    "criteria": {
+      "has_stick": "2026-03-27 16:30:54 +1300"
+    },
+    "done": true
+  },
+  "mcd_java:recipes/crafting_items/fabric_bolt_pink": {
+    "criteria": {
+      "has_stick": "2026-03-27 16:30:54 +1300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_stick": "2026-03-27 16:30:54 +1300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2026-03-27 16:30:54 +1300"
+    },
+    "done": true
+  },
+  "mcd_java:recipes/crafting_items/fabric_bolt_white": {
+    "criteria": {
+      "has_stick": "2026-03-27 16:30:54 +1300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_stick": "2026-03-27 16:30:54 +1300"
+    },
+    "done": true
+  },
+  "mcd_java:recipes/crafting_items/fabric_bolt_light_gray": {
+    "criteria": {
+      "has_stick": "2026-03-27 16:30:54 +1300"
+    },
+    "done": true
+  },
+  "mcd_java:recipes/crafting_items/fabric_bolt_cyan": {
+    "criteria": {
+      "has_stick": "2026-03-27 16:30:54 +1300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_shovel": {
+    "criteria": {
+      "has_stick": "2026-03-27 16:30:54 +1300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2026-03-27 16:30:54 +1300"
+    },
+    "done": true
+  },
+  "mcda:recipes/crafting_items/fabric_bolt_red": {
+    "criteria": {
+      "has_stick": "2026-03-27 16:30:54 +1300"
+    },
+    "done": true
+  },
+  "mcda:recipes/crafting_items/fabric_bolt_light_gray": {
+    "criteria": {
+      "has_stick": "2026-03-27 16:30:54 +1300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2026-03-27 19:31:59 +1300"
+    },
+    "done": true
+  },
+  "mcd_java:recipes/crafting_items/glut_charm": {
+    "criteria": {
+      "has_beef": "2026-03-27 21:45:08 +1300"
+    },
+    "done": true
+  },
+  "mcda:recipes/crafting_items/glut_charm": {
+    "criteria": {
+      "has_beef": "2026-03-27 21:45:08 +1300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_smoking": {
+    "criteria": {
+      "has_beef": "2026-03-27 21:45:08 +1300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef": {
+    "criteria": {
+      "has_beef": "2026-03-27 21:45:08 +1300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
+    "criteria": {
+      "has_beef": "2026-03-27 21:45:08 +1300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2026-03-27 22:06:30 +1300"
     },
     "done": true
   },

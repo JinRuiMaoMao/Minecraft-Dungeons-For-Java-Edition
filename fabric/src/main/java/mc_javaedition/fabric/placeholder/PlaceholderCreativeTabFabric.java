@@ -75,6 +75,15 @@ public final class PlaceholderCreativeTabFabric {
             new Identifier(TARGET_NAMESPACE, "eye_of_the_guardian"),
             new Identifier(TARGET_NAMESPACE, "corrupted_pumpkin")
     );
+    private static final List<Identifier> STATUS_ARTIFACTS = List.of(
+            new Identifier(TARGET_NAMESPACE, "corrupted_seeds"),
+            new Identifier(TARGET_NAMESPACE, "fishing_rod"),
+            new Identifier(TARGET_NAMESPACE, "gong_of_weakening"),
+            new Identifier(TARGET_NAMESPACE, "ice_wand"),
+            new Identifier(TARGET_NAMESPACE, "love_medallion"),
+            new Identifier(TARGET_NAMESPACE, "satchel_of_elements"),
+            new Identifier(TARGET_NAMESPACE, "shock_powder")
+    );
     private static boolean damagingArtifactsFilterEnabled = false;
 
     private PlaceholderCreativeTabFabric() {}
@@ -244,50 +253,25 @@ public final class PlaceholderCreativeTabFabric {
     }
 
     private static void reorderArtifacts() {
-        Identifier corruptedBeacon = new Identifier(TARGET_NAMESPACE, "corrupted_beacon");
-        Identifier updraftTome = new Identifier(TARGET_NAMESPACE, "updraft_tome");
-        Identifier harvester = new Identifier(TARGET_NAMESPACE, "harvester");
-        Identifier lightningRod = new Identifier(TARGET_NAMESPACE, "lightning_rod");
-        Identifier scatterMines = new Identifier(TARGET_NAMESPACE, "scatter_mines");
-        Identifier blastFungus = new Identifier(TARGET_NAMESPACE, "blast_fungus");
-        Identifier spinblade = new Identifier(TARGET_NAMESPACE, "spinblade");
-        Identifier eyeOfGuardian = new Identifier(TARGET_NAMESPACE, "eye_of_the_guardian");
-        Identifier corruptedPumpkin = new Identifier(TARGET_NAMESPACE, "corrupted_pumpkin");
-        ARTIFACTS.remove(corruptedPumpkin);
-        ARTIFACTS.remove(eyeOfGuardian);
-        ARTIFACTS.remove(spinblade);
-        ARTIFACTS.remove(blastFungus);
-        ARTIFACTS.remove(scatterMines);
-        ARTIFACTS.remove(lightningRod);
-        ARTIFACTS.remove(harvester);
-        ARTIFACTS.remove(updraftTome);
-        ARTIFACTS.remove(corruptedBeacon);
-        if (Registries.ITEM.containsId(corruptedBeacon)) {
-            ARTIFACTS.add(0, corruptedBeacon);
+        for (Identifier id : DAMAGING_ARTIFACTS) {
+            ARTIFACTS.remove(id);
         }
-        if (Registries.ITEM.containsId(updraftTome)) {
-            ARTIFACTS.add(Math.min(1, ARTIFACTS.size()), updraftTome);
+        for (Identifier id : STATUS_ARTIFACTS) {
+            ARTIFACTS.remove(id);
         }
-        if (Registries.ITEM.containsId(harvester)) {
-            ARTIFACTS.add(Math.min(2, ARTIFACTS.size()), harvester);
+
+        int insertAt = 0;
+        for (Identifier id : DAMAGING_ARTIFACTS) {
+            if (Registries.ITEM.containsId(id)) {
+                ARTIFACTS.add(Math.min(insertAt, ARTIFACTS.size()), id);
+                insertAt++;
+            }
         }
-        if (Registries.ITEM.containsId(lightningRod)) {
-            ARTIFACTS.add(Math.min(3, ARTIFACTS.size()), lightningRod);
-        }
-        if (Registries.ITEM.containsId(scatterMines)) {
-            ARTIFACTS.add(Math.min(4, ARTIFACTS.size()), scatterMines);
-        }
-        if (Registries.ITEM.containsId(blastFungus)) {
-            ARTIFACTS.add(Math.min(5, ARTIFACTS.size()), blastFungus);
-        }
-        if (Registries.ITEM.containsId(spinblade)) {
-            ARTIFACTS.add(Math.min(6, ARTIFACTS.size()), spinblade);
-        }
-        if (Registries.ITEM.containsId(eyeOfGuardian)) {
-            ARTIFACTS.add(Math.min(7, ARTIFACTS.size()), eyeOfGuardian);
-        }
-        if (Registries.ITEM.containsId(corruptedPumpkin)) {
-            ARTIFACTS.add(Math.min(8, ARTIFACTS.size()), corruptedPumpkin);
+        for (Identifier id : STATUS_ARTIFACTS) {
+            if (Registries.ITEM.containsId(id)) {
+                ARTIFACTS.add(Math.min(insertAt, ARTIFACTS.size()), id);
+                insertAt++;
+            }
         }
     }
 

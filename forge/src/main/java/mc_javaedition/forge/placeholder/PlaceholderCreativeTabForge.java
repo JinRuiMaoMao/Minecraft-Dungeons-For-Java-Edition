@@ -47,6 +47,26 @@ public final class PlaceholderCreativeTabForge {
     private static final List<ResourceLocation> ARMOR = new ArrayList<>();
     private static final List<ResourceLocation> ARTIFACTS = new ArrayList<>();
     private static final List<ResourceLocation> OTHER = new ArrayList<>();
+    private static final List<ResourceLocation> DAMAGING_ARTIFACTS = List.of(
+            new ResourceLocation(TARGET_NAMESPACE, "corrupted_beacon"),
+            new ResourceLocation(TARGET_NAMESPACE, "updraft_tome"),
+            new ResourceLocation(TARGET_NAMESPACE, "harvester"),
+            new ResourceLocation(TARGET_NAMESPACE, "lightning_rod"),
+            new ResourceLocation(TARGET_NAMESPACE, "scatter_mines"),
+            new ResourceLocation(TARGET_NAMESPACE, "blast_fungus"),
+            new ResourceLocation(TARGET_NAMESPACE, "spinblade"),
+            new ResourceLocation(TARGET_NAMESPACE, "eye_of_the_guardian"),
+            new ResourceLocation(TARGET_NAMESPACE, "corrupted_pumpkin")
+    );
+    private static final List<ResourceLocation> STATUS_ARTIFACTS = List.of(
+            new ResourceLocation(TARGET_NAMESPACE, "corrupted_seeds"),
+            new ResourceLocation(TARGET_NAMESPACE, "fishing_rod"),
+            new ResourceLocation(TARGET_NAMESPACE, "gong_of_weakening"),
+            new ResourceLocation(TARGET_NAMESPACE, "ice_wand"),
+            new ResourceLocation(TARGET_NAMESPACE, "love_medallion"),
+            new ResourceLocation(TARGET_NAMESPACE, "satchel_of_elements"),
+            new ResourceLocation(TARGET_NAMESPACE, "shock_powder")
+    );
 
     private static final DeferredRegister<CreativeModeTab> TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MOD_ID);
@@ -232,50 +252,25 @@ public final class PlaceholderCreativeTabForge {
     }
 
     private static void reorderArtifacts() {
-        ResourceLocation corruptedBeacon = new ResourceLocation(TARGET_NAMESPACE, "corrupted_beacon");
-        ResourceLocation updraftTome = new ResourceLocation(TARGET_NAMESPACE, "updraft_tome");
-        ResourceLocation harvester = new ResourceLocation(TARGET_NAMESPACE, "harvester");
-        ResourceLocation lightningRod = new ResourceLocation(TARGET_NAMESPACE, "lightning_rod");
-        ResourceLocation scatterMines = new ResourceLocation(TARGET_NAMESPACE, "scatter_mines");
-        ResourceLocation blastFungus = new ResourceLocation(TARGET_NAMESPACE, "blast_fungus");
-        ResourceLocation spinblade = new ResourceLocation(TARGET_NAMESPACE, "spinblade");
-        ResourceLocation eyeOfGuardian = new ResourceLocation(TARGET_NAMESPACE, "eye_of_the_guardian");
-        ResourceLocation corruptedPumpkin = new ResourceLocation(TARGET_NAMESPACE, "corrupted_pumpkin");
-        ARTIFACTS.remove(corruptedPumpkin);
-        ARTIFACTS.remove(eyeOfGuardian);
-        ARTIFACTS.remove(spinblade);
-        ARTIFACTS.remove(blastFungus);
-        ARTIFACTS.remove(scatterMines);
-        ARTIFACTS.remove(lightningRod);
-        ARTIFACTS.remove(harvester);
-        ARTIFACTS.remove(updraftTome);
-        ARTIFACTS.remove(corruptedBeacon);
-        if (BuiltInRegistries.ITEM.containsKey(corruptedBeacon)) {
-            ARTIFACTS.add(0, corruptedBeacon);
+        for (ResourceLocation id : DAMAGING_ARTIFACTS) {
+            ARTIFACTS.remove(id);
         }
-        if (BuiltInRegistries.ITEM.containsKey(updraftTome)) {
-            ARTIFACTS.add(Math.min(1, ARTIFACTS.size()), updraftTome);
+        for (ResourceLocation id : STATUS_ARTIFACTS) {
+            ARTIFACTS.remove(id);
         }
-        if (BuiltInRegistries.ITEM.containsKey(harvester)) {
-            ARTIFACTS.add(Math.min(2, ARTIFACTS.size()), harvester);
+
+        int insertAt = 0;
+        for (ResourceLocation id : DAMAGING_ARTIFACTS) {
+            if (BuiltInRegistries.ITEM.containsKey(id)) {
+                ARTIFACTS.add(Math.min(insertAt, ARTIFACTS.size()), id);
+                insertAt++;
+            }
         }
-        if (BuiltInRegistries.ITEM.containsKey(lightningRod)) {
-            ARTIFACTS.add(Math.min(3, ARTIFACTS.size()), lightningRod);
-        }
-        if (BuiltInRegistries.ITEM.containsKey(scatterMines)) {
-            ARTIFACTS.add(Math.min(4, ARTIFACTS.size()), scatterMines);
-        }
-        if (BuiltInRegistries.ITEM.containsKey(blastFungus)) {
-            ARTIFACTS.add(Math.min(5, ARTIFACTS.size()), blastFungus);
-        }
-        if (BuiltInRegistries.ITEM.containsKey(spinblade)) {
-            ARTIFACTS.add(Math.min(6, ARTIFACTS.size()), spinblade);
-        }
-        if (BuiltInRegistries.ITEM.containsKey(eyeOfGuardian)) {
-            ARTIFACTS.add(Math.min(7, ARTIFACTS.size()), eyeOfGuardian);
-        }
-        if (BuiltInRegistries.ITEM.containsKey(corruptedPumpkin)) {
-            ARTIFACTS.add(Math.min(8, ARTIFACTS.size()), corruptedPumpkin);
+        for (ResourceLocation id : STATUS_ARTIFACTS) {
+            if (BuiltInRegistries.ITEM.containsKey(id)) {
+                ARTIFACTS.add(Math.min(insertAt, ARTIFACTS.size()), id);
+                insertAt++;
+            }
         }
     }
 

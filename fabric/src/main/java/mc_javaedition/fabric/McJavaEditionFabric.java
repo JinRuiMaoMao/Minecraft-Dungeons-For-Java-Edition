@@ -33,6 +33,7 @@ public class McJavaEditionFabric implements ModInitializer {
         PlaceholderItemsRegistryFabric.register();
         // Put placeholder items into a dedicated creative tab.
         PlaceholderCreativeTabFabric.register();
+        LoveMedallionProtectionFabric.register();
         McJavaEditionCommon.init();
     }
 }

@@ -18,6 +18,7 @@ public class McJavaEditionForge {
             var bus = FMLJavaModLoadingContext.get().getModEventBus();
             PlaceholderItemsRegistryForge.register(bus);
             PlaceholderCreativeTabForge.register(bus);
+            LoveMedallionProtectionForge.register();
             McJavaEditionCommon.init();
             LOGGER.info("Minecraft Dungeons For Java Edition (placeholder items) initialized on Forge");
         } catch (Throwable t) {
